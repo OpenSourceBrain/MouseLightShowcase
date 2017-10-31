@@ -1,0 +1,46 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Net_Hippocampal">
+    <include href="AA0257.cell.nml"></include>
+    <include href="AA0252.cell.nml"></include>
+    <include href="AA0248.cell.nml"></include>
+    <include href="AA0173.cell.nml"></include>
+    <include href="AA0171.cell.nml"></include>
+    <include href="AA0158.cell.nml"></include>
+    <include href="AA0157.cell.nml"></include>
+    <network id="Net_Hippocampal">
+        <population id="pop_AA0257" component="AA0257" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0252" component="AA0252" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0248" component="AA0248" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0173" component="AA0173" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0171" component="AA0171" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0158" component="AA0158" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0157" component="AA0157" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+    </network>
+</neuroml>

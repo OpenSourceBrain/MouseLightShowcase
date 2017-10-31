@@ -3,7 +3,7 @@ import sys
 import json
 import neuroml.writers as writers
 
-def export_to_nml2(filename):
+def export_to_nml2(filename, ref):
     
     
     with open(filename, "r") as json_file:
@@ -11,7 +11,7 @@ def export_to_nml2(filename):
         
     print("Opened %s with info: %s"%(filename, json_info.keys()))
     
-    net_doc = neuroml.NeuroMLDocument(id='Net_%s'%filename.split('.')[0])
+    net_doc = neuroml.NeuroMLDocument(id='Net_%s'%ref)
     
 
     net = neuroml.Network(id=net_doc.id)
@@ -115,7 +115,7 @@ def export_to_nml2(filename):
 
 if __name__ == "__main__":
     
-    filename = 'AA0052.json'
-    export_to_nml2(filename)
+    filename = 'mlnb-export.json'
+    export_to_nml2(filename, 'Hippocampal')
 
 
