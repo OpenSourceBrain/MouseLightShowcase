@@ -115,7 +115,7 @@ def export_to_nml2(filename, ref):
 
 if __name__ == "__main__":
     
-    filename = 'mlnb-export.json'
-    export_to_nml2(filename, 'Hippocampal')
+    filename = 'MOp.json'
+    export_to_nml2(filename, 'MOp')
 
 

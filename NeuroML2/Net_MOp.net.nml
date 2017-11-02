@@ -1,0 +1,52 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Net_MOp">
+    <include href="AA0289.cell.nml"></include>
+    <include href="AA0274.cell.nml"></include>
+    <include href="AA0267.cell.nml"></include>
+    <include href="AA0261.cell.nml"></include>
+    <include href="AA0250.cell.nml"></include>
+    <include href="AA0188.cell.nml"></include>
+    <include href="AA0182.cell.nml"></include>
+    <include href="AA0180.cell.nml"></include>
+    <network id="Net_MOp">
+        <population id="pop_AA0289" component="AA0289" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0274" component="AA0274" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0267" component="AA0267" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0261" component="AA0261" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0250" component="AA0250" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0188" component="AA0188" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0182" component="AA0182" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_AA0180" component="AA0180" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+    </network>
+</neuroml>
