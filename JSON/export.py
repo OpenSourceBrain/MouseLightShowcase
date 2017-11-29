@@ -44,7 +44,7 @@ def export_to_nml2(filename, ref, soma_diameter):
         cell.notes = notes
         
         if not n['DOI'] in readme_text:
-            readme_text+='\nhttps://doi.org/%s ([NeuroML file](../NeuroML2/%s.cell.nml))'%(n['DOI'],id)
+            readme_text+='\n- %s: https://doi.org/%s ([NeuroML file](../NeuroML2/%s.cell.nml))'%(id,n['DOI'],id)
         
         for k in ['idString','DOI','sample/date','sample/strain','label/virus','label/fluorophore']:
             
@@ -156,7 +156,7 @@ def export_to_nml2(filename, ref, soma_diameter):
 
 if __name__ == "__main__":
     
-    files = {'MOp':'MOp.json','AA0052':'AA0052.json'}
+    files = {'MOp':'MOp.json','AA0052':'AA0052.json','Hippocampal':'mlnb-export.json'}
     #files = {'AA0052':'AA0052.json'}
     
     for f in files:
