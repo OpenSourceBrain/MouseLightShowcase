@@ -1,13 +1,23 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="AA0052">
     <cell id="AA0052">
+        <notes>
+    Cell AA0052 downloaded from Janelia MouseLight project (https://www.janelia.org/project-team/mouselight)
+    and converted to NeuroML
+    DOI of original cell: 10.25378/janelia.5521753</notes>
+        <property tag="JaneliaMouseLight:idString" value="AA0052"/>
+        <property tag="JaneliaMouseLight:DOI" value="10.25378/janelia.5521753"/>
+        <property tag="JaneliaMouseLight:sample_date" value="2016-10-31T12:00:00.000Z"/>
+        <property tag="JaneliaMouseLight:sample_strain" value="C57BL/6J"/>
+        <property tag="JaneliaMouseLight:label_virus" value="AAV2/1.FLEX-tdTomato"/>
+        <property tag="JaneliaMouseLight:label_fluorophore" value="tdTomato"/>
         <morphology id="morph_AA0052">
             <segment id="0" name="soma">
-                <proximal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="2"/>
-                <distal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="2"/>
+                <proximal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="10"/>
+                <distal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="10"/>
             </segment>
             <segment id="1001" name="axon_1001">
                 <parent segment="0" fractionAlong="1"/>
-                <proximal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="2"/>
+                <proximal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="10"/>
                 <distal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="2.0"/>
             </segment>
             <segment id="1002" name="axon_1002">
@@ -13242,7 +13252,7 @@
             </segment>
             <segment id="100001" name="dendrite_100001">
                 <parent segment="0" fractionAlong="1"/>
-                <proximal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="2"/>
+                <proximal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="10"/>
                 <distal x="7.874955e+03" y="1.884594e+03" z="8.551030e+03" diameter="2.0"/>
             </segment>
             <segment id="100002" name="dendrite_100002">

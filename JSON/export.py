@@ -1,10 +1,16 @@
+'''
+
+This file will convert JSON files downloaded from the Janelia MouseLight project 
+(https://www.janelia.org/project-team/mouselight) in JSON format to NeuroML2
+
+'''
+
 import neuroml
 import sys
 import json
 import neuroml.writers as writers
 
-def export_to_nml2(filename, ref):
-    
+def export_to_nml2(filename, ref, soma_diameter):
     
     with open(filename, "r") as json_file:
         json_info = json.load(json_file)
@@ -24,6 +30,21 @@ def export_to_nml2(filename, ref):
         cell_doc = neuroml.NeuroMLDocument(id=id)
         cell = neuroml.Cell(id=id)
         
+        notes = '''\n    Cell %s downloaded from Janelia MouseLight project (https://www.janelia.org/project-team/mouselight)\n    and converted to NeuroML'''%id
+        notes += '\n    DOI of original cell: %s'%n['DOI']
+        
+        cell.notes = notes
+        
+        for k in ['idString','DOI','sample/date','sample/strain','label/virus','label/fluorophore']:
+            
+            if '/' in k:
+                k1=k.split('/')[0]
+                k2=k.split('/')[1]       
+                p = neuroml.Property(tag='JaneliaMouseLight:%s_%s'%(k1,k2), value=n[k1][k2])
+                cell.properties.append(p)
+            else:
+                p = neuroml.Property(tag='JaneliaMouseLight:%s'%k, value=n[k])
+                cell.properties.append(p)
 
         net_doc.includes.append(neuroml.IncludeType(cell.id+'.cell.nml')) 
 
@@ -40,10 +61,11 @@ def export_to_nml2(filename, ref):
         cell.morphology = neuroml.Morphology(id='morph_%s'%id)
         
         id_vs_seg = {}
-        soma = neuroml.Segment(id=0, name='soma')
+        soma_id = 0
+        soma = neuroml.Segment(id=soma_id, name='soma')
         cell.morphology.segments.append(soma)
-        soma.proximal = neuroml.Point3DWithDiam(x=float(n['soma']['x']) ,y=float(n['soma']['y']),z=float(n['soma']['z']),diameter=2)
-        soma.distal = neuroml.Point3DWithDiam(x=float(n['soma']['x']) ,y=float(n['soma']['y']),z=float(n['soma']['z']),diameter=2)
+        soma.proximal = neuroml.Point3DWithDiam(x=float(n['soma']['x']) ,y=float(n['soma']['y']),z=float(n['soma']['z']),diameter=soma_diameter)
+        soma.distal = neuroml.Point3DWithDiam(x=float(n['soma']['x']) ,y=float(n['soma']['y']),z=float(n['soma']['z']),diameter=soma_diameter)
         id_vs_seg[0]=soma
         
         last_seg_id = -2
@@ -115,7 +137,10 @@ def export_to_nml2(filename, ref):
 
 if __name__ == "__main__":
     
-    filename = 'MOp.json'
-    export_to_nml2(filename, 'MOp')
+    files = {'MOp':'MOp.json','AA0052':'AA0052.json'}
+    files = {'AA0052':'AA0052.json'}
+    
+    for f in files:
+        export_to_nml2(files[f], f, soma_diameter=10)
 
 
