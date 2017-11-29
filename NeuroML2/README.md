@@ -7,12 +7,20 @@ The original data were made available by the [Janelia MouseLight project](https:
 under the CC-BY NC license, https://creativecommons.org/licenses/by-nc/4.0/legalcode. 
 
 The script to perform the transformation of the downloaded JSON files is 
-[export.py](https://github.com/OpenSourceBrain/MouseLightShowcase/blob/master/JSON/export.py).
+[export.py](https://github.com/OpenSourceBrain/MouseLightShowcase/blob/master/JSON/export.py) and uses [libNeuroML](https://github.com/NeuralEnsemble/libNeuroML).
+
+To use this script:
+```
+pip install libNeuroML
+git clone https://github.com/OpenSourceBrain/MouseLightShowcase.git
+cd MouseLightShowcase/JSON
+python export.py
+```
 
 **NOTE: cells have been given a spherical soma for visualisation purposes. However, 
 no soma has been reconstructed from the original cells.**
 
-The cells which have been converted include:
+The cells which have been converted so far include:
 - AA0052: https://doi.org/10.25378/janelia.5521753 ([NeuroML file](../NeuroML2/AA0052.cell.nml))
 - AA0289: https://doi.org/10.25378/janelia.5527822 ([NeuroML file](../NeuroML2/AA0289.cell.nml))
 - AA0274: https://doi.org/10.25378/janelia.5527774 ([NeuroML file](../NeuroML2/AA0274.cell.nml))
