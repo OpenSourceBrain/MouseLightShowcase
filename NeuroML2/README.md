@@ -14,5 +14,12 @@ no soma has been reconstructed from the original cells.**
 
 The cells which have been converted include:
 
-
-
+https://doi.org/10.25378/janelia.5521753 ([NeuroML file](../NeuroML2/AA0052.cell.nml))
+https://doi.org/10.25378/janelia.5527822 ([NeuroML file](../NeuroML2/AA0289.cell.nml))
+https://doi.org/10.25378/janelia.5527774 ([NeuroML file](../NeuroML2/AA0274.cell.nml))
+https://doi.org/10.25378/janelia.5527747 ([NeuroML file](../NeuroML2/AA0267.cell.nml))
+https://doi.org/10.25378/janelia.5527717 ([NeuroML file](../NeuroML2/AA0261.cell.nml))
+https://doi.org/10.25378/janelia.5527678 ([NeuroML file](../NeuroML2/AA0250.cell.nml))
+https://doi.org/10.25378/janelia.5527468 ([NeuroML file](../NeuroML2/AA0188.cell.nml))
+https://doi.org/10.25378/janelia.5527447 ([NeuroML file](../NeuroML2/AA0182.cell.nml))
+https://doi.org/10.25378/janelia.5527441 ([NeuroML file](../NeuroML2/AA0180.cell.nml))

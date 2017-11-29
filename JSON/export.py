@@ -10,8 +10,13 @@ import sys
 import json
 import neuroml.writers as writers
 
+nml2_readme = '../NeuroML2/README.md'
+
 def export_to_nml2(filename, ref, soma_diameter):
     
+    rm = open(nml2_readme)
+    readme_text = rm.read()
+    rm.close()
     
     with open(filename, "r") as json_file:
         json_info = json.load(json_file)
@@ -37,6 +42,9 @@ def export_to_nml2(filename, ref, soma_diameter):
         notes += '\n    However, no soma has been reconstructed from the original cells'
         
         cell.notes = notes
+        
+        if not n['DOI'] in readme_text:
+            readme_text+='\nhttps://doi.org/%s ([NeuroML file](../NeuroML2/%s.cell.nml))'%(n['DOI'],id)
         
         for k in ['idString','DOI','sample/date','sample/strain','label/virus','label/fluorophore']:
             
@@ -139,6 +147,12 @@ def export_to_nml2(filename, ref, soma_diameter):
     writers.NeuroMLWriter.write(net_doc,nml_file)
 
     print("Saved network file to: "+nml_file)
+    
+    print readme_text
+    
+    rm = open(nml2_readme,'w')
+    rm.write(readme_text)
+    rm.close()
 
 if __name__ == "__main__":
     
