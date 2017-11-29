@@ -12,6 +12,7 @@ import neuroml.writers as writers
 
 def export_to_nml2(filename, ref, soma_diameter):
     
+    
     with open(filename, "r") as json_file:
         json_info = json.load(json_file)
         
@@ -31,7 +32,9 @@ def export_to_nml2(filename, ref, soma_diameter):
         cell = neuroml.Cell(id=id)
         
         notes = '''\n    Cell %s downloaded from Janelia MouseLight project (https://www.janelia.org/project-team/mouselight)\n    and converted to NeuroML'''%id
-        notes += '\n    DOI of original cell: %s'%n['DOI']
+        notes += '\n    DOI of original cell: https://doi.org/%s'%n['DOI']
+        notes += '\n\n    NOTE: cells have been given a soma of diameter %sum for visualisation purposes'%soma_diameter
+        notes += '\n    However, no soma has been reconstructed from the original cells'
         
         cell.notes = notes
         
@@ -70,7 +73,7 @@ def export_to_nml2(filename, ref, soma_diameter):
         
         last_seg_id = -2
         
-        offsets = {'axon':1000,'dendrite':100000}
+        offsets = {'axon':1000,'dendrite':1000000}
         
         for sg in offsets.keys():
         
@@ -95,6 +98,8 @@ def export_to_nml2(filename, ref, soma_diameter):
                                                            y=seg_parent.distal.y,
                                                            z=seg_parent.distal.z,
                                                            diameter=seg_parent.distal.diameter)
+                    if parent == 0:
+                        seg.proximal.diameter = seg.distal.diameter
 
                 last_seg_id = seg.id
                 id_vs_seg[id] = seg
@@ -138,9 +143,9 @@ def export_to_nml2(filename, ref, soma_diameter):
 if __name__ == "__main__":
     
     files = {'MOp':'MOp.json','AA0052':'AA0052.json'}
-    files = {'AA0052':'AA0052.json'}
+    #files = {'AA0052':'AA0052.json'}
     
     for f in files:
-        export_to_nml2(files[f], f, soma_diameter=10)
+        export_to_nml2(files[f], f, soma_diameter=20)
 
 
