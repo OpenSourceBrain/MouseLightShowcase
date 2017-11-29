@@ -7,7 +7,7 @@ The original data were made available by the [Janelia MouseLight project](https:
 under the CC-BY NC license, https://creativecommons.org/licenses/by-nc/4.0/legalcode. 
 
 The script to perform the transformation of the downloaded JSON files is 
-[here](https://github.com/OpenSourceBrain/MouseLightShowcase/blob/master/JSON/export.py).
+[export.py](https://github.com/OpenSourceBrain/MouseLightShowcase/blob/master/JSON/export.py).
 
 **NOTE: cells have been given a spherical soma for visualisation purposes. However, 
 no soma has been reconstructed from the original cells.**
