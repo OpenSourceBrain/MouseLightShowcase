@@ -9,41 +9,49 @@
     <include href="AA0180.cell.nml"></include>
     <network id="Net_MOp">
         <population id="pop_AA0289" component="AA0289" type="populationList">
+            <property tag="color" value="0.805627136259 0.794059010518 0.0294257611062"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0274" component="AA0274" type="populationList">
+            <property tag="color" value="0.174656383354 0.00222987615998 0.663883066708"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0267" component="AA0267" type="populationList">
+            <property tag="color" value="0.0770493004546 0.268523395273 0.116395189855"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0261" component="AA0261" type="populationList">
+            <property tag="color" value="0.229025189869 0.487417585411 0.186104900549"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0250" component="AA0250" type="populationList">
+            <property tag="color" value="0.0242717976065 0.913573608763 0.377348205971"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0188" component="AA0188" type="populationList">
+            <property tag="color" value="0.646760760135 0.369956642708 0.853996643278"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0182" component="AA0182" type="populationList">
+            <property tag="color" value="0.766786143637 0.440198104854 0.445301588277"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0180" component="AA0180" type="populationList">
+            <property tag="color" value="0.846939428745 0.503912867281 0.527025808102"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>

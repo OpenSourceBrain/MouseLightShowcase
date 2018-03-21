@@ -2,6 +2,7 @@
     <include href="AA0052.cell.nml"></include>
     <network id="Net_AA0052">
         <population id="pop_AA0052" component="AA0052" type="populationList">
+            <property tag="color" value="0.805627136259 0.794059010518 0.0294257611062"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>

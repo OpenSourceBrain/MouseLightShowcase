@@ -14,6 +14,10 @@ nml2_readme = '../NeuroML2/README.md'
 
 def export_to_nml2(filename, ref, soma_diameter):
     
+
+    import random
+    myrandom = random.Random(123456)
+        
     rm = open(nml2_readme)
     readme_text = rm.read()
     rm.close()
@@ -62,6 +66,9 @@ def export_to_nml2(filename, ref, soma_diameter):
         pop = neuroml.Population(id="pop_"+cell.id,
                     component=cell.id,
                     type="populationList")
+                    
+        
+        pop.properties.append(neuroml.Property('color','%s %s %s'%(myrandom.random(),myrandom.random(),myrandom.random())))
 
         inst = neuroml.Instance(id="0")
         pop.instances.append(inst)

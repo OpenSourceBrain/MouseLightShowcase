@@ -8,36 +8,43 @@
     <include href="AA0157.cell.nml"></include>
     <network id="Net_Hippocampal">
         <population id="pop_AA0257" component="AA0257" type="populationList">
+            <property tag="color" value="0.805627136259 0.794059010518 0.0294257611062"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0252" component="AA0252" type="populationList">
+            <property tag="color" value="0.174656383354 0.00222987615998 0.663883066708"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0248" component="AA0248" type="populationList">
+            <property tag="color" value="0.0770493004546 0.268523395273 0.116395189855"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0173" component="AA0173" type="populationList">
+            <property tag="color" value="0.229025189869 0.487417585411 0.186104900549"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0171" component="AA0171" type="populationList">
+            <property tag="color" value="0.0242717976065 0.913573608763 0.377348205971"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0158" component="AA0158" type="populationList">
+            <property tag="color" value="0.646760760135 0.369956642708 0.853996643278"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0157" component="AA0157" type="populationList">
+            <property tag="color" value="0.766786143637 0.440198104854 0.445301588277"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
