@@ -8,5 +8,8 @@ See [here](https://github.com/OpenSourceBrain/MouseLightShowcase/blob/master/Neu
 
 ![osbview](https://raw.githubusercontent.com/OpenSourceBrain/MouseLightShowcase/master/images/osb1.png)
 
-The original data were made available by the [Janelia MouseLight project](https://www.janelia.org/project-team/mouselight) under the CC-BY NC license, https://creativecommons.org/licenses/by-nc/4.0/legalcode. 
+
+### Reusing this model
+
+The code in this repository is provided under the terms of the [software licence](LICENCE) included with it. If you use this model in your research, we respectfully ask you to cite the references outlined in the [CITATION](CITATION.md) file.
 
