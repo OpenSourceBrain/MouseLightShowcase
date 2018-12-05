@@ -11,5 +11,5 @@ See [here](https://github.com/OpenSourceBrain/MouseLightShowcase/blob/master/Neu
 
 ### Reusing this model
 
-The code in this repository is provided under the terms of the [software licence](LICENCE) included with it. If you use this model in your research, we respectfully ask you to cite the references outlined in the [CITATION](CITATION.md) file.
+The code in this repository is provided under the terms of the [software license](LICENSE) included with it. If you use this model in your research, we respectfully ask you to cite the references outlined in the [CITATION](CITATION.md) file.
 
