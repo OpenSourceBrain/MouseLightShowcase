@@ -14,8 +14,8 @@ def create_network_for_cell(cell_id):
     net = neuroml.Network(id=net_ref)
     net_doc.networks.append(net)
 
-
-    net_doc.includes.append(neuroml.IncludeType(cell_id+'_active.cell.nml')) 
+    cell_file = cell_id+'_active.cell.nml'
+    net_doc.includes.append(neuroml.IncludeType(cell_file)) 
 
     pop = neuroml.Population(id="Pop_%s"%cell_id,
                 component=cell_id,
@@ -27,7 +27,7 @@ def create_network_for_cell(cell_id):
     net.populations.append(pop)
 
     stim = neuroml.PulseGenerator(id='stim0',
-                                 delay='50ms',
+                                 delay='20ms',
                                  duration='200ms',
                                  amplitude='0.5nA')
 
@@ -66,8 +66,18 @@ def create_network_for_cell(cell_id):
     dt = 0.025
     lems_file_name = 'LEMS_%s.xml'%sim_id
     target_dir = "."
+    
+    
+    cell_doc = loaders.NeuroMLLoader.load(cell_file)
+    print("Loaded morphology file from: "+cell_file)
 
-    interesting_seg_ids = [0,1002,1000061]
+    cell = cell_doc.cells[0]
+
+
+    interesting_seg_ids = [0]
+    for seg in cell.morphology.segments:
+        if '99' in str(seg.id):
+            interesting_seg_ids.append(seg.id)
 
     to_plot = {'Some_voltages':[]}
     to_save = {'%s_voltages.dat'%cell_id:[]}

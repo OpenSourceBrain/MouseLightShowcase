@@ -1,5 +1,7 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="AA0173">
     <include href="pas.channel.nml"/>
+    <include href="na.channel.nml"/>
+    <include href="kv.channel.nml"/>
     <cell id="AA0173">
         <notes>
     Cell AA0173 downloaded from Janelia MouseLight project (https://www.janelia.org/project-team/mouselight)
@@ -4374,7 +4376,9 @@
         </morphology>
         <biophysicalProperties id="biophys">
             <membraneProperties>
-                <channelDensity id="pas_chan" ionChannel="pas" condDensity="0.021 mS_per_cm2" erev="-70.0 mV" ion="non_specific"/>
+                <channelDensity id="pas_chan" ionChannel="pas" condDensity="0.000142857 S_per_cm2" erev="-70.0 mV" ion="non_specific"/>
+                <channelDensity id="na_chan" ionChannel="na" condDensity="0.1 S_per_cm2" erev="60.0 mV" ion="na"/>
+                <channelDensity id="kv_chan" ionChannel="kv" condDensity="0.01 S_per_cm2" erev="-90.0 mV" ion="k"/>
                 <specificCapacitance value="1.0 uF_per_cm2"/>
                 <initMembPotential value="-80 mV"/>
             </membraneProperties>
