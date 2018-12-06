@@ -1,5 +1,5 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Net_AA0052">
-    <include href="AA0052.cell.nml"></include>
+    <include href="AA0052.cell.nml"/>
     <network id="Net_AA0052">
         <population id="pop_AA0052" component="AA0052" type="populationList">
             <property tag="color" value="0.805627136259 0.794059010518 0.0294257611062"/>
