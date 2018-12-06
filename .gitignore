@@ -1,3 +1,8 @@
 /NeuroML2/*.nml.pov
 /NeuroML2/*.png
 /NeuroML2/*_movie.ini
+/NeuroML2/active_cells/*.hoc
+/NeuroML2/active_cells/*.dat
+/NeuroML2/active_cells/*_nrn.py
+/NeuroML2/active_cells/*.mod
+/NeuroML2/active_cells/x86_64
