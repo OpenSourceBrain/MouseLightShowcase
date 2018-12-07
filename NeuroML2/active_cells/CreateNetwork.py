@@ -12,7 +12,7 @@ import os
 def get_pop_id(cell_id):
     return "Pop_%s"%cell_id
 
-def create_network_for_cells(cell_ids, net_id):
+def create_network_for_cells(cell_ids, net_id, stim_amp='450pA'):
 
     net_doc = neuroml.NeuroMLDocument(id=net_id)
 
@@ -35,7 +35,7 @@ def create_network_for_cells(cell_ids, net_id):
         stim = neuroml.PulseGenerator(id='stim_%s'%cell_id,
                                      delay='20ms',
                                      duration='300ms',
-                                     amplitude='450pA')
+                                     amplitude=stim_amp)
 
         net_doc.pulse_generators.append(stim)
 
@@ -130,6 +130,12 @@ if __name__ == "__main__":
                 cell_ids.append(cell_id)
                 
         create_network_for_cells(cell_ids, "Net_%iCells"%len(cell_ids))
+        
+    elif '-289' in sys.argv:
+        cells = {'AA0289'}
+        for cell_id in cells:
+            create_network_for_cells([cell_id], "Net_%s"%cell_id, stim_amp='600pA')
+            
     else:
         cells = {'AA0173'}
         for cell_id in cells:
