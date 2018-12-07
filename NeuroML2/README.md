@@ -37,3 +37,7 @@ The cells which have been converted so far include:
 - AA0171: https://doi.org/10.25378/janelia.5527414 ([NeuroML file](../NeuroML2/AA0171.cell.nml))
 - AA0158: https://doi.org/10.25378/janelia.5527369 ([NeuroML file](../NeuroML2/AA0158.cell.nml))
 - AA0157: https://doi.org/10.25378/janelia.5527366 ([NeuroML file](../NeuroML2/AA0157.cell.nml))
+
+- AA0271: https://doi.org/10.25378/janelia.5527762 ([NeuroML file](../NeuroML2/AA0271.cell.nml))
+- AA0184: https://doi.org/10.25378/janelia.5527453 ([NeuroML file](../NeuroML2/AA0184.cell.nml))
+- AA0131: https://doi.org/10.25378/janelia.5527267 ([NeuroML file](../NeuroML2/AA0131.cell.nml))

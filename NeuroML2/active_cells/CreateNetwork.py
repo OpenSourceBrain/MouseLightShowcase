@@ -6,44 +6,50 @@ import neuroml.writers as writers
 
 from pyneuroml.lems import generate_lems_file_for_neuroml
 
-def create_network_for_cell(cell_id):
+import sys
+import os
 
-    net_ref = "Net_%s"%cell_id
-    net_doc = neuroml.NeuroMLDocument(id=net_ref)
+def get_pop_id(cell_id):
+    return "Pop_%s"%cell_id
 
-    net = neuroml.Network(id=net_ref)
+def create_network_for_cells(cell_ids, net_id):
+
+    net_doc = neuroml.NeuroMLDocument(id=net_id)
+
+    net = neuroml.Network(id=net_id)
     net_doc.networks.append(net)
 
-    cell_file = cell_id+'_active.cell.nml'
-    net_doc.includes.append(neuroml.IncludeType(cell_file)) 
+    for cell_id in cell_ids:
+        cell_file = cell_id+'_active.cell.nml'
+        net_doc.includes.append(neuroml.IncludeType(cell_file)) 
 
-    pop = neuroml.Population(id="Pop_%s"%cell_id,
-                component=cell_id,
-                type="populationList")
+        pop = neuroml.Population(id=get_pop_id(cell_id),
+                    component=cell_id,
+                    type="populationList")
 
-    inst = neuroml.Instance(id="0")
-    pop.instances.append(inst)
-    inst.location = neuroml.Location(x=0, y=0, z=0)
-    net.populations.append(pop)
+        inst = neuroml.Instance(id="0")
+        pop.instances.append(inst)
+        inst.location = neuroml.Location(x=0, y=0, z=0)
+        net.populations.append(pop)
 
-    stim = neuroml.PulseGenerator(id='stim0',
-                                 delay='20ms',
-                                 duration='200ms',
-                                 amplitude='0.5nA')
+        stim = neuroml.PulseGenerator(id='stim_%s'%cell_id,
+                                     delay='20ms',
+                                     duration='300ms',
+                                     amplitude='450pA')
 
-    net_doc.pulse_generators.append(stim)
+        net_doc.pulse_generators.append(stim)
 
 
-    input_list = neuroml.InputList(id="%s_input"%stim.id,
-                                   component=stim.id,
-                                   populations=pop.id)
+        input_list = neuroml.InputList(id="%s_input"%stim.id,
+                                       component=stim.id,
+                                       populations=pop.id)
 
-    syn_input = neuroml.Input(id=0,
-                              target="../%s/0/%s" % (pop.id, pop.component),
-                              destination="synapses")
+        syn_input = neuroml.Input(id=0,
+                                  target="../%s/0/%s" % (pop.id, pop.component),
+                                  destination="synapses")
 
-    input_list.input.append(syn_input)
-    net.input_lists.append(input_list)
+        input_list.input.append(syn_input)
+        net.input_lists.append(input_list)
 
 
 
@@ -60,31 +66,38 @@ def create_network_for_cell(cell_id):
 
     validate_neuroml2(nml_file)
 
-    sim_id = 'Test_%s'%cell_id
+    sim_id = 'Test_%s'%net_id
     target = net.id
     duration=400
     dt = 0.025
     lems_file_name = 'LEMS_%s.xml'%sim_id
     target_dir = "."
     
+    to_plot = {}
+    to_save = {}
     
-    cell_doc = loaders.NeuroMLLoader.load(cell_file)
-    print("Loaded morphology file from: "+cell_file)
+    for cell_id in cell_ids:
+        cell_file = cell_id+'_active.cell.nml'
+        cell_doc = loaders.NeuroMLLoader.load(cell_file)
+        print("Loaded morphology file from: "+cell_file)
 
-    cell = cell_doc.cells[0]
+        cell = cell_doc.cells[0]
 
 
-    interesting_seg_ids = [0]
-    for seg in cell.morphology.segments:
-        if '99' in str(seg.id):
-            interesting_seg_ids.append(seg.id)
+        interesting_seg_ids = [0]
+        for seg in cell.morphology.segments:
+            if '99' in str(seg.id):
+                interesting_seg_ids.append(seg.id)
 
-    to_plot = {'Some_voltages':[]}
-    to_save = {'%s_voltages.dat'%cell_id:[]}
+        p_ref = 'Some_voltages_%s'%cell_id
+        s_ref = '%s_voltages.dat'%cell_id
+        to_plot[p_ref] = []
+        to_save[s_ref]=[]
 
-    for seg_id in interesting_seg_ids:
-        to_plot.values()[0].append('%s/0/%s/%s/v'%(pop.id, pop.component,seg_id))
-        to_save.values()[0].append('%s/0/%s/%s/v'%(pop.id, pop.component,seg_id))
+        for seg_id in interesting_seg_ids:
+            pop_id = get_pop_id(cell_id)
+            to_plot[p_ref].append('%s/0/%s/%s/v'%(pop_id, cell_id,seg_id))
+            to_save[s_ref].append('%s/0/%s/%s/v'%(pop_id, cell_id,seg_id))
 
     generate_lems_file_for_neuroml(sim_id, 
                                    nml_file, 
@@ -105,8 +118,21 @@ def create_network_for_cell(cell_id):
 
 if __name__ == "__main__":
     
-    cells = {'AA0173'}
-    for cell_id in cells:
-        create_network_for_cell(cell_id)
+    if '-all' in sys.argv:
+        
+        from CreateCellModels import create_active_cell
+        cell_ids = []
+        for f in os.listdir('..'):
+            if f.endswith('.cell.nml') and not '0274' in f and not '0267' in f:
+                cell_id = f.split('.')[0]
+                print('Loading: %s'%f)
+                create_active_cell(cell_id)
+                cell_ids.append(cell_id)
+                
+        create_network_for_cells(cell_ids, "Net_%iCells"%len(cell_ids))
+    else:
+        cells = {'AA0173'}
+        for cell_id in cells:
+            create_network_for_cells([cell_id], "Net_%s"%cell_id)
 
 

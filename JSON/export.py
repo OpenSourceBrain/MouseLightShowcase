@@ -165,6 +165,7 @@ if __name__ == "__main__":
     
     files = {'MOp':'MOp.json','AA0052':'AA0052.json','Hippocampal':'mlnb-export.json'}
     #files = {'AA0052':'AA0052.json'}
+    files = {'MOp2':'MOp2.json'}
     
     for f in files:
         export_to_nml2(files[f], f, soma_diameter=20)
