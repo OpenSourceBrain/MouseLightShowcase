@@ -8,6 +8,7 @@ See [here](https://github.com/OpenSourceBrain/MouseLightShowcase/blob/master/Neu
 
 ![osbview](https://raw.githubusercontent.com/OpenSourceBrain/MouseLightShowcase/master/images/osb1.png)
 
+[![Continuous build using OMV](https://github.com/OpenSourceBrain/MouseLightShowcase/actions/workflows/omv-ci.yml/badge.svg)](https://github.com/OpenSourceBrain/MouseLightShowcase/actions/workflows/omv-ci.yml)
 
 ### Reusing this model
 
