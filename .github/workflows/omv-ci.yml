@@ -34,6 +34,12 @@ jobs:
       run: |
         omv all -V --engine=${{ matrix.engine }}
         
+    - name: Test transformation of the downloaded JSON files
+      run: |
+        pip install libNeuroML
+        cd MouseLightShowcase/JSON
+        python export.py
+        
     - name: OMV final version info
       run: |
         omv list -V # list installed engines
