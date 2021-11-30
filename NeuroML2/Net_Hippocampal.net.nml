@@ -1,4 +1,4 @@
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Net_Hippocampal">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2.2.xsd" id="Net_Hippocampal">
     <include href="AA0257.cell.nml"/>
     <include href="AA0252.cell.nml"/>
     <include href="AA0248.cell.nml"/>
@@ -8,43 +8,43 @@
     <include href="AA0157.cell.nml"/>
     <network id="Net_Hippocampal">
         <population id="pop_AA0257" component="AA0257" type="populationList">
-            <property tag="color" value="0.805627136259 0.794059010518 0.0294257611062"/>
+            <property tag="color" value="0.8056271362589 0.7940590105180981 0.029425761106168014"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0252" component="AA0252" type="populationList">
-            <property tag="color" value="0.174656383354 0.00222987615998 0.663883066708"/>
+            <property tag="color" value="0.17465638335376021 0.0022298761599784944 0.6638830667081945"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0248" component="AA0248" type="populationList">
-            <property tag="color" value="0.0770493004546 0.268523395273 0.116395189855"/>
+            <property tag="color" value="0.07704930045464609 0.26852339527315083 0.11639518985546105"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0173" component="AA0173" type="populationList">
-            <property tag="color" value="0.229025189869 0.487417585411 0.186104900549"/>
+            <property tag="color" value="0.2290251898688216 0.48741758541138713 0.18610490054852236"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0171" component="AA0171" type="populationList">
-            <property tag="color" value="0.0242717976065 0.913573608763 0.377348205971"/>
+            <property tag="color" value="0.024271797606526646 0.9135736087631979 0.37734820597136065"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0158" component="AA0158" type="populationList">
-            <property tag="color" value="0.646760760135 0.369956642708 0.853996643278"/>
+            <property tag="color" value="0.6467607601353914 0.3699566427075194 0.8539966432782011"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
         <population id="pop_AA0157" component="AA0157" type="populationList">
-            <property tag="color" value="0.766786143637 0.440198104854 0.445301588277"/>
+            <property tag="color" value="0.7667861436369238 0.44019810485388056 0.4453015882771756"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
