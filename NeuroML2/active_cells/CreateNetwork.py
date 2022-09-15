@@ -21,7 +21,7 @@ def create_network_for_cells(cell_ids, net_id, stim_amp='450pA'):
 
     for cell_id in cell_ids:
         cell_file = cell_id+'_active.cell.nml'
-        net_doc.includes.append(neuroml.IncludeType(cell_file)) 
+        net_doc.includes.append(neuroml.IncludeType(cell_file))
 
         pop = neuroml.Population(id=get_pop_id(cell_id),
                     component=cell_id,
@@ -60,7 +60,7 @@ def create_network_for_cells(cell_ids, net_id, stim_amp='450pA'):
     print("Saved network file to: "+nml_file)
 
 
-    ###### Validate the NeuroML ######    
+    ###### Validate the NeuroML ######
 
     from neuroml.utils import validate_neuroml2
 
@@ -72,10 +72,10 @@ def create_network_for_cells(cell_ids, net_id, stim_amp='450pA'):
     dt = 0.025
     lems_file_name = 'LEMS_%s.xml'%sim_id
     target_dir = "."
-    
+
     to_plot = {}
     to_save = {}
-    
+
     for cell_id in cell_ids:
         cell_file = cell_id+'_active.cell.nml'
         cell_doc = loaders.NeuroMLLoader.load(cell_file)
@@ -99,11 +99,11 @@ def create_network_for_cells(cell_ids, net_id, stim_amp='450pA'):
             to_plot[p_ref].append('%s/0/%s/%s/v'%(pop_id, cell_id,seg_id))
             to_save[s_ref].append('%s/0/%s/%s/v'%(pop_id, cell_id,seg_id))
 
-    generate_lems_file_for_neuroml(sim_id, 
-                                   nml_file, 
-                                   target, 
-                                   duration, 
-                                   dt, 
+    generate_lems_file_for_neuroml(sim_id,
+                                   nml_file,
+                                   target,
+                                   duration,
+                                   dt,
                                    lems_file_name,
                                    target_dir,
                                    gen_plots_for_all_v = False,
@@ -117,9 +117,9 @@ def create_network_for_cells(cell_ids, net_id, stim_amp='450pA'):
 
 
 if __name__ == "__main__":
-    
+
     if '-all' in sys.argv:
-        
+
         from CreateCellModels import create_active_cell
         cell_ids = []
         for f in os.listdir('..'):
@@ -128,17 +128,15 @@ if __name__ == "__main__":
                 print('Loading: %s'%f)
                 create_active_cell(cell_id)
                 cell_ids.append(cell_id)
-                
+
         create_network_for_cells(cell_ids, "Net_%iCells"%len(cell_ids))
-        
+
     elif '-289' in sys.argv:
         cells = {'AA0289'}
         for cell_id in cells:
             create_network_for_cells([cell_id], "Net_%s"%cell_id, stim_amp='600pA')
-            
+
     else:
-        cells = {'AA0173'}
+        cells = {'AA0173','AA0289'}
         for cell_id in cells:
             create_network_for_cells([cell_id], "Net_%s"%cell_id)
-
-

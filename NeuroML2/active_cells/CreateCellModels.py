@@ -16,10 +16,10 @@ def create_active_cell(cell_id):
 
     cd_pas = neuroml.ChannelDensity(id="pas_chan", segment_groups="all", ion="non_specific", ion_channel="pas", erev="-70.0 mV", cond_density="0.000142857 S_per_cm2")
     channel_densities.append(cd_pas)
-    
+
     cd_na = neuroml.ChannelDensity(id="na_chan", segment_groups="all", ion="na", ion_channel="na", erev="60.0 mV", cond_density="0.1 S_per_cm2")
     channel_densities.append(cd_na)
-    
+
     cd_kv = neuroml.ChannelDensity(id="kv_chan", segment_groups="all", ion="k", ion_channel="kv", erev="-90.0 mV", cond_density="0.01 S_per_cm2")
     channel_densities.append(cd_kv)
 
@@ -56,11 +56,11 @@ def create_active_cell(cell_id):
 
     nml_doc2 = neuroml.NeuroMLDocument(id=cell.id)
 
-    nml_doc2.includes.append(neuroml.IncludeType('pas.channel.nml')) 
-    nml_doc2.includes.append(neuroml.IncludeType('na.channel.nml')) 
-    nml_doc2.includes.append(neuroml.IncludeType('kv.channel.nml')) 
-    #nml_doc2.includes.append(neuroml.IncludeType('channelConvert/Na_BC.channel.nml')) 
-    #nml_doc2.includes.append(neuroml.IncludeType('channelConvert/K_BC.channel.nml')) 
+    nml_doc2.includes.append(neuroml.IncludeType('pas.channel.nml'))
+    nml_doc2.includes.append(neuroml.IncludeType('na.channel.nml'))
+    nml_doc2.includes.append(neuroml.IncludeType('kv.channel.nml'))
+    #nml_doc2.includes.append(neuroml.IncludeType('channelConvert/Na_BC.channel.nml'))
+    #nml_doc2.includes.append(neuroml.IncludeType('channelConvert/K_BC.channel.nml'))
     nml_doc2.cells.append(cell)
 
     nml_file = cell.id+'_active.cell.nml'
@@ -70,7 +70,7 @@ def create_active_cell(cell_id):
     print("Saved modified morphology file to: "+nml_file)
 
 
-    ###### Validate the NeuroML ######    
+    ###### Validate the NeuroML ######
 
     from neuroml.utils import validate_neuroml2
 
@@ -78,9 +78,7 @@ def create_active_cell(cell_id):
 
 
 if __name__ == "__main__":
-    
-    cells = {'AA0173'}
+
+    cells = {'AA0173','AA0289'}
     for cell_id in cells:
         create_active_cell(cell_id)
-    
-    

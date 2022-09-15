@@ -1,6 +1,6 @@
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Net_AA0289">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2.3.xsd" id="Net_AA0289">
     <include href="AA0289_active.cell.nml"/>
-    <pulseGenerator id="stim_AA0289" delay="20ms" duration="300ms" amplitude="600pA"/>
+    <pulseGenerator id="stim_AA0289" delay="20ms" duration="300ms" amplitude="450pA"/>
     <network id="Net_AA0289">
         <population id="Pop_AA0289" component="AA0289" type="populationList">
             <instance id="0">

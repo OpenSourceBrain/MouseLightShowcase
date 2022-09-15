@@ -6,3 +6,4 @@
 /NeuroML2/active_cells/*_nrn.py
 /NeuroML2/active_cells/*.mod
 /NeuroML2/active_cells/x86_64
+/NeuroML2/active_cells/__pycache__

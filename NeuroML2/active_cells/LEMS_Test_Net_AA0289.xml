@@ -2,7 +2,7 @@
     
     <!-- 
 
-        This LEMS file has been automatically generated using PyNeuroML v0.3.14 (libNeuroML v0.2.45)
+        This LEMS file has been automatically generated using PyNeuroML v0.7.2 (libNeuroML v0.4.1)
 
      -->
     
@@ -22,53 +22,53 @@
    
     <Simulation id="Test_Net_AA0289" length="400ms" step="0.025ms" target="Net_AA0289" seed="12345">  <!-- Note seed: ensures same random numbers used every run -->
         
-        <Display id="Some_voltages_AA0289" title="Plots of Some_voltages_AA0289" timeScale="1ms" xmin="-40.0" xmax="440.0" ymin="-80" ymax="40">
-            <Line id="Pop_AA0289_0_AA0289_0_v" quantity="Pop_AA0289/0/AA0289/0/v" scale="1mV" color="#6aa799" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1099_v" quantity="Pop_AA0289/0/AA0289/1099/v" scale="1mV" color="#029a72" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1199_v" quantity="Pop_AA0289/0/AA0289/1199/v" scale="1mV" color="#d340bb" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1299_v" quantity="Pop_AA0289/0/AA0289/1299/v" scale="1mV" color="#4c73a9" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1399_v" quantity="Pop_AA0289/0/AA0289/1399/v" scale="1mV" color="#5e503a" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1499_v" quantity="Pop_AA0289/0/AA0289/1499/v" scale="1mV" color="#3193ca" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1599_v" quantity="Pop_AA0289/0/AA0289/1599/v" scale="1mV" color="#90e5e9" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1699_v" quantity="Pop_AA0289/0/AA0289/1699/v" scale="1mV" color="#29645f" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1799_v" quantity="Pop_AA0289/0/AA0289/1799/v" scale="1mV" color="#1fcff4" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1899_v" quantity="Pop_AA0289/0/AA0289/1899/v" scale="1mV" color="#6ed4e9" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1990_v" quantity="Pop_AA0289/0/AA0289/1990/v" scale="1mV" color="#8fe460" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1991_v" quantity="Pop_AA0289/0/AA0289/1991/v" scale="1mV" color="#2ca1c7" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1992_v" quantity="Pop_AA0289/0/AA0289/1992/v" scale="1mV" color="#8d9fe5" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1993_v" quantity="Pop_AA0289/0/AA0289/1993/v" scale="1mV" color="#5adad1" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1994_v" quantity="Pop_AA0289/0/AA0289/1994/v" scale="1mV" color="#f543bb" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1995_v" quantity="Pop_AA0289/0/AA0289/1995/v" scale="1mV" color="#175f0c" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1996_v" quantity="Pop_AA0289/0/AA0289/1996/v" scale="1mV" color="#fa8826" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1997_v" quantity="Pop_AA0289/0/AA0289/1997/v" scale="1mV" color="#6980a8" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1998_v" quantity="Pop_AA0289/0/AA0289/1998/v" scale="1mV" color="#8101e8" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1999_v" quantity="Pop_AA0289/0/AA0289/1999/v" scale="1mV" color="#25ece8" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2099_v" quantity="Pop_AA0289/0/AA0289/2099/v" scale="1mV" color="#b80e3b" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2199_v" quantity="Pop_AA0289/0/AA0289/2199/v" scale="1mV" color="#30a1f6" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2299_v" quantity="Pop_AA0289/0/AA0289/2299/v" scale="1mV" color="#577081" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2399_v" quantity="Pop_AA0289/0/AA0289/2399/v" scale="1mV" color="#06057c" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2499_v" quantity="Pop_AA0289/0/AA0289/2499/v" scale="1mV" color="#56eaa3" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2599_v" quantity="Pop_AA0289/0/AA0289/2599/v" scale="1mV" color="#f7acee" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2699_v" quantity="Pop_AA0289/0/AA0289/2699/v" scale="1mV" color="#fa9289" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2799_v" quantity="Pop_AA0289/0/AA0289/2799/v" scale="1mV" color="#be9985" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2899_v" quantity="Pop_AA0289/0/AA0289/2899/v" scale="1mV" color="#00e266" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2990_v" quantity="Pop_AA0289/0/AA0289/2990/v" scale="1mV" color="#f0b378" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2991_v" quantity="Pop_AA0289/0/AA0289/2991/v" scale="1mV" color="#deea95" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2992_v" quantity="Pop_AA0289/0/AA0289/2992/v" scale="1mV" color="#c55566" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2993_v" quantity="Pop_AA0289/0/AA0289/2993/v" scale="1mV" color="#2dcaab" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2994_v" quantity="Pop_AA0289/0/AA0289/2994/v" scale="1mV" color="#1978ce" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2995_v" quantity="Pop_AA0289/0/AA0289/2995/v" scale="1mV" color="#6a1ecc" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2996_v" quantity="Pop_AA0289/0/AA0289/2996/v" scale="1mV" color="#e2b284" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2997_v" quantity="Pop_AA0289/0/AA0289/2997/v" scale="1mV" color="#93fd72" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2998_v" quantity="Pop_AA0289/0/AA0289/2998/v" scale="1mV" color="#bc90a6" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_2999_v" quantity="Pop_AA0289/0/AA0289/2999/v" scale="1mV" color="#3b8d0e" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1000099_v" quantity="Pop_AA0289/0/AA0289/1000099/v" scale="1mV" color="#860a7d" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1000199_v" quantity="Pop_AA0289/0/AA0289/1000199/v" scale="1mV" color="#b59a59" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1000299_v" quantity="Pop_AA0289/0/AA0289/1000299/v" scale="1mV" color="#d32851" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1000399_v" quantity="Pop_AA0289/0/AA0289/1000399/v" scale="1mV" color="#ce9fb6" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1000499_v" quantity="Pop_AA0289/0/AA0289/1000499/v" scale="1mV" color="#3b788b" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1000599_v" quantity="Pop_AA0289/0/AA0289/1000599/v" scale="1mV" color="#df8960" timeScale="1ms"/>
-            <Line id="Pop_AA0289_0_AA0289_1000699_v" quantity="Pop_AA0289/0/AA0289/1000699/v" scale="1mV" color="#3764b5" timeScale="1ms"/>
+        <Display id="Some_voltages_AA0289" title="Plots of Some_voltages_AA0289" timeScale="1ms" xmin="-40.0" xmax="440.00000000000006" ymin="-80" ymax="40">
+            <Line id="Pop_AA0289_0_AA0289_0_v" quantity="Pop_AA0289/0/AA0289/0/v" scale="1mV" color="#d54f33" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1099_v" quantity="Pop_AA0289/0/AA0289/1099/v" scale="1mV" color="#0534e4" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1199_v" quantity="Pop_AA0289/0/AA0289/1199/v" scale="1mV" color="#98e752" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1299_v" quantity="Pop_AA0289/0/AA0289/1299/v" scale="1mV" color="#bca074" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1399_v" quantity="Pop_AA0289/0/AA0289/1399/v" scale="1mV" color="#632794" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1499_v" quantity="Pop_AA0289/0/AA0289/1499/v" scale="1mV" color="#8a5d88" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1599_v" quantity="Pop_AA0289/0/AA0289/1599/v" scale="1mV" color="#df5954" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1699_v" quantity="Pop_AA0289/0/AA0289/1699/v" scale="1mV" color="#52c8bf" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1799_v" quantity="Pop_AA0289/0/AA0289/1799/v" scale="1mV" color="#bf0239" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1899_v" quantity="Pop_AA0289/0/AA0289/1899/v" scale="1mV" color="#3f9fe8" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1990_v" quantity="Pop_AA0289/0/AA0289/1990/v" scale="1mV" color="#dda9d2" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1991_v" quantity="Pop_AA0289/0/AA0289/1991/v" scale="1mV" color="#85ad96" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1992_v" quantity="Pop_AA0289/0/AA0289/1992/v" scale="1mV" color="#59438f" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1993_v" quantity="Pop_AA0289/0/AA0289/1993/v" scale="1mV" color="#5fa56f" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1994_v" quantity="Pop_AA0289/0/AA0289/1994/v" scale="1mV" color="#b5b5a2" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1995_v" quantity="Pop_AA0289/0/AA0289/1995/v" scale="1mV" color="#2ebe19" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1996_v" quantity="Pop_AA0289/0/AA0289/1996/v" scale="1mV" color="#d30150" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1997_v" quantity="Pop_AA0289/0/AA0289/1997/v" scale="1mV" color="#55490a" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1998_v" quantity="Pop_AA0289/0/AA0289/1998/v" scale="1mV" color="#4bd9d0" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1999_v" quantity="Pop_AA0289/0/AA0289/1999/v" scale="1mV" color="#69535e" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2099_v" quantity="Pop_AA0289/0/AA0289/2099/v" scale="1mV" color="#27dae9" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2199_v" quantity="Pop_AA0289/0/AA0289/2199/v" scale="1mV" color="#6143ed" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2299_v" quantity="Pop_AA0289/0/AA0289/2299/v" scale="1mV" color="#aee102" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2399_v" quantity="Pop_AA0289/0/AA0289/2399/v" scale="1mV" color="#a4e245" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2499_v" quantity="Pop_AA0289/0/AA0289/2499/v" scale="1mV" color="#0c0af9" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2599_v" quantity="Pop_AA0289/0/AA0289/2599/v" scale="1mV" color="#eaece2" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2699_v" quantity="Pop_AA0289/0/AA0289/2699/v" scale="1mV" color="#add546" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2799_v" quantity="Pop_AA0289/0/AA0289/2799/v" scale="1mV" color="#0dc1e8" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2899_v" quantity="Pop_AA0289/0/AA0289/2899/v" scale="1mV" color="#d4b998" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2990_v" quantity="Pop_AA0289/0/AA0289/2990/v" scale="1mV" color="#01c4cd" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2991_v" quantity="Pop_AA0289/0/AA0289/2991/v" scale="1mV" color="#036aae" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2992_v" quantity="Pop_AA0289/0/AA0289/2992/v" scale="1mV" color="#53de83" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2993_v" quantity="Pop_AA0289/0/AA0289/2993/v" scale="1mV" color="#5b9557" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2994_v" quantity="Pop_AA0289/0/AA0289/2994/v" scale="1mV" color="#92b9f4" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2995_v" quantity="Pop_AA0289/0/AA0289/2995/v" scale="1mV" color="#32f19d" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2996_v" quantity="Pop_AA0289/0/AA0289/2996/v" scale="1mV" color="#d43d99" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2997_v" quantity="Pop_AA0289/0/AA0289/2997/v" scale="1mV" color="#36379e" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2998_v" quantity="Pop_AA0289/0/AA0289/2998/v" scale="1mV" color="#5d01b7" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_2999_v" quantity="Pop_AA0289/0/AA0289/2999/v" scale="1mV" color="#c0004f" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1000099_v" quantity="Pop_AA0289/0/AA0289/1000099/v" scale="1mV" color="#771a1c" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1000199_v" quantity="Pop_AA0289/0/AA0289/1000199/v" scale="1mV" color="#a8e7b4" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1000299_v" quantity="Pop_AA0289/0/AA0289/1000299/v" scale="1mV" color="#149bc7" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1000399_v" quantity="Pop_AA0289/0/AA0289/1000399/v" scale="1mV" color="#76f116" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1000499_v" quantity="Pop_AA0289/0/AA0289/1000499/v" scale="1mV" color="#3d56b9" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1000599_v" quantity="Pop_AA0289/0/AA0289/1000599/v" scale="1mV" color="#ff9a67" timeScale="1ms"/>
+            <Line id="Pop_AA0289_0_AA0289_1000699_v" quantity="Pop_AA0289/0/AA0289/1000699/v" scale="1mV" color="#6ec96a" timeScale="1ms"/>
         </Display>
         
         <OutputFile id="AA0289_voltages_dat" fileName="AA0289_voltages.dat">
