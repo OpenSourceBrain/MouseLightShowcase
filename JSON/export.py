@@ -14,7 +14,6 @@ nml2_readme = '../NeuroML2/README.md'
 
 def export_to_nml2(filename, ref, soma_diameter):
 
-
     import random
     myrandom = random.Random(123456)
 
@@ -33,10 +32,12 @@ def export_to_nml2(filename, ref, soma_diameter):
     net = neuroml.Network(id=net_doc.id)
     net_doc.networks.append(net)
 
+    planes = ['yz', 'xz', 'xy']
+
     for n in json_info['neurons']:
 
         id = str(n['idString'])
-        print("============================\nLooking at neuron: %s"%(id))
+        print("============================\nLooking at neuron id: %s"%(id))
         cell_doc = neuroml.NeuroMLDocument(id=id)
         cell = neuroml.Cell(id=id)
 
@@ -48,7 +49,15 @@ def export_to_nml2(filename, ref, soma_diameter):
         cell.notes = notes
 
         if not n['DOI'] in readme_text:
-            readme_text+='\n- %s: https://doi.org/%s ([NeuroML file](../NeuroML2/%s.cell.nml))'%(id,n['DOI'],id)
+            readme_text+='\n\n## %s'%(id,)
+            height=200
+
+            readme_text+='\n<p>'
+            for plane in planes:
+                readme_text+='<img src="images/%s.cell.%s.png" alt="%s" height="%s"/> '%(id,plane,id,height)
+            readme_text+='</p>'
+
+            readme_text+='\nhttps://doi.org/%s - <a href="%s.cell.nml">NeuroML file</a>'%(n['DOI'],id)
 
         for k in ['idString','DOI','sample/date','sample/strain','label/virus','label/fluorophore']:
 
@@ -148,6 +157,20 @@ def export_to_nml2(filename, ref, soma_diameter):
 
         print("Saved cell file to: "+nml_file)
 
+        from pyneuroml.plot.PlotMorphology import plot_2D
+
+        for plane in planes:
+
+            p2d_file = '../NeuroML2/images/%s.cell.%s.png'%(cell.id,plane)
+            '''
+            plot_2D(nml_file,
+                    plane2d  = plane,
+                    min_width = 0,
+                    verbose= False,
+                    nogui = True,
+                    save_to_file=p2d_file,
+                    square=True)'''
+
 
     nml_file = '../NeuroML2/%s.net.nml'%net.id
 
@@ -158,6 +181,8 @@ def export_to_nml2(filename, ref, soma_diameter):
     rm = open(nml2_readme,'w')
     rm.write(readme_text)
     rm.close()
+
+    print("Saved README to: "+nml2_readme)
 
 if __name__ == "__main__":
 
