@@ -1,0 +1,14 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2.3.xsd" id="Net_AA1507">
+    <include href="AA1507_active.cell.nml"/>
+    <pulseGenerator id="stim_AA1507" delay="20ms" duration="300ms" amplitude="1000pA"/>
+    <network id="Net_AA1507">
+        <population id="Pop_AA1507" component="AA1507" type="populationList">
+            <instance id="0">
+                <location x="0." y="0." z="0."/>
+            </instance>
+        </population>
+        <inputList id="stim_AA1507_input" population="Pop_AA1507" component="stim_AA1507">
+            <input id="0" target="../Pop_AA1507/0/AA1507" destination="synapses"/>
+        </inputList>
+    </network>
+</neuroml>

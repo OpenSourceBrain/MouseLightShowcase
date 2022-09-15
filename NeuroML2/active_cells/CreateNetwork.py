@@ -12,7 +12,7 @@ import os
 def get_pop_id(cell_id):
     return "Pop_%s"%cell_id
 
-def create_network_for_cells(cell_ids, net_id, stim_amp='450pA'):
+def create_network_for_cells(cell_ids, net_id, stim_amp='1000pA'):
 
     net_doc = neuroml.NeuroMLDocument(id=net_id)
 
@@ -137,6 +137,6 @@ if __name__ == "__main__":
             create_network_for_cells([cell_id], "Net_%s"%cell_id, stim_amp='600pA')
 
     else:
-        cells = {'AA0173','AA0289'}
+        cells = {'AA0173','AA0289','AA1506','AA1507'}
         for cell_id in cells:
             create_network_for_cells([cell_id], "Net_%s"%cell_id)

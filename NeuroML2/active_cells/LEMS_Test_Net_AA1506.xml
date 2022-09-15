@@ -1,0 +1,133 @@
+<Lems>
+    
+    <!-- 
+
+        This LEMS file has been automatically generated using PyNeuroML v0.7.2 (libNeuroML v0.4.1)
+
+     -->
+    
+    <!-- Specify which component to run -->
+    <Target component="Test_Net_AA1506"/>
+
+    <!-- Include core NeuroML2 ComponentType definitions -->
+    <Include file="Cells.xml"/>
+    <Include file="Networks.xml"/>
+    <Include file="Simulation.xml"/>
+    
+    <Include file="Net_AA1506.net.nml"/>
+    <Include file="AA1506_active.cell.nml"/>
+    <Include file="pas.channel.nml"/>
+    <Include file="na.channel.nml"/>
+    <Include file="kv.channel.nml"/>
+   
+    <Simulation id="Test_Net_AA1506" length="400ms" step="0.025ms" target="Net_AA1506" seed="12345">  <!-- Note seed: ensures same random numbers used every run -->
+        
+        <Display id="Some_voltages_AA1506" title="Plots of Some_voltages_AA1506" timeScale="1ms" xmin="-40.0" xmax="440.00000000000006" ymin="-80" ymax="40">
+            <Line id="Pop_AA1506_0_AA1506_0_v" quantity="Pop_AA1506/0/AA1506/0/v" scale="1mV" color="#d54f33" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1099_v" quantity="Pop_AA1506/0/AA1506/1099/v" scale="1mV" color="#0534e4" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1199_v" quantity="Pop_AA1506/0/AA1506/1199/v" scale="1mV" color="#98e752" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1299_v" quantity="Pop_AA1506/0/AA1506/1299/v" scale="1mV" color="#bca074" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1399_v" quantity="Pop_AA1506/0/AA1506/1399/v" scale="1mV" color="#632794" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1499_v" quantity="Pop_AA1506/0/AA1506/1499/v" scale="1mV" color="#8a5d88" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1599_v" quantity="Pop_AA1506/0/AA1506/1599/v" scale="1mV" color="#df5954" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1699_v" quantity="Pop_AA1506/0/AA1506/1699/v" scale="1mV" color="#52c8bf" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1799_v" quantity="Pop_AA1506/0/AA1506/1799/v" scale="1mV" color="#bf0239" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1899_v" quantity="Pop_AA1506/0/AA1506/1899/v" scale="1mV" color="#3f9fe8" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1990_v" quantity="Pop_AA1506/0/AA1506/1990/v" scale="1mV" color="#dda9d2" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1991_v" quantity="Pop_AA1506/0/AA1506/1991/v" scale="1mV" color="#85ad96" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1992_v" quantity="Pop_AA1506/0/AA1506/1992/v" scale="1mV" color="#59438f" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1993_v" quantity="Pop_AA1506/0/AA1506/1993/v" scale="1mV" color="#5fa56f" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1994_v" quantity="Pop_AA1506/0/AA1506/1994/v" scale="1mV" color="#b5b5a2" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1995_v" quantity="Pop_AA1506/0/AA1506/1995/v" scale="1mV" color="#2ebe19" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1996_v" quantity="Pop_AA1506/0/AA1506/1996/v" scale="1mV" color="#d30150" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1997_v" quantity="Pop_AA1506/0/AA1506/1997/v" scale="1mV" color="#55490a" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1998_v" quantity="Pop_AA1506/0/AA1506/1998/v" scale="1mV" color="#4bd9d0" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1999_v" quantity="Pop_AA1506/0/AA1506/1999/v" scale="1mV" color="#69535e" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2099_v" quantity="Pop_AA1506/0/AA1506/2099/v" scale="1mV" color="#27dae9" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2199_v" quantity="Pop_AA1506/0/AA1506/2199/v" scale="1mV" color="#6143ed" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2299_v" quantity="Pop_AA1506/0/AA1506/2299/v" scale="1mV" color="#aee102" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2399_v" quantity="Pop_AA1506/0/AA1506/2399/v" scale="1mV" color="#a4e245" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2499_v" quantity="Pop_AA1506/0/AA1506/2499/v" scale="1mV" color="#0c0af9" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2599_v" quantity="Pop_AA1506/0/AA1506/2599/v" scale="1mV" color="#eaece2" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2699_v" quantity="Pop_AA1506/0/AA1506/2699/v" scale="1mV" color="#add546" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2799_v" quantity="Pop_AA1506/0/AA1506/2799/v" scale="1mV" color="#0dc1e8" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_2899_v" quantity="Pop_AA1506/0/AA1506/2899/v" scale="1mV" color="#d4b998" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000099_v" quantity="Pop_AA1506/0/AA1506/1000099/v" scale="1mV" color="#01c4cd" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000199_v" quantity="Pop_AA1506/0/AA1506/1000199/v" scale="1mV" color="#036aae" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000299_v" quantity="Pop_AA1506/0/AA1506/1000299/v" scale="1mV" color="#53de83" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000399_v" quantity="Pop_AA1506/0/AA1506/1000399/v" scale="1mV" color="#5b9557" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000499_v" quantity="Pop_AA1506/0/AA1506/1000499/v" scale="1mV" color="#92b9f4" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000599_v" quantity="Pop_AA1506/0/AA1506/1000599/v" scale="1mV" color="#32f19d" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000699_v" quantity="Pop_AA1506/0/AA1506/1000699/v" scale="1mV" color="#d43d99" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000799_v" quantity="Pop_AA1506/0/AA1506/1000799/v" scale="1mV" color="#36379e" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000899_v" quantity="Pop_AA1506/0/AA1506/1000899/v" scale="1mV" color="#5d01b7" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000990_v" quantity="Pop_AA1506/0/AA1506/1000990/v" scale="1mV" color="#c0004f" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000991_v" quantity="Pop_AA1506/0/AA1506/1000991/v" scale="1mV" color="#771a1c" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000992_v" quantity="Pop_AA1506/0/AA1506/1000992/v" scale="1mV" color="#a8e7b4" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000993_v" quantity="Pop_AA1506/0/AA1506/1000993/v" scale="1mV" color="#149bc7" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000994_v" quantity="Pop_AA1506/0/AA1506/1000994/v" scale="1mV" color="#76f116" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000995_v" quantity="Pop_AA1506/0/AA1506/1000995/v" scale="1mV" color="#3d56b9" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000996_v" quantity="Pop_AA1506/0/AA1506/1000996/v" scale="1mV" color="#ff9a67" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000997_v" quantity="Pop_AA1506/0/AA1506/1000997/v" scale="1mV" color="#6ec96a" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000998_v" quantity="Pop_AA1506/0/AA1506/1000998/v" scale="1mV" color="#5f24e5" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1000999_v" quantity="Pop_AA1506/0/AA1506/1000999/v" scale="1mV" color="#83f5a5" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1001099_v" quantity="Pop_AA1506/0/AA1506/1001099/v" scale="1mV" color="#de0aae" timeScale="1ms"/>
+            <Line id="Pop_AA1506_0_AA1506_1001199_v" quantity="Pop_AA1506/0/AA1506/1001199/v" scale="1mV" color="#427e32" timeScale="1ms"/>
+        </Display>
+        
+        <OutputFile id="AA1506_voltages_dat" fileName="AA1506_voltages.dat">
+            <OutputColumn id="Pop_AA1506_0_AA1506_0_v" quantity="Pop_AA1506/0/AA1506/0/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1099_v" quantity="Pop_AA1506/0/AA1506/1099/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1199_v" quantity="Pop_AA1506/0/AA1506/1199/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1299_v" quantity="Pop_AA1506/0/AA1506/1299/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1399_v" quantity="Pop_AA1506/0/AA1506/1399/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1499_v" quantity="Pop_AA1506/0/AA1506/1499/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1599_v" quantity="Pop_AA1506/0/AA1506/1599/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1699_v" quantity="Pop_AA1506/0/AA1506/1699/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1799_v" quantity="Pop_AA1506/0/AA1506/1799/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1899_v" quantity="Pop_AA1506/0/AA1506/1899/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1990_v" quantity="Pop_AA1506/0/AA1506/1990/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1991_v" quantity="Pop_AA1506/0/AA1506/1991/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1992_v" quantity="Pop_AA1506/0/AA1506/1992/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1993_v" quantity="Pop_AA1506/0/AA1506/1993/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1994_v" quantity="Pop_AA1506/0/AA1506/1994/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1995_v" quantity="Pop_AA1506/0/AA1506/1995/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1996_v" quantity="Pop_AA1506/0/AA1506/1996/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1997_v" quantity="Pop_AA1506/0/AA1506/1997/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1998_v" quantity="Pop_AA1506/0/AA1506/1998/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1999_v" quantity="Pop_AA1506/0/AA1506/1999/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2099_v" quantity="Pop_AA1506/0/AA1506/2099/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2199_v" quantity="Pop_AA1506/0/AA1506/2199/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2299_v" quantity="Pop_AA1506/0/AA1506/2299/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2399_v" quantity="Pop_AA1506/0/AA1506/2399/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2499_v" quantity="Pop_AA1506/0/AA1506/2499/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2599_v" quantity="Pop_AA1506/0/AA1506/2599/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2699_v" quantity="Pop_AA1506/0/AA1506/2699/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2799_v" quantity="Pop_AA1506/0/AA1506/2799/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_2899_v" quantity="Pop_AA1506/0/AA1506/2899/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000099_v" quantity="Pop_AA1506/0/AA1506/1000099/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000199_v" quantity="Pop_AA1506/0/AA1506/1000199/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000299_v" quantity="Pop_AA1506/0/AA1506/1000299/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000399_v" quantity="Pop_AA1506/0/AA1506/1000399/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000499_v" quantity="Pop_AA1506/0/AA1506/1000499/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000599_v" quantity="Pop_AA1506/0/AA1506/1000599/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000699_v" quantity="Pop_AA1506/0/AA1506/1000699/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000799_v" quantity="Pop_AA1506/0/AA1506/1000799/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000899_v" quantity="Pop_AA1506/0/AA1506/1000899/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000990_v" quantity="Pop_AA1506/0/AA1506/1000990/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000991_v" quantity="Pop_AA1506/0/AA1506/1000991/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000992_v" quantity="Pop_AA1506/0/AA1506/1000992/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000993_v" quantity="Pop_AA1506/0/AA1506/1000993/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000994_v" quantity="Pop_AA1506/0/AA1506/1000994/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000995_v" quantity="Pop_AA1506/0/AA1506/1000995/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000996_v" quantity="Pop_AA1506/0/AA1506/1000996/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000997_v" quantity="Pop_AA1506/0/AA1506/1000997/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000998_v" quantity="Pop_AA1506/0/AA1506/1000998/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1000999_v" quantity="Pop_AA1506/0/AA1506/1000999/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1001099_v" quantity="Pop_AA1506/0/AA1506/1001099/v"/> 
+            <OutputColumn id="Pop_AA1506_0_AA1506_1001199_v" quantity="Pop_AA1506/0/AA1506/1001199/v"/> 
+        </OutputFile>
+        
+    </Simulation>
+
+</Lems>

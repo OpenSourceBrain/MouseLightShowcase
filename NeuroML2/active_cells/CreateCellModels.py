@@ -79,6 +79,6 @@ def create_active_cell(cell_id):
 
 if __name__ == "__main__":
 
-    cells = {'AA0173','AA0289'}
+    cells = {'AA0173','AA0289','AA1506','AA1507'}
     for cell_id in cells:
         create_active_cell(cell_id)
