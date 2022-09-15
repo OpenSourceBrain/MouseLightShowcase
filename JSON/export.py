@@ -36,28 +36,17 @@ def export_to_nml2(filename, ref, soma_diameter):
 
     for n in json_info['neurons']:
 
-        id = str(n['idString'])
-        print("============================\nLooking at neuron id: %s"%(id))
-        cell_doc = neuroml.NeuroMLDocument(id=id)
-        cell = neuroml.Cell(id=id)
+        cell_id = str(n['idString'])
+        print("============================\nLooking at neuron id: %s"%(cell_id))
+        cell_doc = neuroml.NeuroMLDocument(id=cell_id)
+        cell = neuroml.Cell(id=cell_id)
 
-        notes = '''\n    Cell %s downloaded from Janelia MouseLight project (https://www.janelia.org/project-team/mouselight)\n    and converted to NeuroML'''%id
+        notes = '''\n    Cell %s downloaded from Janelia MouseLight project (https://www.janelia.org/project-team/mouselight)\n    and converted to NeuroML'''%cell_id
         notes += '\n    DOI of original cell: https://doi.org/%s'%n['DOI']
         notes += '\n\n    NOTE: cells have been given a soma of diameter %sum for visualisation purposes'%soma_diameter
         notes += '\n    However, no soma has been reconstructed from the original cells'
 
         cell.notes = notes
-
-        if not n['DOI'] in readme_text:
-            readme_text+='\n\n## %s'%(id,)
-            height=200
-
-            readme_text+='\n<p>'
-            for plane in planes:
-                readme_text+='<img src="images/%s.cell.%s.png" alt="%s" height="%s"/> '%(id,plane,id,height)
-            readme_text+='</p>'
-
-            readme_text+='\nhttps://doi.org/%s - <a href="%s.cell.nml">NeuroML file</a>'%(n['DOI'],id)
 
         for k in ['idString','DOI','sample/date','sample/strain','label/virus','label/fluorophore']:
 
@@ -85,7 +74,7 @@ def export_to_nml2(filename, ref, soma_diameter):
         net.populations.append(pop)
 
         cell_doc.cells.append(cell)
-        cell.morphology = neuroml.Morphology(id='morph_%s'%id)
+        cell.morphology = neuroml.Morphology(id='morph_%s'%cell_id)
 
         id_vs_seg = {}
         soma_id = 0
@@ -157,19 +146,34 @@ def export_to_nml2(filename, ref, soma_diameter):
 
         print("Saved cell file to: "+nml_file)
 
+
+        if not n['DOI'] in readme_text:
+            readme_text+='\n\n## %s'%(cell_id,)
+            height=200
+
+            readme_text+='\n<p>'
+            for plane in planes:
+                readme_text+='<img src="images/%s.cell.%s.png" alt="%s_%s" height="%s"/> '%(cell_id,plane,cell_id,plane,height)
+            readme_text+='</p>'
+
+            readme_text+='\nCell with %i segments (soma: %i dend: %i, axon %i)'%(len(cell.morphology.segments),len(soma_seg_group.members),len(dend_seg_group.members),len(axon_seg_group.members))
+            readme_text+='\n\n' + ('https://doi.org/%s'%n['DOI'] if n['DOI']!='n/a' else 'No DOI')+' - <a href="%s.cell.nml">NeuroML file</a>'%(cell_id)
+
         from pyneuroml.plot.PlotMorphology import plot_2D
 
         for plane in planes:
 
             p2d_file = '../NeuroML2/images/%s.cell.%s.png'%(cell.id,plane)
-            '''
-            plot_2D(nml_file,
-                    plane2d  = plane,
-                    min_width = 0,
-                    verbose= False,
-                    nogui = True,
-                    save_to_file=p2d_file,
-                    square=True)'''
+
+            gen_png=False
+            if gen_png:
+                plot_2D(nml_file,
+                        plane2d  = plane,
+                        min_width = 0,
+                        verbose= False,
+                        nogui = True,
+                        save_to_file=p2d_file,
+                        square=True)
 
 
     nml_file = '../NeuroML2/%s.net.nml'%net.id
@@ -186,9 +190,10 @@ def export_to_nml2(filename, ref, soma_diameter):
 
 if __name__ == "__main__":
 
-    files = {'MOp':'MOp.json','AA0052':'AA0052.json','Hippocampal':'mlnb-export.json'}
+    files = {'MOp':'MOp.json','AA0052':'AA0052.json','Hippocampal':'mlnb-export.json','AA1506':'AA1506.json','AA1507':'AA1507.json'}
     #files = {'AA0052':'AA0052.json'}
     #files = {'MOp2':'MOp2.json'}
+    #files = {'AA1506':'AA1506.json','AA1507':'AA1507.json'}
 
     for f in files:
         export_to_nml2(files[f], f, soma_diameter=20)
