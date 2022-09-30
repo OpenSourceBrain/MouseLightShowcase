@@ -11,7 +11,11 @@ def create_active_cell(cell_id):
     print("Loaded morphology file from: " + fn)
 
     cell = doc.cells[0]  # type: neuroml.Cell
+    cell.summary()
     cell.info(show_contents=True)
+
+    # set up cell with default components
+    # note: will not overwrite any pre-existing components
     cell.setup_nml_cell(use_convention=False)
     cell.info(show_contents=True)
 
