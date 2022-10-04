@@ -3067,1183 +3067,1186 @@
                 <parent segment="1753"/>
                 <distal x="7840.4921155" y="2708.55071525" z="8991.896505625" diameter="1.0"/>
             </segment>
-            <segment id="1000001" name="dendrite_1000001">
+            <segment id="1000001" name="dend_1000001">
                 <parent segment="0"/>
                 <proximal x="8039.331091" y="2373.285445" z="9131.2477273125" diameter="2.0"/>
                 <distal x="8039.331091" y="2373.28544499999" z="9131.2477273125" diameter="2.0"/>
             </segment>
-            <segment id="1000002" name="dendrite_1000002">
+            <segment id="1000002" name="dend_1000002">
                 <parent segment="1000001"/>
                 <distal x="8034.56856424999" y="2388.29544925" z="9128.779520625" diameter="2.0"/>
             </segment>
-            <segment id="1000003" name="dendrite_1000003">
+            <segment id="1000003" name="dend_1000003">
                 <parent segment="1000002"/>
                 <distal x="8024.30464449999" y="2401.94916525" z="9127.3252664375" diameter="1.0"/>
             </segment>
-            <segment id="1000004" name="dendrite_1000004">
+            <segment id="1000004" name="dend_1000004">
                 <parent segment="1000003"/>
                 <distal x="8018.33193974999" y="2420.69148099999" z="9122.46668025" diameter="1.0"/>
             </segment>
-            <segment id="1000005" name="dendrite_1000005">
+            <segment id="1000005" name="dend_1000005">
                 <parent segment="1000004"/>
                 <distal x="8003.98820675" y="2434.3476045" z="9120.4500890625" diameter="1.0"/>
             </segment>
-            <segment id="1000006" name="dendrite_1000006">
+            <segment id="1000006" name="dend_1000006">
                 <parent segment="1000005"/>
                 <distal x="7996.37123024999" y="2452.85148675" z="9110.3973983125" diameter="1.0"/>
             </segment>
-            <segment id="1000007" name="dendrite_1000007">
+            <segment id="1000007" name="dend_1000007">
                 <parent segment="1000006"/>
                 <distal x="7986.76929674999" y="2478.32427249999" z="9092.611415375" diameter="1.0"/>
             </segment>
-            <segment id="1000008" name="dendrite_1000008">
+            <segment id="1000008" name="dend_1000008">
                 <parent segment="1000007"/>
                 <distal x="7969.78887549999" y="2491.10552349999" z="9087.1808111875" diameter="1.0"/>
             </segment>
-            <segment id="1000009" name="dendrite_1000009">
+            <segment id="1000009" name="dend_1000009">
                 <parent segment="1000008"/>
                 <distal x="7959.39076499999" y="2507.210869" z="9080.4777575625" diameter="1.0"/>
             </segment>
-            <segment id="1000010" name="dendrite_1000010">
+            <segment id="1000010" name="dend_1000010">
                 <parent segment="1000009"/>
                 <distal x="7938.335721" y="2519.51555275" z="9074.2414479375" diameter="1.0"/>
             </segment>
-            <segment id="1000011" name="dendrite_1000011">
+            <segment id="1000011" name="dend_1000011">
                 <parent segment="1000010"/>
                 <distal x="7925.47647199999" y="2520.97653299999" z="9066.258009625" diameter="1.0"/>
             </segment>
-            <segment id="1000012" name="dendrite_1000012">
+            <segment id="1000012" name="dend_1000012">
                 <parent segment="1000011"/>
                 <distal x="7912.16409599999" y="2534.0624245" z="9059.8757868125" diameter="1.0"/>
             </segment>
-            <segment id="1000013" name="dendrite_1000013">
+            <segment id="1000013" name="dend_1000013">
                 <parent segment="1000012"/>
                 <distal x="7904.999786" y="2541.9218725" z="9047.8955298125" diameter="1.0"/>
             </segment>
-            <segment id="1000014" name="dendrite_1000014">
+            <segment id="1000014" name="dend_1000014">
                 <parent segment="1000013"/>
                 <distal x="7892.24626074999" y="2553.75788524999" z="9041.3934151875" diameter="1.0"/>
             </segment>
-            <segment id="1000015" name="dendrite_1000015">
+            <segment id="1000015" name="dend_1000015">
                 <parent segment="1000014"/>
                 <distal x="7886.86698699999" y="2551.93742374999" z="9038.82801175" diameter="1.0"/>
             </segment>
-            <segment id="1000016" name="dendrite_1000016">
+            <segment id="1000016" name="dend_1000016">
                 <parent segment="1000015"/>
                 <distal x="7872.71512825" y="2574.46477475" z="9031.0285039375" diameter="1.0"/>
             </segment>
-            <segment id="1000017" name="dendrite_1000017">
+            <segment id="1000017" name="dend_1000017">
                 <parent segment="1000016"/>
                 <distal x="7859.22669" y="2588.55080125" z="9017.531078875" diameter="1.0"/>
             </segment>
-            <segment id="1000018" name="dendrite_1000018">
+            <segment id="1000018" name="dend_1000018">
                 <parent segment="1000017"/>
                 <distal x="7855.16024925" y="2605.761757" z="9018.091601375" diameter="1.0"/>
             </segment>
-            <segment id="1000019" name="dendrite_1000019">
+            <segment id="1000019" name="dend_1000019">
                 <parent segment="1000018"/>
                 <distal x="7845.66765974999" y="2618.8125255" z="9016.619303875" diameter="1.0"/>
             </segment>
-            <segment id="1000020" name="dendrite_1000020">
+            <segment id="1000020" name="dend_1000020">
                 <parent segment="1000019"/>
                 <distal x="7843.42553275" y="2620.1366755" z="9018.646251875" diameter="1.0"/>
             </segment>
-            <segment id="1000021" name="dendrite_1000021">
+            <segment id="1000021" name="dend_1000021">
                 <parent segment="1000020"/>
                 <distal x="7829.5153365" y="2622.27727275" z="9011.6299493125" diameter="1.0"/>
             </segment>
-            <segment id="1000022" name="dendrite_1000022">
+            <segment id="1000022" name="dend_1000022">
                 <parent segment="1000021"/>
                 <distal x="7825.37507949999" y="2625.52339975" z="9008.6319593125" diameter="1.0"/>
             </segment>
-            <segment id="1000023" name="dendrite_1000023">
+            <segment id="1000023" name="dend_1000023">
                 <parent segment="1000022"/>
                 <distal x="7803.57430524999" y="2639.76952374999" z="8996.2313210625" diameter="1.0"/>
             </segment>
-            <segment id="1000024" name="dendrite_1000024">
+            <segment id="1000024" name="dend_1000024">
                 <parent segment="1000023"/>
                 <distal x="7791.12116625" y="2636.03522275" z="8991.080043375" diameter="1.0"/>
             </segment>
-            <segment id="1000025" name="dendrite_1000025">
+            <segment id="1000025" name="dend_1000025">
                 <parent segment="1000024"/>
                 <distal x="7779.12882474999" y="2633.78512774999" z="8985.191336125" diameter="1.0"/>
             </segment>
-            <segment id="1000026" name="dendrite_1000026">
+            <segment id="1000026" name="dend_1000026">
                 <parent segment="1000022"/>
                 <proximal x="7825.37507949999" y="2625.52339975" z="9008.6319593125" diameter="1.0"/>
                 <distal x="7829.0076175" y="2643.011767" z="9003.0516509375" diameter="1.0"/>
             </segment>
-            <segment id="1000027" name="dendrite_1000027">
+            <segment id="1000027" name="dend_1000027">
                 <parent segment="1000026"/>
                 <distal x="7833.31614174999" y="2669.26560424999" z="8995.8154831875" diameter="1.0"/>
             </segment>
-            <segment id="1000028" name="dendrite_1000028">
+            <segment id="1000028" name="dend_1000028">
                 <parent segment="1000027"/>
                 <distal x="7842.54295974999" y="2685.82034424999" z="8992.3913921875" diameter="1.0"/>
             </segment>
-            <segment id="1000029" name="dendrite_1000029">
+            <segment id="1000029" name="dend_1000029">
                 <parent segment="1000028"/>
                 <distal x="7856.55082075" y="2693.98429874999" z="8988.375071875" diameter="1.0"/>
             </segment>
-            <segment id="1000030" name="dendrite_1000030">
+            <segment id="1000030" name="dend_1000030">
                 <parent segment="1000029"/>
                 <distal x="7871.54292225" y="2697.578053" z="8980.0634365625" diameter="1.0"/>
             </segment>
-            <segment id="1000031" name="dendrite_1000031">
+            <segment id="1000031" name="dend_1000031">
                 <parent segment="1000030"/>
                 <distal x="7880.94139924999" y="2715.90625124999" z="8978.0166576875" diameter="1.0"/>
             </segment>
-            <segment id="1000032" name="dendrite_1000032">
+            <segment id="1000032" name="dend_1000032">
                 <parent segment="1000031"/>
                 <distal x="7887.8986725" y="2734.9843585" z="8982.5457548125" diameter="1.0"/>
             </segment>
-            <segment id="1000033" name="dendrite_1000033">
+            <segment id="1000033" name="dend_1000033">
                 <parent segment="1000020"/>
                 <proximal x="7843.42553275" y="2620.1366755" z="9018.646251875" diameter="1.0"/>
                 <distal x="7839.33969275" y="2626.6523655" z="9020.597603875" diameter="1.0"/>
             </segment>
-            <segment id="1000034" name="dendrite_1000034">
+            <segment id="1000034" name="dend_1000034">
                 <parent segment="1000033"/>
                 <distal x="7834.37904775" y="2642.57425825" z="9020.1846480625" diameter="1.0"/>
             </segment>
-            <segment id="1000035" name="dendrite_1000035">
+            <segment id="1000035" name="dend_1000035">
                 <parent segment="1000034"/>
                 <distal x="7843.98459349999" y="2669.08976725" z="9014.314657375" diameter="1.0"/>
             </segment>
-            <segment id="1000036" name="dendrite_1000036">
+            <segment id="1000036" name="dend_1000036">
                 <parent segment="1000035"/>
                 <distal x="7845.4845045" y="2683.2460775" z="9007.2434046875" diameter="1.0"/>
             </segment>
-            <segment id="1000037" name="dendrite_1000037">
+            <segment id="1000037" name="dend_1000037">
                 <parent segment="1000036"/>
                 <distal x="7843.8122245" y="2706.56640325" z="8988.886808625" diameter="1.0"/>
             </segment>
-            <segment id="1000038" name="dendrite_1000038">
+            <segment id="1000038" name="dend_1000038">
                 <parent segment="1000034"/>
                 <proximal x="7834.37904775" y="2642.57425825" z="9020.1846480625" diameter="1.0"/>
                 <distal x="7807.51166875" y="2656.31245075" z="9007.7392095625" diameter="1.0"/>
             </segment>
-            <segment id="1000039" name="dendrite_1000039">
+            <segment id="1000039" name="dend_1000039">
                 <parent segment="1000038"/>
                 <distal x="7794.21079849999" y="2661.492261" z="8997.7531135625" diameter="1.0"/>
             </segment>
-            <segment id="1000040" name="dendrite_1000040">
+            <segment id="1000040" name="dend_1000040">
                 <parent segment="1000039"/>
                 <distal x="7788.96081549999" y="2660.636649" z="8990.7821885625" diameter="1.0"/>
             </segment>
-            <segment id="1000041" name="dendrite_1000041">
+            <segment id="1000041" name="dend_1000041">
                 <parent segment="1000040"/>
                 <distal x="7777.42993299999" y="2668.96868175" z="8984.218624625" diameter="1.0"/>
             </segment>
-            <segment id="1000042" name="dendrite_1000042">
+            <segment id="1000042" name="dend_1000042">
                 <parent segment="1000041"/>
                 <distal x="7774.101402" y="2678.08197575" z="8973.312317625" diameter="1.0"/>
             </segment>
-            <segment id="1000043" name="dendrite_1000043">
+            <segment id="1000043" name="dend_1000043">
                 <parent segment="1000042"/>
                 <distal x="7768.007896" y="2675.09759675" z="8972.2841909375" diameter="1.0"/>
             </segment>
-            <segment id="1000044" name="dendrite_1000044">
+            <segment id="1000044" name="dend_1000044">
                 <parent segment="1000015"/>
                 <proximal x="7886.86698699999" y="2551.93742374999" z="9038.82801175" diameter="1.0"/>
                 <distal x="7872.2809805" y="2546.81248425" z="9039.36545675" diameter="1.0"/>
             </segment>
-            <segment id="1000045" name="dendrite_1000045">
+            <segment id="1000045" name="dend_1000045">
                 <parent segment="1000044"/>
                 <distal x="7864.40600549999" y="2548.10156125" z="9043.44325075" diameter="1.0"/>
             </segment>
-            <segment id="1000046" name="dendrite_1000046">
+            <segment id="1000046" name="dend_1000046">
                 <parent segment="1000045"/>
                 <distal x="7849.15249025" y="2538.45699775" z="9045.3545743125" diameter="1.0"/>
             </segment>
-            <segment id="1000047" name="dendrite_1000047">
+            <segment id="1000047" name="dend_1000047">
                 <parent segment="1000046"/>
                 <distal x="7844.03531124999" y="2535.85939475" z="9045.2726383125" diameter="1.0"/>
             </segment>
-            <segment id="1000048" name="dendrite_1000048">
+            <segment id="1000048" name="dend_1000048">
                 <parent segment="1000014"/>
                 <proximal x="7892.24626074999" y="2553.75788524999" z="9041.3934151875" diameter="1.0"/>
                 <distal x="7874.89079599999" y="2559.902294" z="9026.925701" diameter="1.0"/>
             </segment>
-            <segment id="1000049" name="dendrite_1000049">
+            <segment id="1000049" name="dend_1000049">
                 <parent segment="1000048"/>
                 <distal x="7864.05070924999" y="2569.23047374999" z="9013.039077375" diameter="1.0"/>
             </segment>
-            <segment id="1000050" name="dendrite_1000050">
+            <segment id="1000050" name="dend_1000050">
                 <parent segment="1000049"/>
                 <distal x="7860.06657825" y="2569.33601075" z="9001.099788375" diameter="1.0"/>
             </segment>
-            <segment id="1000051" name="dendrite_1000051">
+            <segment id="1000051" name="dend_1000051">
                 <parent segment="1000050"/>
                 <distal x="7849.1331065" y="2568.39058725" z="8989.120888625" diameter="1.0"/>
             </segment>
-            <segment id="1000052" name="dendrite_1000052">
+            <segment id="1000052" name="dend_1000052">
                 <parent segment="1000051"/>
                 <distal x="7840.8590705" y="2568.09374525" z="8978.558422625" diameter="1.0"/>
             </segment>
-            <segment id="1000053" name="dendrite_1000053">
+            <segment id="1000053" name="dend_1000053">
                 <parent segment="1000052"/>
                 <distal x="7829.1249885" y="2568.42195074999" z="8974.1201849375" diameter="1.0"/>
             </segment>
-            <segment id="1000054" name="dendrite_1000054">
+            <segment id="1000054" name="dend_1000054">
                 <parent segment="1000053"/>
                 <distal x="7812.68378374999" y="2565.207059" z="8969.107397125" diameter="1.0"/>
             </segment>
-            <segment id="1000055" name="dendrite_1000055">
+            <segment id="1000055" name="dend_1000055">
                 <parent segment="1000054"/>
                 <distal x="7799.32026749999" y="2573.75782525" z="8963.1396148125" diameter="1.0"/>
             </segment>
-            <segment id="1000056" name="dendrite_1000056">
+            <segment id="1000056" name="dend_1000056">
                 <parent segment="1000055"/>
                 <distal x="7786.01592149999" y="2586.39840575" z="8960.1602705" diameter="1.0"/>
             </segment>
-            <segment id="1000057" name="dendrite_1000057">
+            <segment id="1000057" name="dend_1000057">
                 <parent segment="1000056"/>
                 <distal x="7775.87491049999" y="2598.19925" z="8955.2139683125" diameter="1.0"/>
             </segment>
-            <segment id="1000058" name="dendrite_1000058">
+            <segment id="1000058" name="dend_1000058">
                 <parent segment="1000057"/>
                 <distal x="7779.48433399999" y="2602.6602065" z="8945.2918955625" diameter="1.0"/>
             </segment>
-            <segment id="1000059" name="dendrite_1000059">
+            <segment id="1000059" name="dend_1000059">
                 <parent segment="1000058"/>
                 <distal x="7778.10180999999" y="2607.3124475" z="8929.204983375" diameter="1.0"/>
             </segment>
-            <segment id="1000060" name="dendrite_1000060">
+            <segment id="1000060" name="dend_1000060">
                 <parent segment="1000059"/>
                 <distal x="7773.39034499999" y="2623.71088275" z="8921.875237" diameter="1.0"/>
             </segment>
-            <segment id="1000061" name="dendrite_1000061">
+            <segment id="1000061" name="dend_1000061">
                 <parent segment="1000060"/>
                 <distal x="7764.09001024999" y="2624.46092075" z="8912.054561625" diameter="1.0"/>
             </segment>
-            <segment id="1000062" name="dendrite_1000062">
+            <segment id="1000062" name="dend_1000062">
                 <parent segment="1000061"/>
                 <distal x="7761.41035924999" y="2642.02736325" z="8909.4366408125" diameter="1.0"/>
             </segment>
-            <segment id="1000063" name="dendrite_1000063">
+            <segment id="1000063" name="dend_1000063">
                 <parent segment="1000062"/>
                 <distal x="7764.01980324999" y="2645.53510025" z="8907.4833378125" diameter="1.0"/>
             </segment>
-            <segment id="1000064" name="dendrite_1000064">
+            <segment id="1000064" name="dend_1000064">
                 <parent segment="1000052"/>
                 <proximal x="7840.8590705" y="2568.09374525" z="8978.558422625" diameter="1.0"/>
                 <distal x="7822.531133" y="2552.08590775" z="8959.597708125" diameter="1.0"/>
             </segment>
-            <segment id="1000065" name="dendrite_1000065">
+            <segment id="1000065" name="dend_1000065">
                 <parent segment="1000064"/>
                 <distal x="7812.0934935" y="2536.59368324999" z="8937.3757460625" diameter="1.0"/>
             </segment>
-            <segment id="1000066" name="dendrite_1000066">
+            <segment id="1000066" name="dend_1000066">
                 <parent segment="1000065"/>
                 <distal x="7803.90233674999" y="2540.2617105" z="8930.380835875" diameter="1.0"/>
             </segment>
-            <segment id="1000067" name="dendrite_1000067">
+            <segment id="1000067" name="dend_1000067">
                 <parent segment="1000066"/>
                 <distal x="7793.69111725" y="2538.17969275" z="8924.2194950625" diameter="1.0"/>
             </segment>
-            <segment id="1000068" name="dendrite_1000068">
+            <segment id="1000068" name="dend_1000068">
                 <parent segment="1000067"/>
                 <distal x="7782.03096199999" y="2530.83208075" z="8911.12868525" diameter="1.0"/>
             </segment>
-            <segment id="1000069" name="dendrite_1000069">
+            <segment id="1000069" name="dend_1000069">
                 <parent segment="1000068"/>
                 <distal x="7772.45703774999" y="2528.07817825" z="8911.187673875" diameter="1.0"/>
             </segment>
-            <segment id="1000070" name="dendrite_1000070">
+            <segment id="1000070" name="dend_1000070">
                 <parent segment="1000069"/>
                 <distal x="7766.66813624999" y="2541.77736725" z="8913.72636925" diameter="1.0"/>
             </segment>
-            <segment id="1000071" name="dendrite_1000071">
+            <segment id="1000071" name="dend_1000071">
                 <parent segment="1000070"/>
                 <distal x="7753.06661924999" y="2542.92577125" z="8918.957099875" diameter="1.0"/>
             </segment>
-            <segment id="1000072" name="dendrite_1000072">
+            <segment id="1000072" name="dend_1000072">
                 <parent segment="1000071"/>
                 <distal x="7744.14458124999" y="2542.12102799999" z="8918.6629830625" diameter="1.0"/>
             </segment>
-            <segment id="1000073" name="dendrite_1000073">
+            <segment id="1000073" name="dend_1000073">
                 <parent segment="1000072"/>
                 <distal x="7730.999895" y="2559.82417075" z="8913.2138654375" diameter="1.0"/>
             </segment>
-            <segment id="1000074" name="dendrite_1000074">
+            <segment id="1000074" name="dend_1000074">
                 <parent segment="1000073"/>
                 <distal x="7710.82832299999" y="2570.35549849999" z="8908.701113625" diameter="1.0"/>
             </segment>
-            <segment id="1000075" name="dendrite_1000075">
+            <segment id="1000075" name="dend_1000075">
                 <parent segment="1000074"/>
                 <distal x="7703.921848" y="2571.6680095" z="8901.726774625" diameter="1.0"/>
             </segment>
-            <segment id="1000076" name="dendrite_1000076">
+            <segment id="1000076" name="dend_1000076">
                 <parent segment="1000075"/>
                 <distal x="7673.24625874999" y="2566.28132574999" z="8889.7058890625" diameter="1.0"/>
             </segment>
-            <segment id="1000077" name="dendrite_1000077">
+            <segment id="1000077" name="dend_1000077">
                 <parent segment="1000076"/>
                 <distal x="7656.35181749999" y="2559.10550175" z="8881.669738625" diameter="1.0"/>
             </segment>
-            <segment id="1000078" name="dendrite_1000078">
+            <segment id="1000078" name="dend_1000078">
                 <parent segment="1000077"/>
                 <distal x="7648.05828274999" y="2543.61323949999" z="8880.80875875" diameter="1.0"/>
             </segment>
-            <segment id="1000079" name="dendrite_1000079">
+            <segment id="1000079" name="dend_1000079">
                 <parent segment="1000078"/>
                 <distal x="7630.84747974999" y="2532.203092" z="8874.18164625" diameter="1.0"/>
             </segment>
-            <segment id="1000080" name="dendrite_1000080">
+            <segment id="1000080" name="dend_1000080">
                 <parent segment="1000079"/>
                 <distal x="7631.5702605" y="2516.81642649999" z="8873.5723295" diameter="1.0"/>
             </segment>
-            <segment id="1000081" name="dendrite_1000081">
+            <segment id="1000081" name="dend_1000081">
                 <parent segment="1000069"/>
                 <proximal x="7772.45703774999" y="2528.07817825" z="8911.187673875" diameter="1.0"/>
                 <distal x="7763.38682375" y="2524.16009125" z="8902.208820875" diameter="1.0"/>
             </segment>
-            <segment id="1000082" name="dendrite_1000082">
+            <segment id="1000082" name="dend_1000082">
                 <parent segment="1000081"/>
                 <distal x="7753.82409874999" y="2508.80860175" z="8885.7432819375" diameter="1.0"/>
             </segment>
-            <segment id="1000083" name="dendrite_1000083">
+            <segment id="1000083" name="dend_1000083">
                 <parent segment="1000082"/>
                 <distal x="7748.53923699999" y="2489.625016" z="8875.2040683125" diameter="1.0"/>
             </segment>
-            <segment id="1000084" name="dendrite_1000084">
+            <segment id="1000084" name="dend_1000084">
                 <parent segment="1000083"/>
                 <distal x="7742.48452699999" y="2475.94139475" z="8858.7624533125" diameter="1.0"/>
             </segment>
-            <segment id="1000085" name="dendrite_1000085">
+            <segment id="1000085" name="dend_1000085">
                 <parent segment="1000084"/>
                 <distal x="7752.03142449999" y="2460.42976375" z="8842.0263493125" diameter="1.0"/>
             </segment>
-            <segment id="1000086" name="dendrite_1000086">
+            <segment id="1000086" name="dend_1000086">
                 <parent segment="1000004"/>
                 <proximal x="8018.33193974999" y="2420.69148099999" z="9122.46668025" diameter="1.0"/>
                 <distal x="8031.21109699999" y="2427.64064524999" z="9128.8524409375" diameter="1.0"/>
             </segment>
-            <segment id="1000087" name="dendrite_1000087">
+            <segment id="1000087" name="dend_1000087">
                 <parent segment="1000086"/>
                 <distal x="8038.24230449999" y="2465.08203575" z="9120.6199791875" diameter="1.0"/>
             </segment>
-            <segment id="1000088" name="dendrite_1000088">
+            <segment id="1000088" name="dend_1000088">
                 <parent segment="1000087"/>
                 <distal x="8050.40985025" y="2488.30075925" z="9112.6581565" diameter="1.0"/>
             </segment>
-            <segment id="1000089" name="dendrite_1000089">
+            <segment id="1000089" name="dend_1000089">
                 <parent segment="1000088"/>
                 <distal x="8051.17178349999" y="2506.54681425" z="9104.8367841875" diameter="1.0"/>
             </segment>
-            <segment id="1000090" name="dendrite_1000090">
+            <segment id="1000090" name="dend_1000090">
                 <parent segment="1000089"/>
                 <distal x="8049.82819249999" y="2508.64845925" z="9101.7471031875" diameter="1.0"/>
             </segment>
-            <segment id="1000091" name="dendrite_1000091">
+            <segment id="1000091" name="dend_1000091">
                 <parent segment="1000090"/>
                 <distal x="8053.19892174999" y="2524.449245" z="9096.7081524375" diameter="1.0"/>
             </segment>
-            <segment id="1000092" name="dendrite_1000092">
+            <segment id="1000092" name="dend_1000092">
                 <parent segment="1000091"/>
                 <distal x="8039.0627255" y="2560.4608715" z="9083.8936029375" diameter="1.0"/>
             </segment>
-            <segment id="1000093" name="dendrite_1000093">
+            <segment id="1000093" name="dend_1000093">
                 <parent segment="1000092"/>
                 <distal x="8041.73436049999" y="2563.69536049999" z="9080.8624479375" diameter="1.0"/>
             </segment>
-            <segment id="1000094" name="dendrite_1000094">
+            <segment id="1000094" name="dend_1000094">
                 <parent segment="1000093"/>
                 <distal x="8037.04669049999" y="2563.0586345" z="9072.9229179375" diameter="1.0"/>
             </segment>
-            <segment id="1000095" name="dendrite_1000095">
+            <segment id="1000095" name="dend_1000095">
                 <parent segment="1000094"/>
                 <distal x="8037.96889049999" y="2565.28516525" z="9063.1924209375" diameter="1.0"/>
             </segment>
-            <segment id="1000096" name="dendrite_1000096">
+            <segment id="1000096" name="dend_1000096">
                 <parent segment="1000095"/>
                 <distal x="8043.2810645" y="2567.17191125" z="9062.1179829375" diameter="1.0"/>
             </segment>
-            <segment id="1000097" name="dendrite_1000097">
+            <segment id="1000097" name="dend_1000097">
                 <parent segment="1000096"/>
                 <distal x="8047.03875749999" y="2570.17573225" z="9058.3699008125" diameter="1.0"/>
             </segment>
-            <segment id="1000098" name="dendrite_1000098">
+            <segment id="1000098" name="dend_1000098">
                 <parent segment="1000097"/>
                 <distal x="8044.80454349999" y="2555.863265" z="9045.5008745625" diameter="1.0"/>
             </segment>
-            <segment id="1000099" name="dendrite_1000099">
+            <segment id="1000099" name="dend_1000099">
                 <parent segment="1000001"/>
                 <proximal x="8039.331091" y="2373.28544499999" z="9131.2477273125" diameter="2.0"/>
                 <distal x="8037.009282" y="2366.755567" z="9130.2488853125" diameter="2.0"/>
             </segment>
-            <segment id="1000100" name="dendrite_1000100">
+            <segment id="1000100" name="dend_1000100">
                 <parent segment="1000099"/>
                 <distal x="8039.69148474999" y="2357.1211625" z="9128.7587895625" diameter="1.0"/>
             </segment>
-            <segment id="1000101" name="dendrite_1000101">
+            <segment id="1000101" name="dend_1000101">
                 <parent segment="1000100"/>
                 <distal x="8039.66038875" y="2354.3827905" z="9128.7568395625" diameter="1.0"/>
             </segment>
-            <segment id="1000102" name="dendrite_1000102">
+            <segment id="1000102" name="dend_1000102">
                 <parent segment="1000101"/>
                 <distal x="8045.5310375" y="2337.26557625" z="9131.253823375" diameter="1.0"/>
             </segment>
-            <segment id="1000103" name="dendrite_1000103">
+            <segment id="1000103" name="dend_1000103">
                 <parent segment="1000102"/>
                 <distal x="8048.67169949999" y="2333.34764925" z="9131.224560375" diameter="1.0"/>
             </segment>
-            <segment id="1000104" name="dendrite_1000104">
+            <segment id="1000104" name="dend_1000104">
                 <parent segment="1000103"/>
                 <distal x="8061.39035099999" y="2325.46101425" z="9132.2218298125" diameter="1.0"/>
             </segment>
-            <segment id="1000105" name="dendrite_1000105">
+            <segment id="1000105" name="dend_1000105">
                 <parent segment="1000104"/>
                 <distal x="8076.48814125" y="2311.83595099999" z="9133.1727646875" diameter="1.0"/>
             </segment>
-            <segment id="1000106" name="dendrite_1000106">
+            <segment id="1000106" name="dend_1000106">
                 <parent segment="1000105"/>
                 <distal x="8088.79311224999" y="2309.59769949999" z="9134.20526975" diameter="1.0"/>
             </segment>
-            <segment id="1000107" name="dendrite_1000107">
+            <segment id="1000107" name="dend_1000107">
                 <parent segment="1000106"/>
                 <distal x="8095.92558975" y="2300.82030725" z="9135.535160625" diameter="1.0"/>
             </segment>
-            <segment id="1000108" name="dendrite_1000108">
+            <segment id="1000108" name="dend_1000108">
                 <parent segment="1000107"/>
                 <distal x="8101.414043" y="2284.38671999999" z="9126.181623125" diameter="1.0"/>
             </segment>
-            <segment id="1000109" name="dendrite_1000109">
+            <segment id="1000109" name="dend_1000109">
                 <parent segment="1000108"/>
                 <distal x="8104.03903499999" y="2283.273484" z="9123.105598125" diameter="1.0"/>
             </segment>
-            <segment id="1000110" name="dendrite_1000110">
+            <segment id="1000110" name="dend_1000110">
                 <parent segment="1000109"/>
                 <distal x="8113.2424335" y="2283.4961415" z="9117.3504788125" diameter="1.0"/>
             </segment>
-            <segment id="1000111" name="dendrite_1000111">
+            <segment id="1000111" name="dend_1000111">
                 <parent segment="1000110"/>
                 <distal x="8130.66804774999" y="2272.23051774999" z="9118.412128375" diameter="1.0"/>
             </segment>
-            <segment id="1000112" name="dendrite_1000112">
+            <segment id="1000112" name="dend_1000112">
                 <parent segment="1000111"/>
                 <distal x="8146.2262795" y="2264.19133625" z="9116.263630375" diameter="1.0"/>
             </segment>
-            <segment id="1000113" name="dendrite_1000113">
+            <segment id="1000113" name="dend_1000113">
                 <parent segment="1000112"/>
                 <distal x="8165.30830125" y="2265.3711385" z="9112.302906375" diameter="1.0"/>
             </segment>
-            <segment id="1000114" name="dendrite_1000114">
+            <segment id="1000114" name="dend_1000114">
                 <parent segment="1000113"/>
                 <distal x="8181.91436849999" y="2255.359437" z="9108.804897375" diameter="1.0"/>
             </segment>
-            <segment id="1000115" name="dendrite_1000115">
+            <segment id="1000115" name="dend_1000115">
                 <parent segment="1000114"/>
                 <distal x="8197.7893605" y="2240.531313" z="9107.2665329375" diameter="1.0"/>
             </segment>
-            <segment id="1000116" name="dendrite_1000116">
+            <segment id="1000116" name="dend_1000116">
                 <parent segment="1000115"/>
                 <distal x="8218.95707824999" y="2222.59375525" z="9106.757743875" diameter="1.0"/>
             </segment>
-            <segment id="1000117" name="dendrite_1000117">
+            <segment id="1000117" name="dend_1000117">
                 <parent segment="1000116"/>
                 <distal x="8223.35933399999" y="2214.30078175" z="9106.2850305" diameter="1.0"/>
             </segment>
-            <segment id="1000118" name="dendrite_1000118">
+            <segment id="1000118" name="dend_1000118">
                 <parent segment="1000117"/>
                 <distal x="8232.046999" y="2208.25393424999" z="9109.2001174375" diameter="1.0"/>
             </segment>
-            <segment id="1000119" name="dendrite_1000119">
+            <segment id="1000119" name="dend_1000119">
                 <parent segment="1000118"/>
                 <distal x="8240.39420775" y="2199.0077855" z="9105.718685625" diameter="1.0"/>
             </segment>
-            <segment id="1000120" name="dendrite_1000120">
+            <segment id="1000120" name="dend_1000120">
                 <parent segment="1000119"/>
                 <distal x="8253.03877449999" y="2197.17968874999" z="9102.7177744375" diameter="1.0"/>
             </segment>
-            <segment id="1000121" name="dendrite_1000121">
+            <segment id="1000121" name="dend_1000121">
                 <parent segment="1000120"/>
                 <distal x="8258.37470199999" y="2197.90232275" z="9102.7275358125" diameter="1.0"/>
             </segment>
-            <segment id="1000122" name="dendrite_1000122">
+            <segment id="1000122" name="dend_1000122">
                 <parent segment="1000111"/>
                 <proximal x="8130.66804774999" y="2272.23051774999" z="9118.412128375" diameter="1.0"/>
                 <distal x="8140.06221349999" y="2257.42184825" z="9117.263448375" diameter="1.0"/>
             </segment>
-            <segment id="1000123" name="dendrite_1000123">
+            <segment id="1000123" name="dend_1000123">
                 <parent segment="1000122"/>
                 <distal x="8142.171552" y="2225.292913" z="9115.236268625" diameter="1.0"/>
             </segment>
-            <segment id="1000124" name="dendrite_1000124">
+            <segment id="1000124" name="dend_1000124">
                 <parent segment="1000123"/>
                 <distal x="8147.41820774999" y="2198.81642849999" z="9108.179763" diameter="1.0"/>
             </segment>
-            <segment id="1000125" name="dendrite_1000125">
+            <segment id="1000125" name="dend_1000125">
                 <parent segment="1000124"/>
                 <distal x="8149.39472575" y="2190.3672025" z="9100.203166" diameter="1.0"/>
             </segment>
-            <segment id="1000126" name="dendrite_1000126">
+            <segment id="1000126" name="dend_1000126">
                 <parent segment="1000125"/>
                 <distal x="8155.820188" y="2178.65625825" z="9093.64864525" diameter="1.0"/>
             </segment>
-            <segment id="1000127" name="dendrite_1000127">
+            <segment id="1000127" name="dend_1000127">
                 <parent segment="1000109"/>
                 <proximal x="8104.03903499999" y="2283.273484" z="9123.105598125" diameter="1.0"/>
                 <distal x="8109.33582199999" y="2284.265571" z="9130.1984610625" diameter="1.0"/>
             </segment>
-            <segment id="1000128" name="dendrite_1000128">
+            <segment id="1000128" name="dend_1000128">
                 <parent segment="1000127"/>
                 <distal x="8113.39421524999" y="2270.04299825" z="9134.671675125" diameter="1.0"/>
             </segment>
-            <segment id="1000129" name="dendrite_1000129">
+            <segment id="1000129" name="dend_1000129">
                 <parent segment="1000128"/>
                 <distal x="8125.35132249999" y="2267.0741915" z="9138.7236280625" diameter="1.0"/>
             </segment>
-            <segment id="1000130" name="dendrite_1000130">
+            <segment id="1000130" name="dend_1000130">
                 <parent segment="1000129"/>
                 <distal x="8130.26581349999" y="2255.49609674999" z="9141.148436125" diameter="1.0"/>
             </segment>
-            <segment id="1000131" name="dendrite_1000131">
+            <segment id="1000131" name="dend_1000131">
                 <parent segment="1000130"/>
                 <distal x="8140.61694149999" y="2253.78902325" z="9141.1572220625" diameter="1.0"/>
             </segment>
-            <segment id="1000132" name="dendrite_1000132">
+            <segment id="1000132" name="dend_1000132">
                 <parent segment="1000131"/>
                 <distal x="8154.51533749999" y="2245.24224375" z="9144.6140450625" diameter="1.0"/>
             </segment>
-            <segment id="1000133" name="dendrite_1000133">
+            <segment id="1000133" name="dend_1000133">
                 <parent segment="1000132"/>
                 <distal x="8164.15204824999" y="2241.449222" z="9145.4870634375" diameter="1.0"/>
             </segment>
-            <segment id="1000134" name="dendrite_1000134">
+            <segment id="1000134" name="dend_1000134">
                 <parent segment="1000133"/>
                 <distal x="8179.28485375" y="2230.17578524999" z="9149.0614254375" diameter="1.0"/>
             </segment>
-            <segment id="1000135" name="dendrite_1000135">
+            <segment id="1000135" name="dend_1000135">
                 <parent segment="1000134"/>
                 <distal x="8184.7106755" y="2216.73439275" z="9146.6007820625" diameter="1.0"/>
             </segment>
-            <segment id="1000136" name="dendrite_1000136">
+            <segment id="1000136" name="dend_1000136">
                 <parent segment="1000101"/>
                 <proximal x="8039.66038875" y="2354.3827905" z="9128.7568395625" diameter="1.0"/>
                 <distal x="8026.69139825" y="2351.09375325" z="9119.8388564375" diameter="1.0"/>
             </segment>
-            <segment id="1000137" name="dendrite_1000137">
+            <segment id="1000137" name="dend_1000137">
                 <parent segment="1000136"/>
                 <distal x="8021.30861024999" y="2336.68355225" z="9114.0266110625" diameter="1.0"/>
             </segment>
-            <segment id="1000138" name="dendrite_1000138">
+            <segment id="1000138" name="dend_1000138">
                 <parent segment="1000137"/>
                 <distal x="8015.67576124999" y="2335.35940225" z="9107.3351460625" diameter="1.0"/>
             </segment>
-            <segment id="1000139" name="dendrite_1000139">
+            <segment id="1000139" name="dend_1000139">
                 <parent segment="1000138"/>
                 <distal x="8007.43722199999" y="2332.77340224999" z="9101.3191574375" diameter="1.0"/>
             </segment>
-            <segment id="1000140" name="dendrite_1000140">
+            <segment id="1000140" name="dend_1000140">
                 <parent segment="1000139"/>
                 <distal x="8002.79684299999" y="2331.48831025" z="9096.2352054375" diameter="1.0"/>
             </segment>
-            <segment id="1000141" name="dendrite_1000141">
+            <segment id="1000141" name="dend_1000141">
                 <parent segment="1000140"/>
                 <distal x="7982.89470774999" y="2326.76959775" z="9087.298672875" diameter="1.0"/>
             </segment>
-            <segment id="1000142" name="dendrite_1000142">
+            <segment id="1000142" name="dend_1000142">
                 <parent segment="1000141"/>
                 <distal x="7979.00395524999" y="2318.11333199999" z="9078.9054478125" diameter="1.0"/>
             </segment>
-            <segment id="1000143" name="dendrite_1000143">
+            <segment id="1000143" name="dend_1000143">
                 <parent segment="1000142"/>
                 <distal x="7970.71872749999" y="2325.44922775" z="9072.4306356875" diameter="1.0"/>
             </segment>
-            <segment id="1000144" name="dendrite_1000144">
+            <segment id="1000144" name="dend_1000144">
                 <parent segment="1000143"/>
                 <distal x="7957.37489149999" y="2323.49212825" z="9059.3739759375" diameter="1.0"/>
             </segment>
-            <segment id="1000145" name="dendrite_1000145">
+            <segment id="1000145" name="dend_1000145">
                 <parent segment="1000144"/>
                 <distal x="7944.26944525" y="2324.22259325" z="9048.472444875" diameter="1.0"/>
             </segment>
-            <segment id="1000146" name="dendrite_1000146">
+            <segment id="1000146" name="dend_1000146">
                 <parent segment="1000145"/>
                 <distal x="7936.67995749999" y="2337.55476725" z="9040.0448315" diameter="1.0"/>
             </segment>
-            <segment id="1000147" name="dendrite_1000147">
+            <segment id="1000147" name="dend_1000147">
                 <parent segment="1000146"/>
                 <distal x="7923.0002845" y="2340.769509" z="9030.0539531875" diameter="1.0"/>
             </segment>
-            <segment id="1000148" name="dendrite_1000148">
+            <segment id="1000148" name="dend_1000148">
                 <parent segment="1000147"/>
                 <distal x="7901.60153499999" y="2358.64447799999" z="9013.6418191875" diameter="1.0"/>
             </segment>
-            <segment id="1000149" name="dendrite_1000149">
+            <segment id="1000149" name="dend_1000149">
                 <parent segment="1000148"/>
                 <distal x="7887.14447725" y="2387.898372" z="9007.1495886875" diameter="1.0"/>
             </segment>
-            <segment id="1000150" name="dendrite_1000150">
+            <segment id="1000150" name="dend_1000150">
                 <parent segment="1000149"/>
                 <distal x="7873.99634575" y="2398.9686705" z="8999.5242545625" diameter="1.0"/>
             </segment>
-            <segment id="1000151" name="dendrite_1000151">
+            <segment id="1000151" name="dend_1000151">
                 <parent segment="1000150"/>
                 <distal x="7863.60137799999" y="2404.94536" z="8993.433547125" diameter="1.0"/>
             </segment>
-            <segment id="1000152" name="dendrite_1000152">
+            <segment id="1000152" name="dend_1000152">
                 <parent segment="1000100"/>
                 <proximal x="8039.69148474999" y="2357.1211625" z="9128.7587895625" diameter="1.0"/>
                 <distal x="8037.53593725" y="2360.4112145" z="9118.8190540625" diameter="1.0"/>
             </segment>
-            <segment id="1000153" name="dendrite_1000153">
+            <segment id="1000153" name="dend_1000153">
                 <parent segment="1000152"/>
                 <distal x="8049.04270924999" y="2366.38665299999" z="9103.9129986875" diameter="1.0"/>
             </segment>
-            <segment id="1000154" name="dendrite_1000154">
+            <segment id="1000154" name="dend_1000154">
                 <parent segment="1000153"/>
                 <distal x="8052.51170525" y="2375.16018699999" z="9092.3976574375" diameter="1.0"/>
             </segment>
-            <segment id="1000155" name="dendrite_1000155">
+            <segment id="1000155" name="dend_1000155">
                 <parent segment="1000154"/>
                 <distal x="8059.64073499999" y="2385.19146425" z="9076.5536468125" diameter="1.0"/>
             </segment>
-            <segment id="1000156" name="dendrite_1000156">
+            <segment id="1000156" name="dend_1000156">
                 <parent segment="1000155"/>
                 <distal x="8064.523401" y="2385.17185525" z="9062.6142338125" diameter="1.0"/>
             </segment>
-            <segment id="1000157" name="dendrite_1000157">
+            <segment id="1000157" name="dend_1000157">
                 <parent segment="1000156"/>
                 <distal x="8074.4923575" y="2395.37499349999" z="9051.6610444375" diameter="1.0"/>
             </segment>
-            <segment id="1000158" name="dendrite_1000158">
+            <segment id="1000158" name="dend_1000158">
                 <parent segment="1000157"/>
                 <distal x="8072.52361349999" y="2392.1523005" z="9046.1162004375" diameter="1.0"/>
             </segment>
-            <segment id="1000159" name="dendrite_1000159">
+            <segment id="1000159" name="dend_1000159">
                 <parent segment="1000158"/>
                 <distal x="8081.87867424999" y="2394.17976024999" z="9035.6493401875" diameter="1.0"/>
             </segment>
-            <segment id="1000160" name="dendrite_1000160">
+            <segment id="1000160" name="dend_1000160">
                 <parent segment="1000159"/>
                 <distal x="8090.58192474999" y="2380.53910225" z="9032.204964875" diameter="1.0"/>
             </segment>
-            <segment id="1000161" name="dendrite_1000161">
+            <segment id="1000161" name="dend_1000161">
                 <parent segment="1000152"/>
                 <proximal x="8037.53593725" y="2360.4112145" z="9118.8190540625" diameter="1.0"/>
                 <distal x="8025.20722824999" y="2352.37501824999" z="9105.9170014375" diameter="1.0"/>
             </segment>
-            <segment id="1000162" name="dendrite_1000162">
+            <segment id="1000162" name="dend_1000162">
                 <parent segment="1000161"/>
                 <distal x="8018.77755324999" y="2337.98044024999" z="9099.3253850625" diameter="1.0"/>
             </segment>
-            <segment id="1000163" name="dendrite_1000163">
+            <segment id="1000163" name="dend_1000163">
                 <parent segment="1000162"/>
                 <distal x="8015.95691825" y="2337.98044024999" z="9095.3563520625" diameter="1.0"/>
             </segment>
-            <segment id="1000164" name="dendrite_1000164">
+            <segment id="1000164" name="dend_1000164">
                 <parent segment="1000163"/>
                 <distal x="8003.08207724999" y="2323.25386225" z="9088.9187711875" diameter="1.0"/>
             </segment>
-            <segment id="1000165" name="dendrite_1000165">
+            <segment id="1000165" name="dend_1000165">
                 <parent segment="1000164"/>
                 <distal x="7995.31671674999" y="2304.32026025" z="9086.3249649375" diameter="1.0"/>
             </segment>
-            <segment id="1000166" name="dendrite_1000166">
+            <segment id="1000166" name="dend_1000166">
                 <parent segment="1000165"/>
                 <distal x="7996.73027274999" y="2301.71484525" z="9080.4011659375" diameter="1.0"/>
             </segment>
-            <segment id="1000167" name="dendrite_1000167">
+            <segment id="1000167" name="dend_1000167">
                 <parent segment="1000166"/>
                 <distal x="7991.98818575" y="2297.12113325" z="9073.3975629375" diameter="1.0"/>
             </segment>
-            <segment id="1000168" name="dendrite_1000168">
+            <segment id="1000168" name="dend_1000168">
                 <parent segment="1000167"/>
                 <distal x="7994.48037275" y="2297.13675624999" z="9068.3994489375" diameter="1.0"/>
             </segment>
-            <segment id="1000169" name="dendrite_1000169">
+            <segment id="1000169" name="dend_1000169">
                 <parent segment="1000168"/>
                 <distal x="7991.35548424999" y="2289.56248075" z="9051.556460375" diameter="1.0"/>
             </segment>
-            <segment id="1000170" name="dendrite_1000170">
+            <segment id="1000170" name="dend_1000170">
                 <parent segment="1000169"/>
                 <distal x="8000.63689025" y="2284.35930275" z="9040.460920375" diameter="1.0"/>
             </segment>
-            <segment id="1000171" name="dendrite_1000171">
+            <segment id="1000171" name="dend_1000171">
                 <parent segment="1000170"/>
                 <distal x="8006.62124324999" y="2276.58988725" z="9036.482515625" diameter="1.0"/>
             </segment>
-            <segment id="1000172" name="dendrite_1000172">
+            <segment id="1000172" name="dend_1000172">
                 <parent segment="1000171"/>
                 <distal x="8002.10560374999" y="2269.94135574999" z="9031.4853644375" diameter="1.0"/>
             </segment>
-            <segment id="1000173" name="dendrite_1000173">
+            <segment id="1000173" name="dend_1000173">
                 <parent segment="1000172"/>
                 <distal x="7994.79294175" y="2268.12108775" z="9026.4696924375" diameter="1.0"/>
             </segment>
-            <segment id="1000174" name="dendrite_1000174">
+            <segment id="1000174" name="dend_1000174">
                 <parent segment="1000173"/>
                 <distal x="7987.70304149999" y="2267.71091025" z="9015.587674625" diameter="1.0"/>
             </segment>
-            <segment id="1000175" name="dendrite_1000175">
+            <segment id="1000175" name="dend_1000175">
                 <parent segment="1000174"/>
                 <distal x="7985.7731675" y="2269.26558224999" z="9007.548650625" diameter="1.0"/>
             </segment>
-            <segment id="1000176" name="dendrite_1000176">
+            <segment id="1000176" name="dend_1000176">
                 <parent segment="1000175"/>
                 <distal x="7985.7893625" y="2268.36326025" z="8995.623016625" diameter="1.0"/>
             </segment>
-            <segment id="1000177" name="dendrite_1000177">
+            <segment id="1000177" name="dend_1000177">
                 <parent segment="1000176"/>
                 <distal x="7981.28505724999" y="2263.58596" z="8981.36346375" diameter="1.0"/>
             </segment>
-            <segment id="1000178" name="dendrite_1000178">
+            <segment id="1000178" name="dend_1000178">
                 <parent segment="1000177"/>
                 <distal x="7971.15220225" y="2255.65623225" z="8967.2079784375" diameter="1.0"/>
             </segment>
-            <segment id="1000179" name="dendrite_1000179">
+            <segment id="1000179" name="dend_1000179">
                 <parent segment="1000178"/>
                 <distal x="7961.75800399999" y="2249.6641015" z="8959.1494295625" diameter="1.0"/>
             </segment>
-            <segment id="1000180" name="dendrite_1000180">
+            <segment id="1000180" name="dend_1000180">
                 <parent segment="1000179"/>
                 <distal x="7944.79271874999" y="2251.6874645" z="8940.509797625" diameter="1.0"/>
             </segment>
-            <segment id="1000181" name="dendrite_1000181">
+            <segment id="1000181" name="dend_1000181">
                 <parent segment="1000180"/>
                 <distal x="7919.84753274999" y="2239.984396" z="8908.9206844375" diameter="1.0"/>
             </segment>
-            <segment id="1000182" name="dendrite_1000182">
+            <segment id="1000182" name="dend_1000182">
                 <parent segment="1000181"/>
                 <distal x="7910.67962749999" y="2231.33988399999" z="8894.8681034375" diameter="1.0"/>
             </segment>
-            <segment id="1000183" name="dendrite_1000183">
+            <segment id="1000183" name="dend_1000183">
                 <parent segment="1000182"/>
                 <distal x="7888.867206" y="2229.007774" z="8867.9206926875" diameter="1.0"/>
             </segment>
-            <segment id="1000184" name="dendrite_1000184">
+            <segment id="1000184" name="dend_1000184">
                 <parent segment="1000183"/>
                 <distal x="7855.0781855" y="2219.6406375" z="8838.0108706875" diameter="1.0"/>
             </segment>
-            <segment id="1000185" name="dendrite_1000185">
+            <segment id="1000185" name="dend_1000185">
                 <parent segment="1000184"/>
                 <distal x="7819.547102" y="2221.18746125" z="8806.113134" diameter="1.0"/>
             </segment>
-            <segment id="1000186" name="dendrite_1000186">
+            <segment id="1000186" name="dend_1000186">
                 <parent segment="1000185"/>
                 <distal x="7815.92979849999" y="2214.765646" z="8796.08225475" diameter="1.0"/>
             </segment>
-            <segment id="1000187" name="dendrite_1000187">
+            <segment id="1000187" name="dend_1000187">
                 <parent segment="1000186"/>
                 <distal x="7800.08987625" y="2216.156271" z="8785.0968271875" diameter="1.0"/>
             </segment>
-            <segment id="1000188" name="dendrite_1000188">
+            <segment id="1000188" name="dend_1000188">
                 <parent segment="1000187"/>
                 <distal x="7794.01197024999" y="2216.812447" z="8783.1493771875" diameter="1.0"/>
             </segment>
-            <segment id="1000189" name="dendrite_1000189">
+            <segment id="1000189" name="dend_1000189">
                 <parent segment="1000188"/>
                 <distal x="7789.249824" y="2218.16398675" z="8779.115454375" diameter="1.0"/>
             </segment>
-            <segment id="1000190" name="dendrite_1000190">
+            <segment id="1000190" name="dend_1000190">
                 <parent segment="1000165"/>
                 <proximal x="7995.31671674999" y="2304.32026025" z="9086.3249649375" diameter="1.0"/>
                 <distal x="7988.414158" y="2295.781237" z="9084.29312775" diameter="1.0"/>
             </segment>
-            <segment id="1000191" name="dendrite_1000191">
+            <segment id="1000191" name="dend_1000191">
                 <parent segment="1000190"/>
                 <distal x="7982.48817724999" y="2283.79293575" z="9079.8660118125" diameter="1.0"/>
             </segment>
-            <segment id="1000192" name="dendrite_1000192">
+            <segment id="1000192" name="dend_1000192">
                 <parent segment="1000191"/>
                 <distal x="7972.89438975" y="2257.81255" z="9075.02335125" diameter="1.0"/>
             </segment>
-            <segment id="1000193" name="dendrite_1000193">
+            <segment id="1000193" name="dend_1000193">
                 <parent segment="1000192"/>
                 <distal x="7964.718828" y="2238.85944575" z="9068.9053148125" diameter="1.0"/>
             </segment>
-            <segment id="1000194" name="dendrite_1000194">
+            <segment id="1000194" name="dend_1000194">
                 <parent segment="1000163"/>
                 <proximal x="8015.95691825" y="2337.98044024999" z="9095.3563520625" diameter="1.0"/>
                 <distal x="8013.49598275" y="2344.3202835" z="9086.324254" diameter="1.0"/>
             </segment>
-            <segment id="1000195" name="dendrite_1000195">
+            <segment id="1000195" name="dend_1000195">
                 <parent segment="1000194"/>
                 <distal x="8006.76579999999" y="2349.7421105" z="9080.955097" diameter="1.0"/>
             </segment>
-            <segment id="1000196" name="dendrite_1000196">
+            <segment id="1000196" name="dend_1000196">
                 <parent segment="1000195"/>
                 <distal x="8004.25029099999" y="2357.53906549999" z="9071.976732" diameter="1.0"/>
             </segment>
-            <segment id="1000197" name="dendrite_1000197">
+            <segment id="1000197" name="dend_1000197">
                 <parent segment="1000196"/>
                 <distal x="8000.77323949999" y="2368.32417699999" z="9068.49017275" diameter="1.0"/>
             </segment>
-            <segment id="1000198" name="dendrite_1000198">
+            <segment id="1000198" name="dend_1000198">
                 <parent segment="1000197"/>
                 <distal x="7993.05404774999" y="2386.69749224999" z="9059.9957445" diameter="1.0"/>
             </segment>
-            <segment id="1000199" name="dendrite_1000199">
+            <segment id="1000199" name="dend_1000199">
                 <parent segment="1000001"/>
                 <proximal x="8039.331091" y="2373.28544499999" z="9131.2477273125" diameter="2.0"/>
                 <distal x="8045.96483099999" y="2375.244409" z="9132.2465703125" diameter="2.0"/>
             </segment>
-            <segment id="1000200" name="dendrite_1000200">
+            <segment id="1000200" name="dend_1000200">
                 <parent segment="1000199"/>
                 <distal x="8047.39871899999" y="2386.08988325" z="9133.84592625" diameter="1.0"/>
             </segment>
-            <segment id="1000201" name="dendrite_1000201">
+            <segment id="1000201" name="dend_1000201">
                 <parent segment="1000200"/>
                 <distal x="8063.30869374999" y="2402.7031675" z="9117.8663269375" diameter="1.0"/>
             </segment>
-            <segment id="1000202" name="dendrite_1000202">
+            <segment id="1000202" name="dend_1000202">
                 <parent segment="1000201"/>
                 <distal x="8066.0779395" y="2419.7500235" z="9108.4793808125" diameter="1.0"/>
             </segment>
-            <segment id="1000203" name="dendrite_1000203">
+            <segment id="1000203" name="dend_1000203">
                 <parent segment="1000202"/>
                 <distal x="8067.78093899999" y="2453.6094255" z="9097.60553" diameter="1.0"/>
             </segment>
-            <segment id="1000204" name="dendrite_1000204">
+            <segment id="1000204" name="dend_1000204">
                 <parent segment="1000203"/>
                 <distal x="8058.91379599999" y="2493.35549274999" z="9090.4362865625" diameter="1.0"/>
             </segment>
-            <segment id="1000205" name="dendrite_1000205">
+            <segment id="1000205" name="dend_1000205">
                 <parent segment="1000204"/>
                 <distal x="8060.84005824999" y="2513.7109285" z="9092.2960788125" diameter="1.0"/>
             </segment>
-            <segment id="1000206" name="dendrite_1000206">
+            <segment id="1000206" name="dend_1000206">
                 <parent segment="1000205"/>
                 <distal x="8072.671896" y="2542.39059975" z="9100.3154591875" diameter="1.0"/>
             </segment>
-            <segment id="1000207" name="dendrite_1000207">
+            <segment id="1000207" name="dend_1000207">
                 <parent segment="1000206"/>
                 <distal x="8081.42579825" y="2553.48040025" z="9100.345710375" diameter="1.0"/>
             </segment>
-            <segment id="1000208" name="dendrite_1000208">
+            <segment id="1000208" name="dend_1000208">
                 <parent segment="1000207"/>
                 <distal x="8074.281517" y="2577.07427775" z="9106.4599749375" diameter="1.0"/>
             </segment>
-            <segment id="1000209" name="dendrite_1000209">
+            <segment id="1000209" name="dend_1000209">
                 <parent segment="1000208"/>
                 <distal x="8080.70683074999" y="2582.19918425" z="9109.3370246875" diameter="1.0"/>
             </segment>
-            <segment id="1000210" name="dendrite_1000210">
+            <segment id="1000210" name="dend_1000210">
                 <parent segment="1000209"/>
                 <distal x="8080.44122174999" y="2588.08197324999" z="9113.8386446875" diameter="1.0"/>
             </segment>
-            <segment id="1000211" name="dendrite_1000211">
+            <segment id="1000211" name="dend_1000211">
                 <parent segment="1000210"/>
                 <distal x="8064.40215025" y="2596.613343" z="9119.8425514375" diameter="1.0"/>
             </segment>
-            <segment id="1000212" name="dendrite_1000212">
+            <segment id="1000212" name="dend_1000212">
                 <parent segment="1000211"/>
                 <distal x="8057.92563824999" y="2597.04289975" z="9117.8272956875" diameter="1.0"/>
             </segment>
-            <segment id="1000213" name="dendrite_1000213">
+            <segment id="1000213" name="dend_1000213">
                 <parent segment="1000202"/>
                 <proximal x="8066.0779395" y="2419.7500235" z="9108.4793808125" diameter="1.0"/>
                 <distal x="8072.94922775" y="2439.21486925" z="9091.8800273125" diameter="1.0"/>
             </segment>
-            <segment id="1000214" name="dendrite_1000214">
+            <segment id="1000214" name="dend_1000214">
                 <parent segment="1000213"/>
                 <distal x="8095.4685315" y="2428.406261" z="9079.68165925" diameter="1.0"/>
             </segment>
-            <segment id="1000215" name="dendrite_1000215">
+            <segment id="1000215" name="dend_1000215">
                 <parent segment="1000214"/>
                 <distal x="8105.42167849999" y="2430.73820575" z="9076.6924604375" diameter="1.0"/>
             </segment>
-            <segment id="1000216" name="dendrite_1000216">
+            <segment id="1000216" name="dend_1000216">
                 <parent segment="1000215"/>
                 <distal x="8114.57824449999" y="2416.67570825" z="9067.142366" diameter="1.0"/>
             </segment>
-            <segment id="1000217" name="dendrite_1000217">
+            <segment id="1000217" name="dend_1000217">
                 <parent segment="1000216"/>
                 <distal x="8121.91405549999" y="2404.88665399999" z="9059.65239675" diameter="1.0"/>
             </segment>
-            <segment id="1000218" name="dendrite_1000218">
+            <segment id="1000218" name="dend_1000218">
                 <parent segment="1000217"/>
                 <distal x="8117.452846" y="2391.79298175" z="9053.2138478125" diameter="1.0"/>
             </segment>
-            <segment id="1000219" name="dendrite_1000219">
+            <segment id="1000219" name="dend_1000219">
                 <parent segment="1000213"/>
                 <proximal x="8072.94922775" y="2439.21486925" z="9091.8800273125" diameter="1.0"/>
                 <distal x="8070.95301849999" y="2461.9804075" z="9074.2492183125" diameter="1.0"/>
             </segment>
-            <segment id="1000220" name="dendrite_1000220">
+            <segment id="1000220" name="dend_1000220">
                 <parent segment="1000219"/>
                 <distal x="8068.22629799999" y="2492.03899474999" z="9063.7411475625" diameter="1.0"/>
             </segment>
-            <segment id="1000221" name="dendrite_1000221">
+            <segment id="1000221" name="dend_1000221">
                 <parent segment="1000220"/>
                 <distal x="8057.70326849999" y="2505.230477" z="9055.6552295625" diameter="1.0"/>
             </segment>
-            <segment id="1000222" name="dendrite_1000222">
+            <segment id="1000222" name="dend_1000222">
                 <parent segment="1000200"/>
                 <proximal x="8047.39871899999" y="2386.08988325" z="9133.84592625" diameter="1.0"/>
                 <distal x="8053.39823699999" y="2395.20700325" z="9139.79508725" diameter="1.0"/>
             </segment>
-            <segment id="1000223" name="dendrite_1000223">
+            <segment id="1000223" name="dend_1000223">
                 <parent segment="1000222"/>
                 <distal x="8060.06658925" y="2425.16009524999" z="9136.904167625" diameter="1.0"/>
             </segment>
-            <segment id="1000224" name="dendrite_1000224">
+            <segment id="1000224" name="dend_1000224">
                 <parent segment="1000223"/>
                 <distal x="8069.64073799999" y="2436.06641075" z="9133.30678525" diameter="1.0"/>
             </segment>
-            <segment id="1000225" name="dendrite_1000225">
+            <segment id="1000225" name="dend_1000225">
                 <parent segment="1000224"/>
                 <distal x="8073.83583899999" y="2453.47659675" z="9131.03708125" diameter="1.0"/>
             </segment>
-            <segment id="1000226" name="dendrite_1000226">
+            <segment id="1000226" name="dend_1000226">
                 <parent segment="1000225"/>
                 <distal x="8084.28927299999" y="2465.523485" z="9127.5476124375" diameter="1.0"/>
             </segment>
-            <segment id="1000227" name="dendrite_1000227">
+            <segment id="1000227" name="dend_1000227">
                 <parent segment="1000226"/>
                 <distal x="8096.35953799999" y="2473.7266155" z="9123.1142089375" diameter="1.0"/>
             </segment>
-            <segment id="1000228" name="dendrite_1000228">
+            <segment id="1000228" name="dend_1000228">
                 <parent segment="1000227"/>
                 <distal x="8110.08172624999" y="2475.968721" z="9119.1105595625" diameter="1.0"/>
             </segment>
-            <segment id="1000229" name="dendrite_1000229">
+            <segment id="1000229" name="dend_1000229">
                 <parent segment="1000228"/>
                 <distal x="8136.66429049999" y="2487.00392725" z="9112.722478375" diameter="1.0"/>
             </segment>
-            <segment id="1000230" name="dendrite_1000230">
+            <segment id="1000230" name="dend_1000230">
                 <parent segment="1000229"/>
                 <distal x="8149.72678849999" y="2493.82028925" z="9107.1278995625" diameter="1.0"/>
             </segment>
-            <segment id="1000231" name="dendrite_1000231">
+            <segment id="1000231" name="dend_1000231">
                 <parent segment="1000230"/>
                 <distal x="8159.43734549999" y="2528.3828245" z="9098.326361125" diameter="1.0"/>
             </segment>
-            <segment id="1000232" name="dendrite_1000232">
+            <segment id="1000232" name="dend_1000232">
                 <parent segment="1000231"/>
                 <distal x="8160.95712574999" y="2550.7266135" z="9092.9025495" diameter="1.0"/>
             </segment>
-            <segment id="1000233" name="dendrite_1000233">
+            <segment id="1000233" name="dend_1000233">
                 <parent segment="1000232"/>
                 <distal x="8160.55871274999" y="2555.2616585" z="9088.9042535" diameter="1.0"/>
             </segment>
-            <segment id="1000234" name="dendrite_1000234">
+            <segment id="1000234" name="dend_1000234">
                 <parent segment="1000233"/>
                 <distal x="8165.18726749999" y="2568.72262025" z="9085.463062875" diameter="1.0"/>
             </segment>
-            <segment id="1000235" name="dendrite_1000235">
+            <segment id="1000235" name="dend_1000235">
                 <parent segment="1000234"/>
                 <distal x="8166.52373249999" y="2573.08596924999" z="9085.431848875" diameter="1.0"/>
             </segment>
-            <segment id="1000236" name="dendrite_1000236">
+            <segment id="1000236" name="dend_1000236">
                 <parent segment="1000235"/>
                 <distal x="8176.7420685" y="2588.343763" z="9080.0851665625" diameter="1.0"/>
             </segment>
-            <segment id="1000237" name="dendrite_1000237">
+            <segment id="1000237" name="dend_1000237">
                 <parent segment="1000236"/>
                 <distal x="8187.10559275" y="2581.86335075" z="9072.7254078125" diameter="1.0"/>
             </segment>
-            <segment id="1000238" name="dendrite_1000238">
+            <segment id="1000238" name="dend_1000238">
                 <parent segment="1000237"/>
                 <distal x="8205.4528015" y="2596.898427" z="9068.1863819375" diameter="1.0"/>
             </segment>
-            <segment id="1000239" name="dendrite_1000239">
+            <segment id="1000239" name="dend_1000239">
                 <parent segment="1000238"/>
                 <distal x="8223.37910224999" y="2617.0898775" z="9070.6124428125" diameter="1.0"/>
             </segment>
-            <segment id="1000240" name="dendrite_1000240">
+            <segment id="1000240" name="dend_1000240">
                 <parent segment="1000239"/>
                 <distal x="8234.85578324999" y="2624.35937175" z="9075.6203224375" diameter="1.0"/>
             </segment>
-            <segment id="1000241" name="dendrite_1000241">
+            <segment id="1000241" name="dend_1000241">
                 <parent segment="1000240"/>
                 <distal x="8240.62103874999" y="2643.8867835" z="9079.0417900625" diameter="1.0"/>
             </segment>
-            <segment id="1000242" name="dendrite_1000242">
+            <segment id="1000242" name="dend_1000242">
                 <parent segment="1000241"/>
                 <distal x="8237.93385574999" y="2646.1094285" z="9075.1688360625" diameter="1.0"/>
             </segment>
-            <segment id="1000243" name="dendrite_1000243">
+            <segment id="1000243" name="dend_1000243">
                 <parent segment="1000227"/>
                 <proximal x="8096.35953799999" y="2473.7266155" z="9123.1142089375" diameter="1.0"/>
                 <distal x="8106.24987849999" y="2473.89062575" z="9130.131066125" diameter="1.0"/>
             </segment>
-            <segment id="1000244" name="dendrite_1000244">
+            <segment id="1000244" name="dend_1000244">
                 <parent segment="1000243"/>
                 <distal x="8113.20316149999" y="2489.17972675" z="9132.5263708125" diameter="1.0"/>
             </segment>
-            <segment id="1000245" name="dendrite_1000245">
+            <segment id="1000245" name="dend_1000245">
                 <parent segment="1000224"/>
                 <proximal x="8069.64073799999" y="2436.06641075" z="9133.30678525" diameter="1.0"/>
                 <distal x="8086.3903455" y="2439.60548799999" z="9132.931742875" diameter="1.0"/>
             </segment>
-            <segment id="1000246" name="dendrite_1000246">
+            <segment id="1000246" name="dend_1000246">
                 <parent segment="1000245"/>
                 <distal x="8096.054901" y="2445.8553895" z="9125.04677025" diameter="1.0"/>
             </segment>
-            <segment id="1000247" name="dendrite_1000247">
+            <segment id="1000247" name="dend_1000247">
                 <parent segment="1000246"/>
                 <distal x="8103.1952985" y="2450.85159625" z="9128.4561099375" diameter="1.0"/>
             </segment>
-            <segment id="1000248" name="dendrite_1000248">
+            <segment id="1000248" name="dend_1000248">
                 <parent segment="1000247"/>
                 <distal x="8109.26530599999" y="2458.5703635" z="9133.4600875625" diameter="1.0"/>
             </segment>
-            <segment id="1000249" name="dendrite_1000249">
+            <segment id="1000249" name="dend_1000249">
                 <parent segment="1000248"/>
                 <distal x="8124.23465649999" y="2465.12105274999" z="9136.496130625" diameter="1.0"/>
             </segment>
-            <segment id="1000250" name="dendrite_1000250">
+            <segment id="1000250" name="dend_1000250">
                 <parent segment="1000249"/>
                 <distal x="8140.92206049999" y="2486.44144" z="9140.0517198125" diameter="1.0"/>
             </segment>
-            <segment id="1000251" name="dendrite_1000251">
+            <segment id="1000251" name="dend_1000251">
                 <parent segment="1000250"/>
                 <distal x="8162.90989025" y="2504.82418025" z="9152.5910521875" diameter="1.0"/>
             </segment>
-            <segment id="1000252" name="dendrite_1000252">
+            <segment id="1000252" name="dend_1000252">
                 <parent segment="1000251"/>
                 <distal x="8178.35914249999" y="2516.402374" z="9161.4989108125" diameter="1.0"/>
             </segment>
-            <segment id="1000253" name="dendrite_1000253">
+            <segment id="1000253" name="dend_1000253">
                 <parent segment="1000001"/>
                 <proximal x="8039.331091" y="2373.28544499999" z="9131.2477273125" diameter="2.0"/>
                 <distal x="8027.3570435" y="2363.7008795" z="9137.23199325" diameter="2.0"/>
             </segment>
-            <segment id="1000254" name="dendrite_1000254">
+            <segment id="1000254" name="dend_1000254">
                 <parent segment="1000253"/>
                 <distal x="8022.85370625" y="2349.60098975" z="9135.6970184375" diameter="2.0"/>
             </segment>
-            <segment id="1000255" name="dendrite_1000255">
+            <segment id="1000255" name="dend_1000255">
                 <parent segment="1000254"/>
                 <distal x="8008.56217949999" y="2345.1211545" z="9133.623239375" diameter="1.0"/>
             </segment>
-            <segment id="1000256" name="dendrite_1000256">
+            <segment id="1000256" name="dend_1000256">
                 <parent segment="1000255"/>
                 <distal x="8002.67214349999" y="2344.5976165" z="9132.427847375" diameter="1.0"/>
             </segment>
-            <segment id="1000257" name="dendrite_1000257">
+            <segment id="1000257" name="dend_1000257">
                 <parent segment="1000256"/>
                 <distal x="7985.56251749999" y="2340.855465" z="9127.7413626875" diameter="1.0"/>
             </segment>
-            <segment id="1000258" name="dendrite_1000258">
+            <segment id="1000258" name="dend_1000258">
                 <parent segment="1000257"/>
                 <distal x="7975.30483749999" y="2337.597699" z="9124.6980136875" diameter="1.0"/>
             </segment>
-            <segment id="1000259" name="dendrite_1000259">
+            <segment id="1000259" name="dend_1000259">
                 <parent segment="1000258"/>
                 <distal x="7955.99588774999" y="2334.01166249999" z="9112.638633" diameter="1.0"/>
             </segment>
-            <segment id="1000260" name="dendrite_1000260">
+            <segment id="1000260" name="dend_1000260">
                 <parent segment="1000259"/>
                 <distal x="7932.453121" y="2334.04687925" z="9102.3721861875" diameter="1.0"/>
             </segment>
-            <segment id="1000261" name="dendrite_1000261">
+            <segment id="1000261" name="dend_1000261">
                 <parent segment="1000259"/>
                 <proximal x="7955.99588774999" y="2334.01166249999" z="9112.638633" diameter="1.0"/>
                 <distal x="7940.03915499999" y="2328.17187049999" z="9107.306422375" diameter="1.0"/>
             </segment>
-            <segment id="1000262" name="dendrite_1000262">
+            <segment id="1000262" name="dend_1000262">
                 <parent segment="1000261"/>
                 <distal x="7916.85555475" y="2322.51958475" z="9095.898231" diameter="1.0"/>
             </segment>
-            <segment id="1000263" name="dendrite_1000263">
+            <segment id="1000263" name="dend_1000263">
                 <parent segment="1000262"/>
                 <distal x="7894.929754" y="2307.5469465" z="9094.2471706875" diameter="1.0"/>
             </segment>
-            <segment id="1000264" name="dendrite_1000264">
+            <segment id="1000264" name="dend_1000264">
                 <parent segment="1000263"/>
                 <distal x="7865.62101125" y="2295.57806774999" z="9091.250130875" diameter="1.0"/>
             </segment>
-            <segment id="1000265" name="dendrite_1000265">
+            <segment id="1000265" name="dend_1000265">
                 <parent segment="1000264"/>
                 <distal x="7836.62532349999" y="2276.30472375" z="9085.7255153125" diameter="1.0"/>
             </segment>
-            <segment id="1000266" name="dendrite_1000266">
+            <segment id="1000266" name="dend_1000266">
                 <parent segment="1000265"/>
                 <distal x="7824.64872449999" y="2268.8750765" z="9080.628870125" diameter="1.0"/>
             </segment>
-            <segment id="1000267" name="dendrite_1000267">
+            <segment id="1000267" name="dend_1000267">
                 <parent segment="1000256"/>
                 <proximal x="8002.67214349999" y="2344.5976165" z="9132.427847375" diameter="1.0"/>
                 <distal x="7988.7655615" y="2338.78119374999" z="9133.7178463125" diameter="1.0"/>
             </segment>
-            <segment id="1000268" name="dendrite_1000268">
+            <segment id="1000268" name="dend_1000268">
                 <parent segment="1000267"/>
                 <distal x="7972.20320049999" y="2319.25003925" z="9137.138545" diameter="1.0"/>
             </segment>
-            <segment id="1000269" name="dendrite_1000269">
+            <segment id="1000269" name="dend_1000269">
                 <parent segment="1000268"/>
                 <distal x="7967.37108225" y="2304.78121275" z="9136.6668039375" diameter="1.0"/>
             </segment>
-            <segment id="1000270" name="dendrite_1000270">
+            <segment id="1000270" name="dend_1000270">
                 <parent segment="1000269"/>
                 <distal x="7948.73847175" y="2291.17575949999" z="9137.670016375" diameter="1.0"/>
             </segment>
-            <segment id="1000271" name="dendrite_1000271">
+            <segment id="1000271" name="dend_1000271">
                 <parent segment="1000270"/>
                 <distal x="7944.01196774999" y="2275.53511975" z="9142.123233875" diameter="1.0"/>
             </segment>
-            <segment id="1000272" name="dendrite_1000272">
+            <segment id="1000272" name="dend_1000272">
                 <parent segment="1000271"/>
                 <distal x="7931.1872225" y="2256.05467275" z="9151.5613799375" diameter="1.0"/>
             </segment>
-            <segment id="1000273" name="dendrite_1000273">
+            <segment id="1000273" name="dend_1000273">
                 <parent segment="1000001"/>
                 <proximal x="8039.331091" y="2373.28544499999" z="9131.2477273125" diameter="2.0"/>
                 <distal x="8044.638083" y="2370.673494" z="9149.2268923125" diameter="2.0"/>
             </segment>
-            <segment id="1000274" name="dendrite_1000274">
+            <segment id="1000274" name="dend_1000274">
                 <parent segment="1000273"/>
                 <distal x="8040.83593099999" y="2378.67192025" z="9159.7607938125" diameter="1.0"/>
             </segment>
-            <segment id="1000275" name="dendrite_1000275">
+            <segment id="1000275" name="dend_1000275">
                 <parent segment="1000274"/>
                 <distal x="8029.67192749999" y="2380.8593945" z="9171.69909775" diameter="1.0"/>
             </segment>
-            <segment id="1000276" name="dendrite_1000276">
+            <segment id="1000276" name="dend_1000276">
                 <parent segment="1000275"/>
                 <distal x="8019.03532274999" y="2390.5977335" z="9180.1747425625" diameter="1.0"/>
             </segment>
-            <segment id="1000277" name="dendrite_1000277">
+            <segment id="1000277" name="dend_1000277">
                 <parent segment="1000276"/>
                 <distal x="8014.28546074999" y="2396.5077845" z="9181.1965075625" diameter="1.0"/>
             </segment>
-            <segment id="1000278" name="dendrite_1000278">
+            <segment id="1000278" name="dend_1000278">
                 <parent segment="1000277"/>
                 <distal x="8006.24606574999" y="2424.22650824999" z="9186.304608875" diameter="1.0"/>
             </segment>
-            <segment id="1000279" name="dendrite_1000279">
+            <segment id="1000279" name="dend_1000279">
                 <parent segment="1000278"/>
                 <distal x="8011.51159674999" y="2432.05072525" z="9189.767392875" diameter="1.0"/>
             </segment>
-            <segment id="1000280" name="dendrite_1000280">
+            <segment id="1000280" name="dend_1000280">
                 <parent segment="1000274"/>
                 <proximal x="8040.83593099999" y="2378.67192025" z="9159.7607938125" diameter="1.0"/>
                 <distal x="8046.812775" y="2385.83980125" z="9168.7118468125" diameter="1.0"/>
             </segment>
-            <segment id="1000281" name="dendrite_1000281">
+            <segment id="1000281" name="dend_1000281">
                 <parent segment="1000280"/>
                 <distal x="8054.913961" y="2417.54683425" z="9179.7705800625" diameter="1.0"/>
             </segment>
-            <segment id="1000282" name="dendrite_1000282">
+            <segment id="1000282" name="dend_1000282">
                 <parent segment="1000281"/>
                 <distal x="8073.50030449999" y="2437.14458299999" z="9195.1826376875" diameter="1.0"/>
             </segment>
-            <segment id="1000283" name="dendrite_1000283">
+            <segment id="1000283" name="dend_1000283">
                 <parent segment="1000282"/>
                 <distal x="8081.43747049999" y="2442.308544" z="9200.0871106875" diameter="1.0"/>
             </segment>
-            <segment id="1000284" name="dendrite_1000284">
+            <segment id="1000284" name="dend_1000284">
                 <parent segment="1000283"/>
                 <distal x="8094.398483" y="2446.52738375" z="9212.206862625" diameter="1.0"/>
             </segment>
-            <segment id="1000285" name="dendrite_1000285">
+            <segment id="1000285" name="dend_1000285">
                 <parent segment="1000284"/>
                 <distal x="8111.04679399999" y="2465.88673" z="9212.747884625" diameter="1.0"/>
             </segment>
-            <segment id="1000286" name="dendrite_1000286">
+            <segment id="1000286" name="dend_1000286">
                 <parent segment="1000285"/>
                 <distal x="8118.234426" y="2468.749929" z="9213.568223625" diameter="1.0"/>
             </segment>
-            <segment id="1000287" name="dendrite_1000287">
+            <segment id="1000287" name="dend_1000287">
                 <parent segment="1000286"/>
                 <distal x="8129.34406199999" y="2485.4023885" z="9219.22830725" diameter="1.0"/>
             </segment>
-            <segmentGroup id="axon_group" neuroLexId="GO:0030424">
+            <segmentGroup id="soma_0">
+                <member segment="0"/>
+            </segmentGroup>
+            <segmentGroup id="axon_0" neuroLexId="sao864921383">
                 <member segment="1001"/>
                 <member segment="1002"/>
                 <member segment="1003"/>
@@ -4632,6 +4635,8 @@
                 <member segment="1386"/>
                 <member segment="1387"/>
                 <member segment="1388"/>
+            </segmentGroup>
+            <segmentGroup id="axon_1" neuroLexId="sao864921383">
                 <member segment="1389"/>
                 <member segment="1390"/>
                 <member segment="1391"/>
@@ -4656,13 +4661,19 @@
                 <member segment="1410"/>
                 <member segment="1411"/>
                 <member segment="1412"/>
+            </segmentGroup>
+            <segmentGroup id="axon_2" neuroLexId="sao864921383">
                 <member segment="1413"/>
                 <member segment="1414"/>
                 <member segment="1415"/>
                 <member segment="1416"/>
                 <member segment="1417"/>
                 <member segment="1418"/>
+            </segmentGroup>
+            <segmentGroup id="axon_3" neuroLexId="sao864921383">
                 <member segment="1419"/>
+            </segmentGroup>
+            <segmentGroup id="axon_4" neuroLexId="sao864921383">
                 <member segment="1420"/>
                 <member segment="1421"/>
                 <member segment="1422"/>
@@ -4675,6 +4686,8 @@
                 <member segment="1429"/>
                 <member segment="1430"/>
                 <member segment="1431"/>
+            </segmentGroup>
+            <segmentGroup id="axon_5" neuroLexId="sao864921383">
                 <member segment="1432"/>
                 <member segment="1433"/>
                 <member segment="1434"/>
@@ -4687,6 +4700,8 @@
                 <member segment="1441"/>
                 <member segment="1442"/>
                 <member segment="1443"/>
+            </segmentGroup>
+            <segmentGroup id="axon_6" neuroLexId="sao864921383">
                 <member segment="1444"/>
                 <member segment="1445"/>
                 <member segment="1446"/>
@@ -4729,14 +4744,20 @@
                 <member segment="1483"/>
                 <member segment="1484"/>
                 <member segment="1485"/>
+            </segmentGroup>
+            <segmentGroup id="axon_7" neuroLexId="sao864921383">
                 <member segment="1486"/>
                 <member segment="1487"/>
+            </segmentGroup>
+            <segmentGroup id="axon_8" neuroLexId="sao864921383">
                 <member segment="1488"/>
                 <member segment="1489"/>
                 <member segment="1490"/>
                 <member segment="1491"/>
                 <member segment="1492"/>
                 <member segment="1493"/>
+            </segmentGroup>
+            <segmentGroup id="axon_9" neuroLexId="sao864921383">
                 <member segment="1494"/>
                 <member segment="1495"/>
                 <member segment="1496"/>
@@ -4762,8 +4783,12 @@
                 <member segment="1516"/>
                 <member segment="1517"/>
                 <member segment="1518"/>
+            </segmentGroup>
+            <segmentGroup id="axon_10" neuroLexId="sao864921383">
                 <member segment="1519"/>
                 <member segment="1520"/>
+            </segmentGroup>
+            <segmentGroup id="axon_11" neuroLexId="sao864921383">
                 <member segment="1521"/>
                 <member segment="1522"/>
                 <member segment="1523"/>
@@ -4779,6 +4804,8 @@
                 <member segment="1533"/>
                 <member segment="1534"/>
                 <member segment="1535"/>
+            </segmentGroup>
+            <segmentGroup id="axon_12" neuroLexId="sao864921383">
                 <member segment="1536"/>
                 <member segment="1537"/>
                 <member segment="1538"/>
@@ -4810,6 +4837,8 @@
                 <member segment="1564"/>
                 <member segment="1565"/>
                 <member segment="1566"/>
+            </segmentGroup>
+            <segmentGroup id="axon_13" neuroLexId="sao864921383">
                 <member segment="1567"/>
                 <member segment="1568"/>
                 <member segment="1569"/>
@@ -4833,6 +4862,8 @@
                 <member segment="1587"/>
                 <member segment="1588"/>
                 <member segment="1589"/>
+            </segmentGroup>
+            <segmentGroup id="axon_14" neuroLexId="sao864921383">
                 <member segment="1590"/>
                 <member segment="1591"/>
                 <member segment="1592"/>
@@ -4851,9 +4882,15 @@
                 <member segment="1605"/>
                 <member segment="1606"/>
                 <member segment="1607"/>
+            </segmentGroup>
+            <segmentGroup id="axon_15" neuroLexId="sao864921383">
                 <member segment="1608"/>
+            </segmentGroup>
+            <segmentGroup id="axon_16" neuroLexId="sao864921383">
                 <member segment="1609"/>
                 <member segment="1610"/>
+            </segmentGroup>
+            <segmentGroup id="axon_17" neuroLexId="sao864921383">
                 <member segment="1611"/>
                 <member segment="1612"/>
                 <member segment="1613"/>
@@ -4862,6 +4899,8 @@
                 <member segment="1616"/>
                 <member segment="1617"/>
                 <member segment="1618"/>
+            </segmentGroup>
+            <segmentGroup id="axon_18" neuroLexId="sao864921383">
                 <member segment="1619"/>
                 <member segment="1620"/>
                 <member segment="1621"/>
@@ -4869,11 +4908,19 @@
                 <member segment="1623"/>
                 <member segment="1624"/>
                 <member segment="1625"/>
+            </segmentGroup>
+            <segmentGroup id="axon_19" neuroLexId="sao864921383">
                 <member segment="1626"/>
+            </segmentGroup>
+            <segmentGroup id="axon_20" neuroLexId="sao864921383">
                 <member segment="1627"/>
                 <member segment="1628"/>
+            </segmentGroup>
+            <segmentGroup id="axon_21" neuroLexId="sao864921383">
                 <member segment="1629"/>
                 <member segment="1630"/>
+            </segmentGroup>
+            <segmentGroup id="axon_22" neuroLexId="sao864921383">
                 <member segment="1631"/>
                 <member segment="1632"/>
                 <member segment="1633"/>
@@ -4882,6 +4929,8 @@
                 <member segment="1636"/>
                 <member segment="1637"/>
                 <member segment="1638"/>
+            </segmentGroup>
+            <segmentGroup id="axon_23" neuroLexId="sao864921383">
                 <member segment="1639"/>
                 <member segment="1640"/>
                 <member segment="1641"/>
@@ -4894,6 +4943,8 @@
                 <member segment="1648"/>
                 <member segment="1649"/>
                 <member segment="1650"/>
+            </segmentGroup>
+            <segmentGroup id="axon_24" neuroLexId="sao864921383">
                 <member segment="1651"/>
                 <member segment="1652"/>
                 <member segment="1653"/>
@@ -4901,6 +4952,8 @@
                 <member segment="1655"/>
                 <member segment="1656"/>
                 <member segment="1657"/>
+            </segmentGroup>
+            <segmentGroup id="axon_25" neuroLexId="sao864921383">
                 <member segment="1658"/>
                 <member segment="1659"/>
                 <member segment="1660"/>
@@ -4924,9 +4977,13 @@
                 <member segment="1678"/>
                 <member segment="1679"/>
                 <member segment="1680"/>
+            </segmentGroup>
+            <segmentGroup id="axon_26" neuroLexId="sao864921383">
                 <member segment="1681"/>
                 <member segment="1682"/>
                 <member segment="1683"/>
+            </segmentGroup>
+            <segmentGroup id="axon_27" neuroLexId="sao864921383">
                 <member segment="1684"/>
                 <member segment="1685"/>
                 <member segment="1686"/>
@@ -4942,8 +4999,12 @@
                 <member segment="1696"/>
                 <member segment="1697"/>
                 <member segment="1698"/>
+            </segmentGroup>
+            <segmentGroup id="axon_28" neuroLexId="sao864921383">
                 <member segment="1699"/>
                 <member segment="1700"/>
+            </segmentGroup>
+            <segmentGroup id="axon_29" neuroLexId="sao864921383">
                 <member segment="1701"/>
                 <member segment="1702"/>
                 <member segment="1703"/>
@@ -4959,10 +5020,14 @@
                 <member segment="1713"/>
                 <member segment="1714"/>
                 <member segment="1715"/>
+            </segmentGroup>
+            <segmentGroup id="axon_30" neuroLexId="sao864921383">
                 <member segment="1716"/>
                 <member segment="1717"/>
                 <member segment="1718"/>
                 <member segment="1719"/>
+            </segmentGroup>
+            <segmentGroup id="axon_31" neuroLexId="sao864921383">
                 <member segment="1720"/>
                 <member segment="1721"/>
                 <member segment="1722"/>
@@ -4983,6 +5048,8 @@
                 <member segment="1737"/>
                 <member segment="1738"/>
                 <member segment="1739"/>
+            </segmentGroup>
+            <segmentGroup id="axon_32" neuroLexId="sao864921383">
                 <member segment="1740"/>
                 <member segment="1741"/>
                 <member segment="1742"/>
@@ -4999,10 +5066,7 @@
                 <member segment="1753"/>
                 <member segment="1754"/>
             </segmentGroup>
-            <segmentGroup id="soma_group" neuroLexId="GO:0043025">
-                <member segment="0"/>
-            </segmentGroup>
-            <segmentGroup id="dendrite_group" neuroLexId="GO:0030425">
+            <segmentGroup id="dend_0" neuroLexId="sao864921383">
                 <member segment="1000001"/>
                 <member segment="1000002"/>
                 <member segment="1000003"/>
@@ -5028,6 +5092,8 @@
                 <member segment="1000023"/>
                 <member segment="1000024"/>
                 <member segment="1000025"/>
+            </segmentGroup>
+            <segmentGroup id="dend_1" neuroLexId="sao864921383">
                 <member segment="1000026"/>
                 <member segment="1000027"/>
                 <member segment="1000028"/>
@@ -5035,21 +5101,29 @@
                 <member segment="1000030"/>
                 <member segment="1000031"/>
                 <member segment="1000032"/>
+            </segmentGroup>
+            <segmentGroup id="dend_2" neuroLexId="sao864921383">
                 <member segment="1000033"/>
                 <member segment="1000034"/>
                 <member segment="1000035"/>
                 <member segment="1000036"/>
                 <member segment="1000037"/>
+            </segmentGroup>
+            <segmentGroup id="dend_3" neuroLexId="sao864921383">
                 <member segment="1000038"/>
                 <member segment="1000039"/>
                 <member segment="1000040"/>
                 <member segment="1000041"/>
                 <member segment="1000042"/>
                 <member segment="1000043"/>
+            </segmentGroup>
+            <segmentGroup id="dend_4" neuroLexId="sao864921383">
                 <member segment="1000044"/>
                 <member segment="1000045"/>
                 <member segment="1000046"/>
                 <member segment="1000047"/>
+            </segmentGroup>
+            <segmentGroup id="dend_5" neuroLexId="sao864921383">
                 <member segment="1000048"/>
                 <member segment="1000049"/>
                 <member segment="1000050"/>
@@ -5066,6 +5140,8 @@
                 <member segment="1000061"/>
                 <member segment="1000062"/>
                 <member segment="1000063"/>
+            </segmentGroup>
+            <segmentGroup id="dend_6" neuroLexId="sao864921383">
                 <member segment="1000064"/>
                 <member segment="1000065"/>
                 <member segment="1000066"/>
@@ -5083,11 +5159,15 @@
                 <member segment="1000078"/>
                 <member segment="1000079"/>
                 <member segment="1000080"/>
+            </segmentGroup>
+            <segmentGroup id="dend_7" neuroLexId="sao864921383">
                 <member segment="1000081"/>
                 <member segment="1000082"/>
                 <member segment="1000083"/>
                 <member segment="1000084"/>
                 <member segment="1000085"/>
+            </segmentGroup>
+            <segmentGroup id="dend_8" neuroLexId="sao864921383">
                 <member segment="1000086"/>
                 <member segment="1000087"/>
                 <member segment="1000088"/>
@@ -5101,6 +5181,8 @@
                 <member segment="1000096"/>
                 <member segment="1000097"/>
                 <member segment="1000098"/>
+            </segmentGroup>
+            <segmentGroup id="dend_9" neuroLexId="sao864921383">
                 <member segment="1000099"/>
                 <member segment="1000100"/>
                 <member segment="1000101"/>
@@ -5124,11 +5206,15 @@
                 <member segment="1000119"/>
                 <member segment="1000120"/>
                 <member segment="1000121"/>
+            </segmentGroup>
+            <segmentGroup id="dend_10" neuroLexId="sao864921383">
                 <member segment="1000122"/>
                 <member segment="1000123"/>
                 <member segment="1000124"/>
                 <member segment="1000125"/>
                 <member segment="1000126"/>
+            </segmentGroup>
+            <segmentGroup id="dend_11" neuroLexId="sao864921383">
                 <member segment="1000127"/>
                 <member segment="1000128"/>
                 <member segment="1000129"/>
@@ -5138,6 +5224,8 @@
                 <member segment="1000133"/>
                 <member segment="1000134"/>
                 <member segment="1000135"/>
+            </segmentGroup>
+            <segmentGroup id="dend_12" neuroLexId="sao864921383">
                 <member segment="1000136"/>
                 <member segment="1000137"/>
                 <member segment="1000138"/>
@@ -5154,6 +5242,8 @@
                 <member segment="1000149"/>
                 <member segment="1000150"/>
                 <member segment="1000151"/>
+            </segmentGroup>
+            <segmentGroup id="dend_13" neuroLexId="sao864921383">
                 <member segment="1000152"/>
                 <member segment="1000153"/>
                 <member segment="1000154"/>
@@ -5163,6 +5253,8 @@
                 <member segment="1000158"/>
                 <member segment="1000159"/>
                 <member segment="1000160"/>
+            </segmentGroup>
+            <segmentGroup id="dend_14" neuroLexId="sao864921383">
                 <member segment="1000161"/>
                 <member segment="1000162"/>
                 <member segment="1000163"/>
@@ -5192,15 +5284,21 @@
                 <member segment="1000187"/>
                 <member segment="1000188"/>
                 <member segment="1000189"/>
+            </segmentGroup>
+            <segmentGroup id="dend_15" neuroLexId="sao864921383">
                 <member segment="1000190"/>
                 <member segment="1000191"/>
                 <member segment="1000192"/>
                 <member segment="1000193"/>
+            </segmentGroup>
+            <segmentGroup id="dend_16" neuroLexId="sao864921383">
                 <member segment="1000194"/>
                 <member segment="1000195"/>
                 <member segment="1000196"/>
                 <member segment="1000197"/>
                 <member segment="1000198"/>
+            </segmentGroup>
+            <segmentGroup id="dend_17" neuroLexId="sao864921383">
                 <member segment="1000199"/>
                 <member segment="1000200"/>
                 <member segment="1000201"/>
@@ -5215,15 +5313,21 @@
                 <member segment="1000210"/>
                 <member segment="1000211"/>
                 <member segment="1000212"/>
+            </segmentGroup>
+            <segmentGroup id="dend_18" neuroLexId="sao864921383">
                 <member segment="1000213"/>
                 <member segment="1000214"/>
                 <member segment="1000215"/>
                 <member segment="1000216"/>
                 <member segment="1000217"/>
                 <member segment="1000218"/>
+            </segmentGroup>
+            <segmentGroup id="dend_19" neuroLexId="sao864921383">
                 <member segment="1000219"/>
                 <member segment="1000220"/>
                 <member segment="1000221"/>
+            </segmentGroup>
+            <segmentGroup id="dend_20" neuroLexId="sao864921383">
                 <member segment="1000222"/>
                 <member segment="1000223"/>
                 <member segment="1000224"/>
@@ -5245,8 +5349,12 @@
                 <member segment="1000240"/>
                 <member segment="1000241"/>
                 <member segment="1000242"/>
+            </segmentGroup>
+            <segmentGroup id="dend_21" neuroLexId="sao864921383">
                 <member segment="1000243"/>
                 <member segment="1000244"/>
+            </segmentGroup>
+            <segmentGroup id="dend_22" neuroLexId="sao864921383">
                 <member segment="1000245"/>
                 <member segment="1000246"/>
                 <member segment="1000247"/>
@@ -5255,6 +5363,8 @@
                 <member segment="1000250"/>
                 <member segment="1000251"/>
                 <member segment="1000252"/>
+            </segmentGroup>
+            <segmentGroup id="dend_23" neuroLexId="sao864921383">
                 <member segment="1000253"/>
                 <member segment="1000254"/>
                 <member segment="1000255"/>
@@ -5263,18 +5373,24 @@
                 <member segment="1000258"/>
                 <member segment="1000259"/>
                 <member segment="1000260"/>
+            </segmentGroup>
+            <segmentGroup id="dend_24" neuroLexId="sao864921383">
                 <member segment="1000261"/>
                 <member segment="1000262"/>
                 <member segment="1000263"/>
                 <member segment="1000264"/>
                 <member segment="1000265"/>
                 <member segment="1000266"/>
+            </segmentGroup>
+            <segmentGroup id="dend_25" neuroLexId="sao864921383">
                 <member segment="1000267"/>
                 <member segment="1000268"/>
                 <member segment="1000269"/>
                 <member segment="1000270"/>
                 <member segment="1000271"/>
                 <member segment="1000272"/>
+            </segmentGroup>
+            <segmentGroup id="dend_26" neuroLexId="sao864921383">
                 <member segment="1000273"/>
                 <member segment="1000274"/>
                 <member segment="1000275"/>
@@ -5282,6 +5398,8 @@
                 <member segment="1000277"/>
                 <member segment="1000278"/>
                 <member segment="1000279"/>
+            </segmentGroup>
+            <segmentGroup id="dend_27" neuroLexId="sao864921383">
                 <member segment="1000280"/>
                 <member segment="1000281"/>
                 <member segment="1000282"/>
@@ -5291,6 +5409,145 @@
                 <member segment="1000286"/>
                 <member segment="1000287"/>
             </segmentGroup>
+            <segmentGroup id="soma_group" neuroLexId="GO:0043025">
+                <notes>Default soma segment group for the cell</notes>
+                <include segmentGroup="soma_0"/>
+            </segmentGroup>
+            <segmentGroup id="axon_group" neuroLexId="GO:0030424">
+                <notes>Default axon segment group for the cell</notes>
+                <include segmentGroup="axon_0"/>
+                <include segmentGroup="axon_1"/>
+                <include segmentGroup="axon_2"/>
+                <include segmentGroup="axon_3"/>
+                <include segmentGroup="axon_4"/>
+                <include segmentGroup="axon_5"/>
+                <include segmentGroup="axon_6"/>
+                <include segmentGroup="axon_7"/>
+                <include segmentGroup="axon_8"/>
+                <include segmentGroup="axon_9"/>
+                <include segmentGroup="axon_10"/>
+                <include segmentGroup="axon_11"/>
+                <include segmentGroup="axon_12"/>
+                <include segmentGroup="axon_13"/>
+                <include segmentGroup="axon_14"/>
+                <include segmentGroup="axon_15"/>
+                <include segmentGroup="axon_16"/>
+                <include segmentGroup="axon_17"/>
+                <include segmentGroup="axon_18"/>
+                <include segmentGroup="axon_19"/>
+                <include segmentGroup="axon_20"/>
+                <include segmentGroup="axon_21"/>
+                <include segmentGroup="axon_22"/>
+                <include segmentGroup="axon_23"/>
+                <include segmentGroup="axon_24"/>
+                <include segmentGroup="axon_25"/>
+                <include segmentGroup="axon_26"/>
+                <include segmentGroup="axon_27"/>
+                <include segmentGroup="axon_28"/>
+                <include segmentGroup="axon_29"/>
+                <include segmentGroup="axon_30"/>
+                <include segmentGroup="axon_31"/>
+                <include segmentGroup="axon_32"/>
+            </segmentGroup>
+            <segmentGroup id="dendrite_group" neuroLexId="GO:0030425">
+                <notes>Default dendrite segment group for the cell</notes>
+                <include segmentGroup="dend_0"/>
+                <include segmentGroup="dend_1"/>
+                <include segmentGroup="dend_2"/>
+                <include segmentGroup="dend_3"/>
+                <include segmentGroup="dend_4"/>
+                <include segmentGroup="dend_5"/>
+                <include segmentGroup="dend_6"/>
+                <include segmentGroup="dend_7"/>
+                <include segmentGroup="dend_8"/>
+                <include segmentGroup="dend_9"/>
+                <include segmentGroup="dend_10"/>
+                <include segmentGroup="dend_11"/>
+                <include segmentGroup="dend_12"/>
+                <include segmentGroup="dend_13"/>
+                <include segmentGroup="dend_14"/>
+                <include segmentGroup="dend_15"/>
+                <include segmentGroup="dend_16"/>
+                <include segmentGroup="dend_17"/>
+                <include segmentGroup="dend_18"/>
+                <include segmentGroup="dend_19"/>
+                <include segmentGroup="dend_20"/>
+                <include segmentGroup="dend_21"/>
+                <include segmentGroup="dend_22"/>
+                <include segmentGroup="dend_23"/>
+                <include segmentGroup="dend_24"/>
+                <include segmentGroup="dend_25"/>
+                <include segmentGroup="dend_26"/>
+                <include segmentGroup="dend_27"/>
+            </segmentGroup>
+            <segmentGroup id="all">
+                <include segmentGroup="soma_0"/>
+                <include segmentGroup="axon_0"/>
+                <include segmentGroup="axon_1"/>
+                <include segmentGroup="axon_2"/>
+                <include segmentGroup="axon_3"/>
+                <include segmentGroup="axon_4"/>
+                <include segmentGroup="axon_5"/>
+                <include segmentGroup="axon_6"/>
+                <include segmentGroup="axon_7"/>
+                <include segmentGroup="axon_8"/>
+                <include segmentGroup="axon_9"/>
+                <include segmentGroup="axon_10"/>
+                <include segmentGroup="axon_11"/>
+                <include segmentGroup="axon_12"/>
+                <include segmentGroup="axon_13"/>
+                <include segmentGroup="axon_14"/>
+                <include segmentGroup="axon_15"/>
+                <include segmentGroup="axon_16"/>
+                <include segmentGroup="axon_17"/>
+                <include segmentGroup="axon_18"/>
+                <include segmentGroup="axon_19"/>
+                <include segmentGroup="axon_20"/>
+                <include segmentGroup="axon_21"/>
+                <include segmentGroup="axon_22"/>
+                <include segmentGroup="axon_23"/>
+                <include segmentGroup="axon_24"/>
+                <include segmentGroup="axon_25"/>
+                <include segmentGroup="axon_26"/>
+                <include segmentGroup="axon_27"/>
+                <include segmentGroup="axon_28"/>
+                <include segmentGroup="axon_29"/>
+                <include segmentGroup="axon_30"/>
+                <include segmentGroup="axon_31"/>
+                <include segmentGroup="axon_32"/>
+                <include segmentGroup="dend_0"/>
+                <include segmentGroup="dend_1"/>
+                <include segmentGroup="dend_2"/>
+                <include segmentGroup="dend_3"/>
+                <include segmentGroup="dend_4"/>
+                <include segmentGroup="dend_5"/>
+                <include segmentGroup="dend_6"/>
+                <include segmentGroup="dend_7"/>
+                <include segmentGroup="dend_8"/>
+                <include segmentGroup="dend_9"/>
+                <include segmentGroup="dend_10"/>
+                <include segmentGroup="dend_11"/>
+                <include segmentGroup="dend_12"/>
+                <include segmentGroup="dend_13"/>
+                <include segmentGroup="dend_14"/>
+                <include segmentGroup="dend_15"/>
+                <include segmentGroup="dend_16"/>
+                <include segmentGroup="dend_17"/>
+                <include segmentGroup="dend_18"/>
+                <include segmentGroup="dend_19"/>
+                <include segmentGroup="dend_20"/>
+                <include segmentGroup="dend_21"/>
+                <include segmentGroup="dend_22"/>
+                <include segmentGroup="dend_23"/>
+                <include segmentGroup="dend_24"/>
+                <include segmentGroup="dend_25"/>
+                <include segmentGroup="dend_26"/>
+                <include segmentGroup="dend_27"/>
+            </segmentGroup>
         </morphology>
+        <biophysicalProperties id="biophys">
+            <membraneProperties/>
+            <intracellularProperties/>
+        </biophysicalProperties>
     </cell>
 </neuroml>
