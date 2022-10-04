@@ -11,13 +11,13 @@ def create_active_cell(cell_id):
     print("Loaded morphology file from: " + fn)
 
     cell = doc.cells[0]  # type: neuroml.Cell
-    cell.summary()
-    cell.info(show_contents=True)
+    # cell.summary()
+    # cell.info(show_contents=True)
 
     # set up cell with default components
     # note: will not overwrite any pre-existing components
     cell.setup_nml_cell(use_convention=False)
-    cell.info(show_contents=True)
+    # cell.info(show_contents=True)
 
     nml_doc2 = neuroml.NeuroMLDocument(id=cell.id)
     nml_doc2.add(cell)
@@ -28,7 +28,7 @@ def create_active_cell(cell_id):
         ion_channel="pas",
         cond_density="0.000142857 S_per_cm2",
         erev="-70.0 mV",
-        group="all",
+        group_id="all",
         ion="non_specific",
         ion_chan_def_file="pas.channel.nml",
     )
@@ -36,7 +36,7 @@ def create_active_cell(cell_id):
     cell.add_channel_density(
         nml_cell_doc=nml_doc2,
         cd_id="na_chan",
-        group="all",
+        group_id="all",
         ion="na",
         ion_channel="na",
         erev="60.0 mV",
@@ -47,7 +47,7 @@ def create_active_cell(cell_id):
     cell.add_channel_density(
         nml_cell_doc=nml_doc2,
         cd_id="kv_chan",
-        group="all",
+        group_id="all",
         ion="k",
         ion_channel="kv",
         erev="-90.0 mV",
@@ -55,11 +55,11 @@ def create_active_cell(cell_id):
         ion_chan_def_file="kv.channel.nml",
     )
 
-    cell.set_specific_capacitance("1.0 uF_per_cm2", group="all")
-    cell.set_init_memb_potential("-80 mV", group="all")
+    cell.set_specific_capacitance("1.0 uF_per_cm2", group_id="all")
+    cell.set_init_memb_potential("-80 mV", group_id="all")
 
     # Intracellular Properties
-    cell.set_resistivity("100 ohm_cm", group="all")
+    cell.set_resistivity("100 ohm_cm", group_id="all")
 
     cell.id = "%s" % cell_id
 
