@@ -20,7 +20,6 @@
             </segment>
             <segment id="1001" name="axon_1001">
                 <parent segment="0"/>
-                <proximal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
                 <distal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
             </segment>
             <segment id="1002" name="axon_1002">
@@ -321,7 +320,6 @@
             </segment>
             <segment id="1076" name="axon_1076">
                 <parent segment="1065"/>
-                <proximal x="7042.00856825001" y="4878.2986555" z="5877.8723526875" diameter="1.0"/>
                 <distal x="7052.20110725" y="4864.5694555" z="5878.70528525" diameter="1.0"/>
             </segment>
             <segment id="1077" name="axon_1077">
@@ -370,7 +368,6 @@
             </segment>
             <segment id="1088" name="axon_1088">
                 <parent segment="1057"/>
-                <proximal x="6995.33709250001" y="4672.21218275" z="5674.303634375" diameter="1.0"/>
                 <distal x="7008.070823" y="4704.940314" z="5715.7849260625" diameter="1.0"/>
             </segment>
             <segment id="1089" name="axon_1089">
@@ -759,7 +756,6 @@
             </segment>
             <segment id="1185" name="axon_1185">
                 <parent segment="1151"/>
-                <proximal x="6166.6912455" y="4105.96889225" z="6801.809991125" diameter="1.0"/>
                 <distal x="6139.1800905" y="4089.5491985" z="6824.654640875" diameter="1.0"/>
             </segment>
             <segment id="1186" name="axon_1186">
@@ -868,7 +864,6 @@
             </segment>
             <segment id="1212" name="axon_1212">
                 <parent segment="1204"/>
-                <proximal x="5965.24648" y="3782.503959" z="7208.1070536875" diameter="1.0"/>
                 <distal x="5976.4171695" y="3744.2824715" z="7229.09067575" diameter="1.0"/>
             </segment>
             <segment id="1213" name="axon_1213">
@@ -889,7 +884,6 @@
             </segment>
             <segment id="1217" name="axon_1217">
                 <parent segment="1215"/>
-                <proximal x="5980.825144" y="3660.46028925" z="7233.6259056875" diameter="1.0"/>
                 <distal x="5955.67363400001" y="3631.88723825" z="7227.4837785" diameter="1.0"/>
             </segment>
             <segment id="1218" name="axon_1218">
@@ -922,7 +916,6 @@
             </segment>
             <segment id="1225" name="axon_1225">
                 <parent segment="1200"/>
-                <proximal x="5929.21565825" y="3868.85292875" z="7136.100525" diameter="1.0"/>
                 <distal x="5917.43518825001" y="3844.8037725" z="7156.596917625" diameter="1.0"/>
             </segment>
             <segment id="1226" name="axon_1226">
@@ -1039,7 +1032,6 @@
             </segment>
             <segment id="1254" name="axon_1254">
                 <parent segment="1226"/>
-                <proximal x="5901.00124275" y="3820.7741475" z="7179.1461193125" diameter="1.0"/>
                 <distal x="5879.67176875001" y="3780.763647" z="7201.1658731875" diameter="1.0"/>
             </segment>
             <segment id="1255" name="axon_1255">
@@ -1060,7 +1052,6 @@
             </segment>
             <segment id="1259" name="axon_1259">
                 <parent segment="1257"/>
-                <proximal x="5845.28898" y="3742.59624025" z="7219.054393" diameter="1.0"/>
                 <distal x="5847.2483275" y="3703.42599025" z="7226.3658411875" diameter="1.0"/>
             </segment>
             <segment id="1260" name="axon_1260">
@@ -1069,7 +1060,6 @@
             </segment>
             <segment id="1261" name="axon_1261">
                 <parent segment="1112"/>
-                <proximal x="6915.54333225" y="4400.63690575" z="6310.5372741875" diameter="1.0"/>
                 <distal x="6888.46490825" y="4369.10210575" z="6340.5672440625" diameter="1.0"/>
             </segment>
             <segment id="1262" name="axon_1262">
@@ -1310,7 +1300,6 @@
             </segment>
             <segment id="1321" name="axon_1321">
                 <parent segment="1291"/>
-                <proximal x="6307.04890750001" y="3932.34552775" z="6932.2604738125" diameter="1.0"/>
                 <distal x="6303.67436475" y="3912.80291525" z="6941.4483479375" diameter="1.0"/>
             </segment>
             <segment id="1322" name="axon_1322">
@@ -1395,7 +1384,6 @@
             </segment>
             <segment id="1342" name="axon_1342">
                 <parent segment="1323"/>
-                <proximal x="6293.763534" y="3891.10491475" z="6959.9421865625" diameter="1.0"/>
                 <distal x="6301.22269425" y="3864.82087675" z="6969.1300616875" diameter="1.0"/>
             </segment>
             <segment id="1343" name="axon_1343">
@@ -1488,7 +1476,6 @@
             </segment>
             <segment id="1365" name="axon_1365">
                 <parent segment="1092"/>
-                <proximal x="7049.21619224999" y="4742.6855905" z="5803.7609545625" diameter="1.0"/>
                 <distal x="7035.84806025001" y="4728.682953" z="5827.2611781875" diameter="1.0"/>
             </segment>
             <segment id="1366" name="axon_1366">
@@ -1541,7 +1528,6 @@
             </segment>
             <segment id="1378" name="axon_1378">
                 <parent segment="1375"/>
-                <proximal x="7074.36902324999" y="4820.57072425" z="6036.0635938125" diameter="1.0"/>
                 <distal x="7061.70296625" y="4869.39316175" z="6037.056833125" diameter="1.0"/>
             </segment>
             <segment id="1379" name="axon_1379">
@@ -1738,7 +1724,6 @@
             </segment>
             <segment id="1427" name="axon_1427">
                 <parent segment="1405"/>
-                <proximal x="6861.15650275" y="4762.838319" z="6510.3292511875" diameter="1.0"/>
                 <distal x="6837.20639224999" y="4730.43415025" z="6539.3569675" diameter="1.0"/>
             </segment>
             <segment id="1428" name="axon_1428">
@@ -2039,7 +2024,6 @@
             </segment>
             <segment id="1502" name="axon_1502">
                 <parent segment="1478"/>
-                <proximal x="6613.382316" y="4804.64618975" z="6791.712039125" diameter="1.0"/>
                 <distal x="6614.04174499999" y="4814.24704075" z="6798.720977125" diameter="1.0"/>
             </segment>
             <segment id="1503" name="axon_1503">
@@ -2140,7 +2124,6 @@
             </segment>
             <segment id="1527" name="axon_1527">
                 <parent segment="1445"/>
-                <proximal x="6429.3472775" y="4629.25456275" z="6828.4223710625" diameter="1.0"/>
                 <distal x="6386.899267" y="4618.368807" z="6859.621962375" diameter="1.0"/>
             </segment>
             <segment id="1528" name="axon_1528">
@@ -2205,7 +2188,6 @@
             </segment>
             <segment id="1543" name="axon_1543">
                 <parent segment="1538"/>
-                <proximal x="6227.2567425" y="4567.25212525" z="7005.2697869375" diameter="1.0"/>
                 <distal x="6240.31773525001" y="4589.90675125" z="7005.7489786875" diameter="1.0"/>
             </segment>
             <segment id="1544" name="axon_1544">
@@ -2218,7 +2200,6 @@
             </segment>
             <segment id="1546" name="axon_1546">
                 <parent segment="1543"/>
-                <proximal x="6240.31773525001" y="4589.90675125" z="7005.7489786875" diameter="1.0"/>
                 <distal x="6241.96630725" y="4591.27830125" z="7001.7438706875" diameter="1.0"/>
             </segment>
             <segment id="1547" name="axon_1547">
@@ -2239,7 +2220,6 @@
             </segment>
             <segment id="1551" name="axon_1551">
                 <parent segment="1546"/>
-                <proximal x="6241.96630725" y="4591.27830125" z="7001.7438706875" diameter="1.0"/>
                 <distal x="6260.96348000001" y="4613.4385575" z="6983.9065825" diameter="1.0"/>
             </segment>
             <segment id="1552" name="axon_1552">
@@ -2268,7 +2248,6 @@
             </segment>
             <segment id="1558" name="axon_1558">
                 <parent segment="1552"/>
-                <proximal x="6267.55777" y="4616.5245455" z="6977.8989205" diameter="1.0"/>
                 <distal x="6295.846997" y="4635.69601375" z="6993.0525396875" diameter="1.0"/>
             </segment>
             <segment id="1559" name="axon_1559">
@@ -2285,7 +2264,6 @@
             </segment>
             <segment id="1562" name="axon_1562">
                 <parent segment="1536"/>
-                <proximal x="6216.0528085" y="4512.140169" z="7018.9848543125" diameter="1.0"/>
                 <distal x="6198.53106550001" y="4478.6913055" z="7041.6601820625" diameter="1.0"/>
             </segment>
             <segment id="1563" name="axon_1563">
@@ -2390,7 +2368,6 @@
             </segment>
             <segment id="1588" name="axon_1588">
                 <parent segment="1431"/>
-                <proximal x="6770.51199" y="4647.37033675" z="6602.7654648125" diameter="1.0"/>
                 <distal x="6770.84170400001" y="4643.94146175" z="6609.7744038125" diameter="1.0"/>
             </segment>
             <segment id="1589" name="axon_1589">
@@ -2507,7 +2484,6 @@
             </segment>
             <segment id="1617" name="axon_1617">
                 <parent segment="1597"/>
-                <proximal x="6490.59606924999" y="4413.25315975" z="6892.1329260625" diameter="1.0"/>
                 <distal x="6465.10994075" y="4375.402766" z="6930.1731109375" diameter="1.0"/>
             </segment>
             <segment id="1618" name="axon_1618">
@@ -2636,7 +2612,6 @@
             </segment>
             <segment id="1649" name="axon_1649">
                 <parent segment="1646"/>
-                <proximal x="5970.79343675" y="4081.78279525" z="7326.9963933125" diameter="1.0"/>
                 <distal x="5949.289636" y="4043.10362025" z="7298.5326781875" diameter="1.0"/>
             </segment>
             <segment id="1650" name="axon_1650">
@@ -2657,7 +2632,6 @@
             </segment>
             <segment id="1654" name="axon_1654">
                 <parent segment="1629"/>
-                <proximal x="6348.619249" y="4099.24586925" z="7223.0561209375" diameter="1.0"/>
                 <distal x="6343.8704345" y="4055.20138125" z="7234.71838025" diameter="1.0"/>
             </segment>
             <segment id="1655" name="axon_1655">
@@ -2722,7 +2696,6 @@
             </segment>
             <segment id="1670" name="axon_1670">
                 <parent segment="1624"/>
-                <proximal x="6374.555459" y="4249.312365" z="7238.3281309375" diameter="1.0"/>
                 <distal x="6365.32391125" y="4195.13293375" z="7295.17300275" diameter="1.0"/>
             </segment>
             <segment id="1671" name="axon_1671">
@@ -2795,7 +2768,6 @@
             </segment>
             <segment id="1688" name="axon_1688">
                 <parent segment="1368"/>
-                <proximal x="7067.62702300001" y="4707.017115" z="5902.920050625" diameter="1.0"/>
                 <distal x="7083.41471275" y="4711.22419675" z="5917.5944780625" diameter="1.0"/>
             </segment>
             <segment id="1689" name="axon_1689">
@@ -2944,7 +2916,6 @@
             </segment>
             <segment id="1725" name="axon_1725">
                 <parent segment="1719"/>
-                <proximal x="6500.00566174999" y="4365.9309375" z="6403.7249915625" diameter="1.0"/>
                 <distal x="6491.31139925" y="4340.9420495" z="6391.2304768125" diameter="1.0"/>
             </segment>
             <segment id="1726" name="axon_1726">
@@ -2957,7 +2928,6 @@
             </segment>
             <segment id="1728" name="axon_1728">
                 <parent segment="1725"/>
-                <proximal x="6491.31139925" y="4340.9420495" z="6391.2304768125" diameter="1.0"/>
                 <distal x="6490.52465400001" y="4332.9436745" z="6373.257746875" diameter="1.0"/>
             </segment>
             <segment id="1729" name="axon_1729">
@@ -2998,7 +2968,6 @@
             </segment>
             <segment id="1738" name="axon_1738">
                 <parent segment="1716"/>
-                <proximal x="6530.70359049999" y="4384.5657255" z="6451.0456008125" diameter="1.0"/>
                 <distal x="6504.69488625" y="4367.81699425" z="6469.884166" diameter="1.0"/>
             </segment>
             <segment id="1739" name="axon_1739">
@@ -3031,7 +3000,6 @@
             </segment>
             <segment id="1746" name="axon_1746">
                 <parent segment="1744"/>
-                <proximal x="6405.8099105" y="4342.42718175" z="6522.489179125" diameter="1.0"/>
                 <distal x="6381.35920725" y="4323.6645505" z="6533.3687599375" diameter="1.0"/>
             </segment>
             <segment id="1747" name="axon_1747">
@@ -3068,7 +3036,6 @@
             </segment>
             <segment id="1755" name="axon_1755">
                 <parent segment="1715"/>
-                <proximal x="6545.740553" y="4403.748963" z="6447.5196845625" diameter="1.0"/>
                 <distal x="6532.680423" y="4405.81455775" z="6454.873350125" diameter="1.0"/>
             </segment>
             <segment id="1756" name="axon_1756">
@@ -3137,7 +3104,6 @@
             </segment>
             <segment id="1772" name="axon_1772">
                 <parent segment="1712"/>
-                <proximal x="6601.12759975001" y="4420.16865675" z="6415.9753666875" diameter="1.0"/>
                 <distal x="6599.47902775" y="4420.16865675" z="6410.9689816875" diameter="1.0"/>
             </segment>
             <segment id="1773" name="axon_1773">
@@ -3182,7 +3148,6 @@
             </segment>
             <segment id="1783" name="axon_1783">
                 <parent segment="1781"/>
-                <proximal x="6314.6628395" y="4417.9618265" z="6423.70162875" diameter="1.0"/>
                 <distal x="6311.3656945" y="4420.3620385" z="6423.70162875" diameter="1.0"/>
             </segment>
             <segment id="1784" name="axon_1784">
@@ -3191,7 +3156,6 @@
             </segment>
             <segment id="1785" name="axon_1785">
                 <parent segment="1783"/>
-                <proximal x="6311.3656945" y="4420.3620385" z="6423.70162875" diameter="1.0"/>
                 <distal x="6267.80758175001" y="4420.5852015" z="6425.738062" diameter="1.0"/>
             </segment>
             <segment id="1786" name="axon_1786">
@@ -3236,7 +3200,6 @@
             </segment>
             <segment id="1796" name="axon_1796">
                 <parent segment="1791"/>
-                <proximal x="6063.16772100001" y="4419.7920775" z="6486.5381624375" diameter="1.0"/>
                 <distal x="6041.95643175" y="4420.3303275" z="6489.231146125" diameter="1.0"/>
             </segment>
             <segment id="1797" name="axon_1797">
@@ -3417,7 +3380,6 @@
             </segment>
             <segment id="1841" name="axon_1841">
                 <parent segment="1811"/>
-                <proximal x="5647.17242649999" y="4450.949941" z="6595.216188875" diameter="1.0"/>
                 <distal x="5618.91054325001" y="4449.352741" z="6603.9168335625" diameter="1.0"/>
             </segment>
             <segment id="1842" name="axon_1842">
@@ -3474,7 +3436,6 @@
             </segment>
             <segment id="1855" name="axon_1855">
                 <parent segment="1852"/>
-                <proximal x="5385.4221345" y="4421.60400975" z="6609.7830445" diameter="1.0"/>
                 <distal x="5360.93554775001" y="4416.0905165" z="6609.471220625" diameter="1.0"/>
             </segment>
             <segment id="1856" name="axon_1856">
@@ -3495,7 +3456,6 @@
             </segment>
             <segment id="1860" name="axon_1860">
                 <parent segment="1858"/>
-                <proximal x="5269.741251" y="4381.73398475" z="6601.7061228125" diameter="1.0"/>
                 <distal x="5268.97635325001" y="4365.21572225" z="6598.2221235" diameter="1.0"/>
             </segment>
             <segment id="1861" name="axon_1861">
@@ -3572,7 +3532,6 @@
             </segment>
             <segment id="1879" name="axon_1879">
                 <parent segment="1857"/>
-                <proximal x="5277.654398" y="4385.16285975" z="6605.7112308125" diameter="1.0"/>
                 <distal x="5260.322015" y="4382.185841" z="6606.055957375" diameter="1.0"/>
             </segment>
             <segment id="1880" name="axon_1880">
@@ -3605,7 +3564,6 @@
             </segment>
             <segment id="1887" name="axon_1887">
                 <parent segment="1884"/>
-                <proximal x="5192.31769900001" y="4361.2559525" z="6568.781997375" diameter="1.0"/>
                 <distal x="5163.05554575" y="4348.54790875" z="6538.4840726875" diameter="1.0"/>
             </segment>
             <segment id="1888" name="axon_1888">
@@ -3746,7 +3704,6 @@
             </segment>
             <segment id="1922" name="axon_1922">
                 <parent segment="1800"/>
-                <proximal x="5917.72476700001" y="4454.2655405" z="6514.6675175" diameter="1.0"/>
                 <distal x="5895.68826174999" y="4444.3619785" z="6540.5150206875" diameter="1.0"/>
             </segment>
             <segment id="1923" name="axon_1923">
@@ -3795,7 +3752,6 @@
             </segment>
             <segment id="1934" name="axon_1934">
                 <parent segment="1924"/>
-                <proximal x="5868.42274225" y="4459.94583475" z="6552.04311525" diameter="1.0"/>
                 <distal x="5853.23039149999" y="4457.109441" z="6559.3967798125" diameter="1.0"/>
             </segment>
             <segment id="1935" name="axon_1935">
@@ -3808,7 +3764,6 @@
             </segment>
             <segment id="1937" name="axon_1937">
                 <parent segment="1797"/>
-                <proximal x="6025.76321824999" y="4421.628115" z="6491.5784266875" diameter="1.0"/>
                 <distal x="6021.80664525001" y="4421.628115" z="6499.5886416875" diameter="1.0"/>
             </segment>
             <segment id="1938" name="axon_1938">
@@ -3857,7 +3812,6 @@
             </segment>
             <segment id="1949" name="axon_1949">
                 <parent segment="1776"/>
-                <proximal x="6510.28454275" y="4412.09834425" z="6414.0405711875" diameter="1.0"/>
                 <distal x="6499.134838" y="4434.66449525" z="6414.208915625" diameter="1.0"/>
             </segment>
             <segment id="1950" name="axon_1950">
@@ -3922,7 +3876,6 @@
             </segment>
             <segment id="1965" name="axon_1965">
                 <parent segment="1711"/>
-                <proximal x="6608.25286974999" y="4422.1786505" z="6412.626809125" diameter="1.0"/>
                 <distal x="6603.1268725" y="4404.11391975" z="6419.1555788125" diameter="1.0"/>
             </segment>
             <segment id="1966" name="axon_1966">
@@ -4015,7 +3968,6 @@
             </segment>
             <segment id="1988" name="axon_1988">
                 <parent segment="1977"/>
-                <proximal x="6624.2243415" y="4292.6423875" z="6524.8524588125" diameter="1.0"/>
                 <distal x="6632.78492875" y="4257.845362" z="6556.194553" diameter="1.0"/>
             </segment>
             <segment id="1989" name="axon_1989">
@@ -4056,7 +4008,6 @@
             </segment>
             <segment id="1998" name="axon_1998">
                 <parent segment="1992"/>
-                <proximal x="6635.37046175" y="4159.51800475" z="6630.0691705" diameter="1.0"/>
                 <distal x="6620.9451915" y="4143.7362975" z="6650.565563125" diameter="1.0"/>
             </segment>
             <segment id="1999" name="axon_1999">
@@ -4157,7 +4108,6 @@
             </segment>
             <segment id="2023" name="axon_2023">
                 <parent segment="1091"/>
-                <proximal x="7052.84305125001" y="4738.9138275" z="5797.7532925625" diameter="1.0"/>
                 <distal x="7062.81306850001" y="4747.70080875" z="5821.387981375" diameter="1.0"/>
             </segment>
             <segment id="2024" name="axon_2024">
@@ -4246,7 +4196,6 @@
             </segment>
             <segment id="2045" name="axon_2045">
                 <parent segment="2026"/>
-                <proximal x="7091.3022415" y="4767.91894725" z="5879.722636625" diameter="1.0"/>
                 <distal x="7109.2344625" y="4760.2770535" z="5908.5400915625" diameter="1.0"/>
             </segment>
             <segment id="2046" name="axon_2046">
@@ -4675,7 +4624,6 @@
             </segment>
             <segment id="2152" name="axon_2152">
                 <parent segment="2071"/>
-                <proximal x="6816.66789349999" y="4485.91570875" z="6446.6179416875" diameter="1.0"/>
                 <distal x="6803.72163650001" y="4468.275439" z="6469.1168883125" diameter="1.0"/>
             </segment>
             <segment id="2153" name="axon_2153">
@@ -4936,7 +4884,6 @@
             </segment>
             <segment id="2217" name="axon_2217">
                 <parent segment="2201"/>
-                <proximal x="5758.27564225" y="4550.9165335" z="7239.173011125" diameter="1.0"/>
                 <distal x="5722.45648525" y="4571.99612825" z="7219.6615206875" diameter="1.0"/>
             </segment>
             <segment id="2218" name="axon_2218">
@@ -4957,7 +4904,6 @@
             </segment>
             <segment id="2222" name="axon_2222">
                 <parent segment="2172"/>
-                <proximal x="6421.5826735" y="4090.5535115" z="6892.444748375" diameter="1.0"/>
                 <distal x="6392.3403215" y="4084.2018985" z="6908.1533555" diameter="1.0"/>
             </segment>
             <segment id="2223" name="axon_2223">
@@ -5094,7 +5040,6 @@
             </segment>
             <segment id="2256" name="axon_2256">
                 <parent segment="2243"/>
-                <proximal x="6156.28116575" y="3932.01109325" z="7453.2817606875" diameter="1.0"/>
                 <distal x="6159.87346125" y="3941.9925755" z="7474.2573460625" diameter="1.0"/>
             </segment>
             <segment id="2257" name="axon_2257">
@@ -5171,7 +5116,6 @@
             </segment>
             <segment id="2275" name="axon_2275">
                 <parent segment="2165"/>
-                <proximal x="6442.20783699999" y="4161.279412" z="6771.0472989375" diameter="1.0"/>
                 <distal x="6412.50136949999" y="4160.90923075" z="6768.7329210625" diameter="1.0"/>
             </segment>
             <segment id="2276" name="axon_2276">
@@ -5320,7 +5264,6 @@
             </segment>
             <segment id="2312" name="axon_2312">
                 <parent segment="2276"/>
-                <proximal x="6368.7849595" y="4186.81466825" z="6754.446414125" diameter="1.0"/>
                 <distal x="6348.573993" y="4155.34500575" z="6770.1137804375" diameter="1.0"/>
             </segment>
             <segment id="2313" name="axon_2313">
@@ -5349,7 +5292,6 @@
             </segment>
             <segment id="2319" name="axon_2319">
                 <parent segment="2050"/>
-                <proximal x="7174.33880475" y="4714.01594725" z="5987.691001" diameter="1.0"/>
                 <distal x="7166.21299575" y="4672.1438905" z="6040.5307648125" diameter="1.0"/>
             </segment>
             <segment id="2320" name="axon_2320">
@@ -5522,7 +5464,6 @@
             </segment>
             <segment id="2362" name="axon_2362">
                 <parent segment="2354"/>
-                <proximal x="6095.29487899999" y="4458.99773425" z="6542.692905" diameter="1.0"/>
                 <distal x="6081.64172625" y="4464.0477535" z="6535.028392125" diameter="1.0"/>
             </segment>
             <segment id="2363" name="axon_2363">
@@ -5611,7 +5552,6 @@
             </segment>
             <segment id="2384" name="axon_2384">
                 <parent segment="2382"/>
-                <proximal x="5370.08945775" y="4651.097545" z="6663.8682275" diameter="1.0"/>
                 <distal x="5298.72186049999" y="4640.619208" z="6651.5759364375" diameter="1.0"/>
             </segment>
             <segment id="2385" name="axon_2385">
@@ -5652,7 +5592,6 @@
             </segment>
             <segment id="2394" name="axon_2394">
                 <parent segment="2349"/>
-                <proximal x="6215.06625175" y="4334.421701" z="6575.986845625" diameter="1.0"/>
                 <distal x="6194.91428349999" y="4325.44828275" z="6602.8356268125" diameter="1.0"/>
             </segment>
             <segment id="2395" name="axon_2395">
@@ -5669,7 +5608,6 @@
             </segment>
             <segment id="2398" name="axon_2398">
                 <parent segment="2345"/>
-                <proximal x="6328.8625155" y="4230.69413075" z="6628.5985441875" diameter="1.0"/>
                 <distal x="6303.61897900001" y="4252.47816875" z="6646.1333231875" diameter="1.0"/>
             </segment>
             <segment id="2399" name="axon_2399">
@@ -5834,7 +5772,6 @@
             </segment>
             <segment id="2439" name="axon_2439">
                 <parent segment="2399"/>
-                <proximal x="6283.43085824999" y="4258.01646925" z="6670.4584416875" diameter="1.0"/>
                 <distal x="6287.05771725001" y="4257.67358125" z="6672.4609956875" diameter="1.0"/>
             </segment>
             <segment id="2440" name="axon_2440">
@@ -5867,7 +5804,6 @@
             </segment>
             <segment id="2447" name="axon_2447">
                 <parent segment="2441"/>
-                <proximal x="6289.36571825" y="4254.58759425" z="6677.4673796875" diameter="1.0"/>
                 <distal x="6304.24152825" y="4237.113113" z="6676.29775825" diameter="1.0"/>
             </segment>
             <segment id="2448" name="axon_2448">
@@ -5892,7 +5828,6 @@
             </segment>
             <segment id="2453" name="axon_2453">
                 <parent segment="2339"/>
-                <proximal x="6497.55900025" y="4106.4809225" z="6650.843583" diameter="1.0"/>
                 <distal x="6478.73270625" y="4083.68349125" z="6671.39120625" diameter="1.0"/>
             </segment>
             <segment id="2454" name="axon_2454">
@@ -5961,7 +5896,6 @@
             </segment>
             <segment id="2470" name="axon_2470">
                 <parent segment="2466"/>
-                <proximal x="6369.93250625" y="3901.85171525" z="7025.3770520625" diameter="1.0"/>
                 <distal x="6362.7189815" y="3892.538659" z="7053.7585091875" diameter="1.0"/>
             </segment>
             <segment id="2471" name="axon_2471">
@@ -6002,7 +5936,6 @@
             </segment>
             <segment id="2480" name="axon_2480">
                 <parent segment="2478"/>
-                <proximal x="6533.92341425001" y="3856.013908" z="6982.9363250625" diameter="1.0"/>
                 <distal x="6540.25902900001" y="3834.046783" z="6980.1088761875" diameter="1.0"/>
             </segment>
             <segment id="2481" name="axon_2481">
@@ -6027,7 +5960,6 @@
             </segment>
             <segment id="2486" name="axon_2486">
                 <parent segment="2472"/>
-                <proximal x="6383.19708125001" y="3838.581021" z="7107.9103973125" diameter="1.0"/>
                 <distal x="6396.09460325001" y="3820.56489025" z="7118.756098875" diameter="1.0"/>
             </segment>
             <segment id="2487" name="axon_2487">
@@ -6076,7 +6008,6 @@
             </segment>
             <segment id="2498" name="axon_2498">
                 <parent segment="2325"/>
-                <proximal x="6932.45570025001" y="4505.7942635" z="6249.990105" diameter="1.0"/>
                 <distal x="6907.08298750001" y="4485.09753275" z="6279.8427161875" diameter="1.0"/>
             </segment>
             <segment id="2499" name="axon_2499">
@@ -6189,7 +6120,6 @@
             </segment>
             <segment id="2526" name="axon_2526">
                 <parent segment="2511"/>
-                <proximal x="6737.45201725001" y="4173.48189025" z="6390.782383" diameter="1.0"/>
                 <distal x="6714.02415975" y="4170.8920465" z="6393.4753666875" diameter="1.0"/>
             </segment>
             <segment id="2527" name="axon_2527">
@@ -6234,7 +6164,6 @@
             </segment>
             <segment id="2537" name="axon_2537">
                 <parent segment="2508"/>
-                <proximal x="6779.8709595" y="4178.6542215" z="6368.72041075" diameter="1.0"/>
                 <distal x="6780.83680049999" y="4186.578634" z="6358.58249125" diameter="1.0"/>
             </segment>
             <segment id="2538" name="axon_2538">
@@ -6311,7 +6240,6 @@
             </segment>
             <segment id="2556" name="axon_2556">
                 <parent segment="2553"/>
-                <proximal x="6383.94315125" y="4182.2746485" z="6562.4135281875" diameter="1.0"/>
                 <distal x="6361.92399549999" y="4181.402286" z="6562.102680875" diameter="1.0"/>
             </segment>
             <segment id="2557" name="axon_2557">
@@ -6348,7 +6276,6 @@
             </segment>
             <segment id="2565" name="axon_2565">
                 <parent segment="2544"/>
-                <proximal x="6705.28506949999" y="4088.8394955" z="6427.51848225" diameter="1.0"/>
                 <distal x="6691.24737975" y="4069.361108" z="6439.003381875" diameter="1.0"/>
             </segment>
             <segment id="2566" name="axon_2566">
@@ -6385,7 +6312,6 @@
             </segment>
             <segment id="2574" name="axon_2574">
                 <parent segment="2569"/>
-                <proximal x="6624.38309600001" y="4024.202933" z="6478.078724" diameter="1.0"/>
                 <distal x="6624.378327" y="4003.04612575" z="6492.272983125" diameter="1.0"/>
             </segment>
             <segment id="2575" name="axon_2575">
@@ -6430,7 +6356,6 @@
             </segment>
             <segment id="2585" name="axon_2585">
                 <parent segment="2578"/>
-                <proximal x="6611.0381315" y="3946.61360075" z="6569.1433929375" diameter="1.0"/>
                 <distal x="6619.42062125" y="3913.365682" z="6597.481657125" diameter="1.0"/>
             </segment>
             <segment id="2586" name="axon_2586">
@@ -6527,7 +6452,6 @@
             </segment>
             <segment id="2609" name="axon_2609">
                 <parent segment="2504"/>
-                <proximal x="6740.11834425" y="4294.25622975" z="6406.9212038125" diameter="1.0"/>
                 <distal x="6720.12467325" y="4276.2331485" z="6436.4290894375" diameter="1.0"/>
             </segment>
             <segment id="2610" name="axon_2610">
@@ -6692,7 +6616,6 @@
             </segment>
             <segment id="2650" name="axon_2650">
                 <parent segment="2630"/>
-                <proximal x="6214.77123575" y="4421.850415" z="6599.4361390625" diameter="1.0"/>
                 <distal x="6159.28839175" y="4442.18092225" z="6612.65496275" diameter="1.0"/>
             </segment>
             <segment id="2651" name="axon_2651">
@@ -6745,7 +6668,6 @@
             </segment>
             <segment id="2663" name="axon_2663">
                 <parent segment="2661"/>
-                <proximal x="5866.5675435" y="4557.81894875" z="6564.0075070625" diameter="1.0"/>
                 <distal x="5866.5675435" y="4559.19049875" z="6548.9883530625" diameter="1.0"/>
             </segment>
             <segment id="2664" name="axon_2664">
@@ -6886,7 +6808,6 @@
             </segment>
             <segment id="2698" name="axon_2698">
                 <parent segment="2654"/>
-                <proximal x="6004.30974149999" y="4513.12176075" z="6671.5962890625" diameter="1.0"/>
                 <distal x="5962.29241574999" y="4519.7638555" z="6690.60417525" diameter="1.0"/>
             </segment>
             <segment id="2699" name="axon_2699">
@@ -6987,7 +6908,6 @@
             </segment>
             <segment id="2723" name="axon_2723">
                 <parent segment="2716"/>
-                <proximal x="5400.2605" y="4615.2179825" z="6688.512231" diameter="1.0"/>
                 <distal x="5331.728382" y="4620.72625125" z="6651.061888875" diameter="1.0"/>
             </segment>
             <segment id="2724" name="axon_2724">
@@ -7060,7 +6980,6 @@
             </segment>
             <segment id="2741" name="axon_2741">
                 <parent segment="2727"/>
-                <proximal x="5150.54962225001" y="4653.56938875" z="6573.6714221875" diameter="1.0"/>
                 <distal x="5096.14331325" y="4659.788595" z="6544.8878455" diameter="1.0"/>
             </segment>
             <segment id="2742" name="axon_2742">
@@ -7105,7 +7024,6 @@
             </segment>
             <segment id="2752" name="axon_2752">
                 <parent segment="2742"/>
-                <proximal x="5062.76470075" y="4667.93312625" z="6522.422779125" diameter="1.0"/>
                 <distal x="5020.41706825" y="4681.05995225" z="6508.2614226875" diameter="1.0"/>
             </segment>
             <segment id="2753" name="axon_2753">
@@ -7174,7 +7092,6 @@
             </segment>
             <segment id="2769" name="axon_2769">
                 <parent segment="2617"/>
-                <proximal x="6572.49454100001" y="4252.30239325" z="6565.5846518125" diameter="1.0"/>
                 <distal x="6555.221479" y="4262.6536995" z="6589.9097703125" diameter="1.0"/>
             </segment>
             <segment id="2770" name="axon_2770">
@@ -7223,7 +7140,6 @@
             </segment>
             <segment id="2781" name="axon_2781">
                 <parent segment="2614"/>
-                <proximal x="6601.1758475" y="4199.31147925" z="6520.2417315625" diameter="1.0"/>
                 <distal x="6590.076655" y="4184.96859225" z="6532.7279091875" diameter="1.0"/>
             </segment>
             <segment id="2782" name="axon_2782">
@@ -7296,7 +7212,6 @@
             </segment>
             <segment id="2799" name="axon_2799">
                 <parent segment="2786"/>
-                <proximal x="6452.53259575" y="4060.259335" z="6708.2527564375" diameter="1.0"/>
                 <distal x="6461.38933075" y="4023.66847775" z="6739.594851625" diameter="1.0"/>
             </segment>
             <segment id="2800" name="axon_2800">
@@ -7341,7 +7256,6 @@
             </segment>
             <segment id="2810" name="axon_2810">
                 <parent segment="2801"/>
-                <proximal x="6467.05180425" y="3947.88084025" z="6792.266271" diameter="1.0"/>
                 <distal x="6463.46082875" y="3923.464446" z="6811.4678906875" diameter="1.0"/>
             </segment>
             <segment id="2811" name="axon_2811">
@@ -7378,7 +7292,6 @@
             </segment>
             <segment id="2819" name="axon_2819">
                 <parent segment="2812"/>
-                <proximal x="6465.24353325" y="3882.31103925" z="6849.818923875" diameter="1.0"/>
                 <distal x="6469.15296224999" y="3845.15032675" z="6890.1725100625" diameter="1.0"/>
             </segment>
             <segment id="2820" name="axon_2820">
@@ -7435,7 +7348,6 @@
             </segment>
             <segment id="2833" name="axon_2833">
                 <parent segment="2819"/>
-                <proximal x="6469.15296224999" y="3845.15032675" z="6890.1725100625" diameter="1.0"/>
                 <distal x="6459.123354" y="3826.39768825" z="6905.6625186875" diameter="1.0"/>
             </segment>
             <segment id="2834" name="axon_2834">
@@ -7444,7 +7356,6 @@
             </segment>
             <segment id="2835" name="axon_2835">
                 <parent segment="2609"/>
-                <proximal x="6720.12467325" y="4276.2331485" z="6436.4290894375" diameter="1.0"/>
                 <distal x="6710.69530750001" y="4279.74841725" z="6444.784031" diameter="1.0"/>
             </segment>
             <segment id="2836" name="axon_2836">
@@ -7553,7 +7464,6 @@
             </segment>
             <segment id="2862" name="axon_2862">
                 <parent segment="2839"/>
-                <proximal x="6669.4645935" y="4330.38619425" z="6539.6101208125" diameter="1.0"/>
                 <distal x="6658.00225424999" y="4336.58596925" z="6547.965062375" diameter="1.0"/>
             </segment>
             <segment id="2863" name="axon_2863">
@@ -7598,7 +7508,6 @@
             </segment>
             <segment id="2873" name="axon_2873">
                 <parent segment="2869"/>
-                <proximal x="6455.765598" y="4424.5546535" z="6774.47165325" diameter="1.0"/>
                 <distal x="6426.86063900001" y="4436.28968475" z="6809.1542673125" diameter="1.0"/>
             </segment>
             <segment id="2874" name="axon_2874">
@@ -7611,7 +7520,6 @@
             </segment>
             <segment id="1000001" name="dend_1000001">
                 <parent segment="0"/>
-                <proximal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
                 <distal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
             </segment>
             <segment id="1000002" name="dend_1000002">
@@ -7652,7 +7560,6 @@
             </segment>
             <segment id="1000011" name="dend_1000011">
                 <parent segment="1000004"/>
-                <proximal x="6946.546875" y="2485.86718775" z="3107.1357421875" diameter="2.0"/>
                 <distal x="6956.79702900001" y="2486.53121825001" z="3107.874950625" diameter="2.0"/>
             </segment>
             <segment id="1000012" name="dend_1000012">
@@ -7673,7 +7580,6 @@
             </segment>
             <segment id="1000016" name="dend_1000016">
                 <parent segment="1000003"/>
-                <proximal x="6944.73220500001" y="2491.00301375" z="3107.1044851875" diameter="2.0"/>
                 <distal x="6955.39831800001" y="2490.26564525" z="3101.066462625" diameter="2.0"/>
             </segment>
             <segment id="1000017" name="dend_1000017">
@@ -7694,7 +7600,6 @@
             </segment>
             <segment id="1000021" name="dend_1000021">
                 <parent segment="1000001"/>
-                <proximal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
                 <distal x="6952.10546875" y="2479.4375" z="3127.09960925" diameter="2.0"/>
             </segment>
             <segment id="1000022" name="dend_1000022">
@@ -7719,7 +7624,6 @@
             </segment>
             <segment id="1000027" name="dend_1000027">
                 <parent segment="1000021"/>
-                <proximal x="6952.10546875" y="2479.4375" z="3127.09960925" diameter="2.0"/>
                 <distal x="6964.28508475001" y="2476.44141825" z="3138.001986125" diameter="2.0"/>
             </segment>
             <segment id="1000028" name="dend_1000028">
@@ -7760,7 +7664,6 @@
             </segment>
             <segment id="1000037" name="dend_1000037">
                 <parent segment="1000001"/>
-                <proximal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
                 <distal x="6940.775631" y="2487.23125075" z="3106.1032081875" diameter="2.0"/>
             </segment>
             <segment id="1000038" name="dend_1000038">
@@ -7793,12 +7696,10 @@
             </segment>
             <segment id="1000045" name="dend_1000045">
                 <parent segment="1000040"/>
-                <proximal x="6960.01966975001" y="2497.51560325" z="3137.910185" diameter="2.0"/>
                 <distal x="6965.34758475001" y="2501.38279825" z="3153.437555" diameter="2.0"/>
             </segment>
             <segment id="1000046" name="dend_1000046">
                 <parent segment="1000038"/>
-                <proximal x="6944.164221" y="2488.34370975001" z="3105.7783311875" diameter="2.0"/>
                 <distal x="6962.00381275" y="2510.03902925" z="3110.7363785" diameter="2.0"/>
             </segment>
             <segment id="1000047" name="dend_1000047">
@@ -7815,7 +7716,6 @@
             </segment>
             <segment id="1000050" name="dend_1000050">
                 <parent segment="1000037"/>
-                <proximal x="6940.775631" y="2487.23125075" z="3106.1032081875" diameter="2.0"/>
                 <distal x="6935.58196375" y="2483.4687205" z="3105.5985843125" diameter="2.0"/>
             </segment>
             <segment id="1000051" name="dend_1000051">
@@ -7840,7 +7740,6 @@
             </segment>
             <segment id="1000056" name="dend_1000056">
                 <parent segment="1000050"/>
-                <proximal x="6935.58196375" y="2483.4687205" z="3105.5985843125" diameter="2.0"/>
                 <distal x="6933.63487150001" y="2467.58661950001" z="3103.6214624375" diameter="2.0"/>
             </segment>
             <segment id="1000057" name="dend_1000057">
@@ -7869,7 +7768,6 @@
             </segment>
             <segment id="1000063" name="dend_1000063">
                 <parent segment="1000056"/>
-                <proximal x="6933.63487150001" y="2467.58661950001" z="3103.6214624375" diameter="2.0"/>
                 <distal x="6931.226482" y="2435.5273105" z="3111.0127345625" diameter="2.0"/>
             </segment>
             <segment id="1000064" name="dend_1000064">
@@ -7886,7 +7784,6 @@
             </segment>
             <segment id="1000067" name="dend_1000067">
                 <parent segment="1000056"/>
-                <proximal x="6933.63487150001" y="2467.58661950001" z="3103.6214624375" diameter="2.0"/>
                 <distal x="6934.3828465" y="2463.9257765" z="3092.8017564375" diameter="2.0"/>
             </segment>
             <segment id="1000068" name="dend_1000068">
@@ -7911,7 +7808,6 @@
             </segment>
             <segment id="1000073" name="dend_1000073">
                 <parent segment="1000067"/>
-                <proximal x="6934.3828465" y="2463.9257765" z="3092.8017564375" diameter="2.0"/>
                 <distal x="6933.0704285" y="2461.8789155" z="3089.8095364375" diameter="2.0"/>
             </segment>
             <segment id="1000074" name="dend_1000074">
@@ -7936,7 +7832,6 @@
             </segment>
             <segment id="1000079" name="dend_1000079">
                 <parent segment="1000074"/>
-                <proximal x="6939.47259825001" y="2459.3633225" z="3086.4639143125" diameter="2.0"/>
                 <distal x="6935.89448875" y="2455.16016925" z="3075.4892429375" diameter="2.0"/>
             </segment>
             <segment id="1000080" name="dend_1000080">
@@ -7977,7 +7872,6 @@
             </segment>
             <segment id="1000089" name="dend_1000089">
                 <parent segment="1000079"/>
-                <proximal x="6935.89448875" y="2455.16016925" z="3075.4892429375" diameter="2.0"/>
                 <distal x="6936.68367875001" y="2453.79690725001" z="3074.5576349375" diameter="2.0"/>
             </segment>
             <segment id="1000090" name="dend_1000090">
@@ -7998,7 +7892,6 @@
             </segment>
             <segment id="1000094" name="dend_1000094">
                 <parent segment="1000091"/>
-                <proximal x="6936.34752375" y="2449.02343725001" z="3067.2626869375" diameter="2.0"/>
                 <distal x="6935.6798045" y="2464.4023415" z="3037.283179875" diameter="2.0"/>
             </segment>
             <segment id="1000095" name="dend_1000095">
@@ -8011,7 +7904,6 @@
             </segment>
             <segment id="1000097" name="dend_1000097">
                 <parent segment="1000090"/>
-                <proximal x="6930.76156675001" y="2448.09374700001" z="3071.8183505" diameter="2.0"/>
                 <distal x="6930.70715075001" y="2446.582061" z="3070.7714835" diameter="2.0"/>
             </segment>
             <segment id="1000098" name="dend_1000098">
@@ -8020,7 +7912,6 @@
             </segment>
             <segment id="1000099" name="dend_1000099">
                 <parent segment="1000097"/>
-                <proximal x="6930.70715075001" y="2446.582061" z="3070.7714835" diameter="2.0"/>
                 <distal x="6936.47272975001" y="2424.90232250001" z="3063.7138590625" diameter="2.0"/>
             </segment>
             <segment id="1000100" name="dend_1000100">
@@ -8065,7 +7956,6 @@
             </segment>
             <segment id="1000110" name="dend_1000110">
                 <parent segment="1000100"/>
-                <proximal x="6928.22641050001" y="2401.01172925" z="3055.1924293125" diameter="2.0"/>
                 <distal x="6927.5235125" y="2399.63281225001" z="3052.1415413125" diameter="2.0"/>
             </segment>
             <segment id="1000111" name="dend_1000111">
@@ -8094,7 +7984,6 @@
             </segment>
             <segment id="1000117" name="dend_1000117">
                 <parent segment="1000110"/>
-                <proximal x="6927.5235125" y="2399.63281225001" z="3052.1415413125" diameter="2.0"/>
                 <distal x="6924.6796605" y="2383.49609550001" z="3044.3114964375" diameter="2.0"/>
             </segment>
             <segment id="1000118" name="dend_1000118">
@@ -8103,7 +7992,6 @@
             </segment>
             <segment id="1000119" name="dend_1000119">
                 <parent segment="1000117"/>
-                <proximal x="6924.6796605" y="2383.49609550001" z="3044.3114964375" diameter="2.0"/>
                 <distal x="6917.41012875001" y="2368.25784875001" z="3017.3447510625" diameter="2.0"/>
             </segment>
             <segment id="1000120" name="dend_1000120">
@@ -8136,7 +8024,6 @@
             </segment>
             <segment id="1000127" name="dend_1000127">
                 <parent segment="1000122"/>
-                <proximal x="6912.57434725" y="2345.92183950001" z="3007.5302421875" diameter="2.0"/>
                 <distal x="6905.0937445" y="2326.097668" z="3003.4931684375" diameter="2.0"/>
             </segment>
             <segment id="1000128" name="dend_1000128">
@@ -8157,7 +8044,6 @@
             </segment>
             <segment id="1000132" name="dend_1000132">
                 <parent segment="1000127"/>
-                <proximal x="6905.0937445" y="2326.097668" z="3003.4931684375" diameter="2.0"/>
                 <distal x="6904.5000015" y="2317.78909200001" z="2996.9853574375" diameter="2.0"/>
             </segment>
             <segment id="1000133" name="dend_1000133">
@@ -8166,7 +8052,6 @@
             </segment>
             <segment id="1000134" name="dend_1000134">
                 <parent segment="1000132"/>
-                <proximal x="6904.5000015" y="2317.78909200001" z="2996.9853574375" diameter="2.0"/>
                 <distal x="6899.80861225" y="2308.48824025" z="2979.0615160625" diameter="2.0"/>
             </segment>
             <segment id="1000135" name="dend_1000135">
@@ -8243,7 +8128,6 @@
             </segment>
             <segment id="1000153" name="dend_1000153">
                 <parent segment="1000001"/>
-                <proximal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
                 <distal x="6932.69155125" y="2505.46875025" z="3119.464892625" diameter="2.0"/>
             </segment>
             <segment id="1000154" name="dend_1000154">
@@ -8264,7 +8148,6 @@
             </segment>
             <segment id="1000158" name="dend_1000158">
                 <parent segment="1000154"/>
-                <proximal x="6928.94518150001" y="2493.00780725" z="3128.5752556875" diameter="2.0"/>
                 <distal x="6913.80850925" y="2483.8789335" z="3114.003882875" diameter="2.0"/>
             </segment>
             <segment id="1000159" name="dend_1000159">
@@ -8297,7 +8180,6 @@
             </segment>
             <segment id="1000166" name="dend_1000166">
                 <parent segment="1000153"/>
-                <proximal x="6932.69155125" y="2505.46875025" z="3119.464892625" diameter="2.0"/>
                 <distal x="6918.47263525" y="2510.82423875001" z="3112.81449075" diameter="2.0"/>
             </segment>
             <segment id="1000167" name="dend_1000167">
@@ -8318,7 +8200,6 @@
             </segment>
             <segment id="1000171" name="dend_1000171">
                 <parent segment="1000001"/>
-                <proximal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
                 <distal x="6933.61983925001" y="2509.83646425" z="3115.283045625" diameter="2.0"/>
             </segment>
             <segment id="1000172" name="dend_1000172">
@@ -8359,7 +8240,6 @@
             </segment>
             <segment id="1000181" name="dend_1000181">
                 <parent segment="1000176"/>
-                <proximal x="6937.61325925001" y="2569.37889275001" z="3132.97659275" diameter="2.0"/>
                 <distal x="6939.59753825" y="2590.374987" z="3140.019500625" diameter="2.0"/>
             </segment>
             <segment id="1000182" name="dend_1000182">
@@ -8388,7 +8268,6 @@
             </segment>
             <segment id="1000188" name="dend_1000188">
                 <parent segment="1000173"/>
-                <proximal x="6933.95704475" y="2522.42187875001" z="3128.4189185625" diameter="2.0"/>
                 <distal x="6925.34378550001" y="2545.78903875" z="3137.625034" diameter="2.0"/>
             </segment>
             <segment id="1000189" name="dend_1000189">
@@ -8405,7 +8284,6 @@
             </segment>
             <segment id="1000192" name="dend_1000192">
                 <parent segment="1000172"/>
-                <proximal x="6931.43354825" y="2511.66408125" z="3119.499970625" diameter="2.0"/>
                 <distal x="6929.53119750001" y="2500.89840525" z="3130.5868546875" diameter="2.0"/>
             </segment>
             <segment id="1000193" name="dend_1000193">
@@ -8434,7 +8312,6 @@
             </segment>
             <segment id="1000199" name="dend_1000199">
                 <parent segment="1000171"/>
-                <proximal x="6933.61983925001" y="2509.83646425" z="3115.283045625" diameter="2.0"/>
                 <distal x="6929.42563925" y="2513.70700825001" z="3107.466802625" diameter="2.0"/>
             </segment>
             <segment id="1000200" name="dend_1000200">
@@ -8467,7 +8344,6 @@
             </segment>
             <segment id="1000207" name="dend_1000207">
                 <parent segment="1000199"/>
-                <proximal x="6929.42563925" y="2513.70700825001" z="3107.466802625" diameter="2.0"/>
                 <distal x="6921.0000825" y="2529.11719175" z="3091.7040640625" diameter="2.0"/>
             </segment>
             <segment id="1000208" name="dend_1000208">
@@ -8500,7 +8376,6 @@
             </segment>
             <segment id="1000215" name="dend_1000215">
                 <parent segment="1000001"/>
-                <proximal x="6935.78417175" y="2491.1371455" z="3107.4501883125" diameter="2.0"/>
                 <distal x="6941.570917" y="2510.7153705" z="3115.9395960625" diameter="2.0"/>
             </segment>
             <segment id="1000216" name="dend_1000216">
@@ -8525,7 +8400,6 @@
             </segment>
             <segment id="1000221" name="dend_1000221">
                 <parent segment="1000216"/>
-                <proximal x="6946.22262425" y="2501.82812275" z="3130.277329125" diameter="2.0"/>
                 <distal x="6945.85555925001" y="2503.87498375" z="3129.089901125" diameter="2.0"/>
             </segment>
             <segment id="1000222" name="dend_1000222">
@@ -8554,7 +8428,6 @@
             </segment>
             <segment id="1000228" name="dend_1000228">
                 <parent segment="1000221"/>
-                <proximal x="6945.85555925001" y="2503.87498375" z="3129.089901125" diameter="2.0"/>
                 <distal x="6945.601565" y="2519.05076950001" z="3138.0850074375" diameter="2.0"/>
             </segment>
             <segment id="1000229" name="dend_1000229">
@@ -8591,7 +8464,6 @@
             </segment>
             <segment id="1000237" name="dend_1000237">
                 <parent segment="1000228"/>
-                <proximal x="6945.601565" y="2519.05076950001" z="3138.0850074375" diameter="2.0"/>
                 <distal x="6948.58214825" y="2541.91019150001" z="3154.0165703125" diameter="2.0"/>
             </segment>
             <segment id="1000238" name="dend_1000238">
@@ -8614,2650 +8486,15 @@
                 <parent segment="1000241"/>
                 <distal x="6986.984446" y="2597.02732575" z="3221.1045478125" diameter="2.0"/>
             </segment>
-            <segmentGroup id="soma_0">
-                <member segment="0"/>
-            </segmentGroup>
-            <segmentGroup id="axon_0" neuroLexId="sao864921383">
-                <member segment="1001"/>
-                <member segment="1002"/>
-                <member segment="1003"/>
-                <member segment="1004"/>
-                <member segment="1005"/>
-                <member segment="1006"/>
-                <member segment="1007"/>
-                <member segment="1008"/>
-                <member segment="1009"/>
-                <member segment="1010"/>
-                <member segment="1011"/>
-                <member segment="1012"/>
-                <member segment="1013"/>
-                <member segment="1014"/>
-                <member segment="1015"/>
-                <member segment="1016"/>
-                <member segment="1017"/>
-                <member segment="1018"/>
-                <member segment="1019"/>
-                <member segment="1020"/>
-                <member segment="1021"/>
-                <member segment="1022"/>
-                <member segment="1023"/>
-                <member segment="1024"/>
-                <member segment="1025"/>
-                <member segment="1026"/>
-                <member segment="1027"/>
-                <member segment="1028"/>
-                <member segment="1029"/>
-                <member segment="1030"/>
-                <member segment="1031"/>
-                <member segment="1032"/>
-                <member segment="1033"/>
-                <member segment="1034"/>
-                <member segment="1035"/>
-                <member segment="1036"/>
-                <member segment="1037"/>
-                <member segment="1038"/>
-                <member segment="1039"/>
-                <member segment="1040"/>
-                <member segment="1041"/>
-                <member segment="1042"/>
-                <member segment="1043"/>
-                <member segment="1044"/>
-                <member segment="1045"/>
-                <member segment="1046"/>
-                <member segment="1047"/>
-                <member segment="1048"/>
-                <member segment="1049"/>
-                <member segment="1050"/>
-                <member segment="1051"/>
-                <member segment="1052"/>
-                <member segment="1053"/>
-                <member segment="1054"/>
-                <member segment="1055"/>
-                <member segment="1056"/>
-                <member segment="1057"/>
-                <member segment="1058"/>
-                <member segment="1059"/>
-                <member segment="1060"/>
-                <member segment="1061"/>
-                <member segment="1062"/>
-                <member segment="1063"/>
-                <member segment="1064"/>
-                <member segment="1065"/>
-                <member segment="1066"/>
-                <member segment="1067"/>
-                <member segment="1068"/>
-                <member segment="1069"/>
-                <member segment="1070"/>
-                <member segment="1071"/>
-                <member segment="1072"/>
-                <member segment="1073"/>
-                <member segment="1074"/>
-                <member segment="1075"/>
-            </segmentGroup>
-            <segmentGroup id="axon_1" neuroLexId="sao864921383">
-                <member segment="1076"/>
-                <member segment="1077"/>
-                <member segment="1078"/>
-                <member segment="1079"/>
-                <member segment="1080"/>
-                <member segment="1081"/>
-                <member segment="1082"/>
-                <member segment="1083"/>
-                <member segment="1084"/>
-                <member segment="1085"/>
-                <member segment="1086"/>
-                <member segment="1087"/>
-            </segmentGroup>
-            <segmentGroup id="axon_2" neuroLexId="sao864921383">
-                <member segment="1088"/>
-                <member segment="1089"/>
-                <member segment="1090"/>
-                <member segment="1091"/>
-                <member segment="1092"/>
-                <member segment="1093"/>
-                <member segment="1094"/>
-                <member segment="1095"/>
-                <member segment="1096"/>
-                <member segment="1097"/>
-                <member segment="1098"/>
-                <member segment="1099"/>
-                <member segment="1100"/>
-                <member segment="1101"/>
-                <member segment="1102"/>
-                <member segment="1103"/>
-                <member segment="1104"/>
-                <member segment="1105"/>
-                <member segment="1106"/>
-                <member segment="1107"/>
-                <member segment="1108"/>
-                <member segment="1109"/>
-                <member segment="1110"/>
-                <member segment="1111"/>
-                <member segment="1112"/>
-                <member segment="1113"/>
-                <member segment="1114"/>
-                <member segment="1115"/>
-                <member segment="1116"/>
-                <member segment="1117"/>
-                <member segment="1118"/>
-                <member segment="1119"/>
-                <member segment="1120"/>
-                <member segment="1121"/>
-                <member segment="1122"/>
-                <member segment="1123"/>
-                <member segment="1124"/>
-                <member segment="1125"/>
-                <member segment="1126"/>
-                <member segment="1127"/>
-                <member segment="1128"/>
-                <member segment="1129"/>
-                <member segment="1130"/>
-                <member segment="1131"/>
-                <member segment="1132"/>
-                <member segment="1133"/>
-                <member segment="1134"/>
-                <member segment="1135"/>
-                <member segment="1136"/>
-                <member segment="1137"/>
-                <member segment="1138"/>
-                <member segment="1139"/>
-                <member segment="1140"/>
-                <member segment="1141"/>
-                <member segment="1142"/>
-                <member segment="1143"/>
-                <member segment="1144"/>
-                <member segment="1145"/>
-                <member segment="1146"/>
-                <member segment="1147"/>
-                <member segment="1148"/>
-                <member segment="1149"/>
-                <member segment="1150"/>
-                <member segment="1151"/>
-                <member segment="1152"/>
-                <member segment="1153"/>
-                <member segment="1154"/>
-                <member segment="1155"/>
-                <member segment="1156"/>
-                <member segment="1157"/>
-                <member segment="1158"/>
-                <member segment="1159"/>
-                <member segment="1160"/>
-                <member segment="1161"/>
-                <member segment="1162"/>
-                <member segment="1163"/>
-                <member segment="1164"/>
-                <member segment="1165"/>
-                <member segment="1166"/>
-                <member segment="1167"/>
-                <member segment="1168"/>
-                <member segment="1169"/>
-                <member segment="1170"/>
-                <member segment="1171"/>
-                <member segment="1172"/>
-                <member segment="1173"/>
-                <member segment="1174"/>
-                <member segment="1175"/>
-                <member segment="1176"/>
-                <member segment="1177"/>
-                <member segment="1178"/>
-                <member segment="1179"/>
-                <member segment="1180"/>
-                <member segment="1181"/>
-                <member segment="1182"/>
-                <member segment="1183"/>
-                <member segment="1184"/>
-            </segmentGroup>
-            <segmentGroup id="axon_3" neuroLexId="sao864921383">
-                <member segment="1185"/>
-                <member segment="1186"/>
-                <member segment="1187"/>
-                <member segment="1188"/>
-                <member segment="1189"/>
-                <member segment="1190"/>
-                <member segment="1191"/>
-                <member segment="1192"/>
-                <member segment="1193"/>
-                <member segment="1194"/>
-                <member segment="1195"/>
-                <member segment="1196"/>
-                <member segment="1197"/>
-                <member segment="1198"/>
-                <member segment="1199"/>
-                <member segment="1200"/>
-                <member segment="1201"/>
-                <member segment="1202"/>
-                <member segment="1203"/>
-                <member segment="1204"/>
-                <member segment="1205"/>
-                <member segment="1206"/>
-                <member segment="1207"/>
-                <member segment="1208"/>
-                <member segment="1209"/>
-                <member segment="1210"/>
-                <member segment="1211"/>
-            </segmentGroup>
-            <segmentGroup id="axon_4" neuroLexId="sao864921383">
-                <member segment="1212"/>
-                <member segment="1213"/>
-                <member segment="1214"/>
-                <member segment="1215"/>
-                <member segment="1216"/>
-            </segmentGroup>
-            <segmentGroup id="axon_5" neuroLexId="sao864921383">
-                <member segment="1217"/>
-                <member segment="1218"/>
-                <member segment="1219"/>
-                <member segment="1220"/>
-                <member segment="1221"/>
-                <member segment="1222"/>
-                <member segment="1223"/>
-                <member segment="1224"/>
-            </segmentGroup>
-            <segmentGroup id="axon_6" neuroLexId="sao864921383">
-                <member segment="1225"/>
-                <member segment="1226"/>
-                <member segment="1227"/>
-                <member segment="1228"/>
-                <member segment="1229"/>
-                <member segment="1230"/>
-                <member segment="1231"/>
-                <member segment="1232"/>
-                <member segment="1233"/>
-                <member segment="1234"/>
-                <member segment="1235"/>
-                <member segment="1236"/>
-                <member segment="1237"/>
-                <member segment="1238"/>
-                <member segment="1239"/>
-                <member segment="1240"/>
-                <member segment="1241"/>
-                <member segment="1242"/>
-                <member segment="1243"/>
-                <member segment="1244"/>
-                <member segment="1245"/>
-                <member segment="1246"/>
-                <member segment="1247"/>
-                <member segment="1248"/>
-                <member segment="1249"/>
-                <member segment="1250"/>
-                <member segment="1251"/>
-                <member segment="1252"/>
-                <member segment="1253"/>
-            </segmentGroup>
-            <segmentGroup id="axon_7" neuroLexId="sao864921383">
-                <member segment="1254"/>
-                <member segment="1255"/>
-                <member segment="1256"/>
-                <member segment="1257"/>
-                <member segment="1258"/>
-            </segmentGroup>
-            <segmentGroup id="axon_8" neuroLexId="sao864921383">
-                <member segment="1259"/>
-                <member segment="1260"/>
-            </segmentGroup>
-            <segmentGroup id="axon_9" neuroLexId="sao864921383">
-                <member segment="1261"/>
-                <member segment="1262"/>
-                <member segment="1263"/>
-                <member segment="1264"/>
-                <member segment="1265"/>
-                <member segment="1266"/>
-                <member segment="1267"/>
-                <member segment="1268"/>
-                <member segment="1269"/>
-                <member segment="1270"/>
-                <member segment="1271"/>
-                <member segment="1272"/>
-                <member segment="1273"/>
-                <member segment="1274"/>
-                <member segment="1275"/>
-                <member segment="1276"/>
-                <member segment="1277"/>
-                <member segment="1278"/>
-                <member segment="1279"/>
-                <member segment="1280"/>
-                <member segment="1281"/>
-                <member segment="1282"/>
-                <member segment="1283"/>
-                <member segment="1284"/>
-                <member segment="1285"/>
-                <member segment="1286"/>
-                <member segment="1287"/>
-                <member segment="1288"/>
-                <member segment="1289"/>
-                <member segment="1290"/>
-                <member segment="1291"/>
-                <member segment="1292"/>
-                <member segment="1293"/>
-                <member segment="1294"/>
-                <member segment="1295"/>
-                <member segment="1296"/>
-                <member segment="1297"/>
-                <member segment="1298"/>
-                <member segment="1299"/>
-                <member segment="1300"/>
-                <member segment="1301"/>
-                <member segment="1302"/>
-                <member segment="1303"/>
-                <member segment="1304"/>
-                <member segment="1305"/>
-                <member segment="1306"/>
-                <member segment="1307"/>
-                <member segment="1308"/>
-                <member segment="1309"/>
-                <member segment="1310"/>
-                <member segment="1311"/>
-                <member segment="1312"/>
-                <member segment="1313"/>
-                <member segment="1314"/>
-                <member segment="1315"/>
-                <member segment="1316"/>
-                <member segment="1317"/>
-                <member segment="1318"/>
-                <member segment="1319"/>
-                <member segment="1320"/>
-            </segmentGroup>
-            <segmentGroup id="axon_10" neuroLexId="sao864921383">
-                <member segment="1321"/>
-                <member segment="1322"/>
-                <member segment="1323"/>
-                <member segment="1324"/>
-                <member segment="1325"/>
-                <member segment="1326"/>
-                <member segment="1327"/>
-                <member segment="1328"/>
-                <member segment="1329"/>
-                <member segment="1330"/>
-                <member segment="1331"/>
-                <member segment="1332"/>
-                <member segment="1333"/>
-                <member segment="1334"/>
-                <member segment="1335"/>
-                <member segment="1336"/>
-                <member segment="1337"/>
-                <member segment="1338"/>
-                <member segment="1339"/>
-                <member segment="1340"/>
-                <member segment="1341"/>
-            </segmentGroup>
-            <segmentGroup id="axon_11" neuroLexId="sao864921383">
-                <member segment="1342"/>
-                <member segment="1343"/>
-                <member segment="1344"/>
-                <member segment="1345"/>
-                <member segment="1346"/>
-                <member segment="1347"/>
-                <member segment="1348"/>
-                <member segment="1349"/>
-                <member segment="1350"/>
-                <member segment="1351"/>
-                <member segment="1352"/>
-                <member segment="1353"/>
-                <member segment="1354"/>
-                <member segment="1355"/>
-                <member segment="1356"/>
-                <member segment="1357"/>
-                <member segment="1358"/>
-                <member segment="1359"/>
-                <member segment="1360"/>
-                <member segment="1361"/>
-                <member segment="1362"/>
-                <member segment="1363"/>
-                <member segment="1364"/>
-            </segmentGroup>
-            <segmentGroup id="axon_12" neuroLexId="sao864921383">
-                <member segment="1365"/>
-                <member segment="1366"/>
-                <member segment="1367"/>
-                <member segment="1368"/>
-                <member segment="1369"/>
-                <member segment="1370"/>
-                <member segment="1371"/>
-                <member segment="1372"/>
-                <member segment="1373"/>
-                <member segment="1374"/>
-                <member segment="1375"/>
-                <member segment="1376"/>
-                <member segment="1377"/>
-            </segmentGroup>
-            <segmentGroup id="axon_13" neuroLexId="sao864921383">
-                <member segment="1378"/>
-                <member segment="1379"/>
-                <member segment="1380"/>
-                <member segment="1381"/>
-                <member segment="1382"/>
-                <member segment="1383"/>
-                <member segment="1384"/>
-                <member segment="1385"/>
-                <member segment="1386"/>
-                <member segment="1387"/>
-                <member segment="1388"/>
-                <member segment="1389"/>
-                <member segment="1390"/>
-                <member segment="1391"/>
-                <member segment="1392"/>
-                <member segment="1393"/>
-                <member segment="1394"/>
-                <member segment="1395"/>
-                <member segment="1396"/>
-                <member segment="1397"/>
-                <member segment="1398"/>
-                <member segment="1399"/>
-                <member segment="1400"/>
-                <member segment="1401"/>
-                <member segment="1402"/>
-                <member segment="1403"/>
-                <member segment="1404"/>
-                <member segment="1405"/>
-                <member segment="1406"/>
-                <member segment="1407"/>
-                <member segment="1408"/>
-                <member segment="1409"/>
-                <member segment="1410"/>
-                <member segment="1411"/>
-                <member segment="1412"/>
-                <member segment="1413"/>
-                <member segment="1414"/>
-                <member segment="1415"/>
-                <member segment="1416"/>
-                <member segment="1417"/>
-                <member segment="1418"/>
-                <member segment="1419"/>
-                <member segment="1420"/>
-                <member segment="1421"/>
-                <member segment="1422"/>
-                <member segment="1423"/>
-                <member segment="1424"/>
-                <member segment="1425"/>
-                <member segment="1426"/>
-            </segmentGroup>
-            <segmentGroup id="axon_14" neuroLexId="sao864921383">
-                <member segment="1427"/>
-                <member segment="1428"/>
-                <member segment="1429"/>
-                <member segment="1430"/>
-                <member segment="1431"/>
-                <member segment="1432"/>
-                <member segment="1433"/>
-                <member segment="1434"/>
-                <member segment="1435"/>
-                <member segment="1436"/>
-                <member segment="1437"/>
-                <member segment="1438"/>
-                <member segment="1439"/>
-                <member segment="1440"/>
-                <member segment="1441"/>
-                <member segment="1442"/>
-                <member segment="1443"/>
-                <member segment="1444"/>
-                <member segment="1445"/>
-                <member segment="1446"/>
-                <member segment="1447"/>
-                <member segment="1448"/>
-                <member segment="1449"/>
-                <member segment="1450"/>
-                <member segment="1451"/>
-                <member segment="1452"/>
-                <member segment="1453"/>
-                <member segment="1454"/>
-                <member segment="1455"/>
-                <member segment="1456"/>
-                <member segment="1457"/>
-                <member segment="1458"/>
-                <member segment="1459"/>
-                <member segment="1460"/>
-                <member segment="1461"/>
-                <member segment="1462"/>
-                <member segment="1463"/>
-                <member segment="1464"/>
-                <member segment="1465"/>
-                <member segment="1466"/>
-                <member segment="1467"/>
-                <member segment="1468"/>
-                <member segment="1469"/>
-                <member segment="1470"/>
-                <member segment="1471"/>
-                <member segment="1472"/>
-                <member segment="1473"/>
-                <member segment="1474"/>
-                <member segment="1475"/>
-                <member segment="1476"/>
-                <member segment="1477"/>
-                <member segment="1478"/>
-                <member segment="1479"/>
-                <member segment="1480"/>
-                <member segment="1481"/>
-                <member segment="1482"/>
-                <member segment="1483"/>
-                <member segment="1484"/>
-                <member segment="1485"/>
-                <member segment="1486"/>
-                <member segment="1487"/>
-                <member segment="1488"/>
-                <member segment="1489"/>
-                <member segment="1490"/>
-                <member segment="1491"/>
-                <member segment="1492"/>
-                <member segment="1493"/>
-                <member segment="1494"/>
-                <member segment="1495"/>
-                <member segment="1496"/>
-                <member segment="1497"/>
-                <member segment="1498"/>
-                <member segment="1499"/>
-                <member segment="1500"/>
-                <member segment="1501"/>
-            </segmentGroup>
-            <segmentGroup id="axon_15" neuroLexId="sao864921383">
-                <member segment="1502"/>
-                <member segment="1503"/>
-                <member segment="1504"/>
-                <member segment="1505"/>
-                <member segment="1506"/>
-                <member segment="1507"/>
-                <member segment="1508"/>
-                <member segment="1509"/>
-                <member segment="1510"/>
-                <member segment="1511"/>
-                <member segment="1512"/>
-                <member segment="1513"/>
-                <member segment="1514"/>
-                <member segment="1515"/>
-                <member segment="1516"/>
-                <member segment="1517"/>
-                <member segment="1518"/>
-                <member segment="1519"/>
-                <member segment="1520"/>
-                <member segment="1521"/>
-                <member segment="1522"/>
-                <member segment="1523"/>
-                <member segment="1524"/>
-                <member segment="1525"/>
-                <member segment="1526"/>
-            </segmentGroup>
-            <segmentGroup id="axon_16" neuroLexId="sao864921383">
-                <member segment="1527"/>
-                <member segment="1528"/>
-                <member segment="1529"/>
-                <member segment="1530"/>
-                <member segment="1531"/>
-                <member segment="1532"/>
-                <member segment="1533"/>
-                <member segment="1534"/>
-                <member segment="1535"/>
-                <member segment="1536"/>
-                <member segment="1537"/>
-                <member segment="1538"/>
-                <member segment="1539"/>
-                <member segment="1540"/>
-                <member segment="1541"/>
-                <member segment="1542"/>
-            </segmentGroup>
-            <segmentGroup id="axon_17" neuroLexId="sao864921383">
-                <member segment="1543"/>
-                <member segment="1544"/>
-                <member segment="1545"/>
-            </segmentGroup>
-            <segmentGroup id="axon_18" neuroLexId="sao864921383">
-                <member segment="1546"/>
-                <member segment="1547"/>
-                <member segment="1548"/>
-                <member segment="1549"/>
-                <member segment="1550"/>
-            </segmentGroup>
-            <segmentGroup id="axon_19" neuroLexId="sao864921383">
-                <member segment="1551"/>
-                <member segment="1552"/>
-                <member segment="1553"/>
-                <member segment="1554"/>
-                <member segment="1555"/>
-                <member segment="1556"/>
-                <member segment="1557"/>
-            </segmentGroup>
-            <segmentGroup id="axon_20" neuroLexId="sao864921383">
-                <member segment="1558"/>
-                <member segment="1559"/>
-                <member segment="1560"/>
-                <member segment="1561"/>
-            </segmentGroup>
-            <segmentGroup id="axon_21" neuroLexId="sao864921383">
-                <member segment="1562"/>
-                <member segment="1563"/>
-                <member segment="1564"/>
-                <member segment="1565"/>
-                <member segment="1566"/>
-                <member segment="1567"/>
-                <member segment="1568"/>
-                <member segment="1569"/>
-                <member segment="1570"/>
-                <member segment="1571"/>
-                <member segment="1572"/>
-                <member segment="1573"/>
-                <member segment="1574"/>
-                <member segment="1575"/>
-                <member segment="1576"/>
-                <member segment="1577"/>
-                <member segment="1578"/>
-                <member segment="1579"/>
-                <member segment="1580"/>
-                <member segment="1581"/>
-                <member segment="1582"/>
-                <member segment="1583"/>
-                <member segment="1584"/>
-                <member segment="1585"/>
-                <member segment="1586"/>
-                <member segment="1587"/>
-            </segmentGroup>
-            <segmentGroup id="axon_22" neuroLexId="sao864921383">
-                <member segment="1588"/>
-                <member segment="1589"/>
-                <member segment="1590"/>
-                <member segment="1591"/>
-                <member segment="1592"/>
-                <member segment="1593"/>
-                <member segment="1594"/>
-                <member segment="1595"/>
-                <member segment="1596"/>
-                <member segment="1597"/>
-                <member segment="1598"/>
-                <member segment="1599"/>
-                <member segment="1600"/>
-                <member segment="1601"/>
-                <member segment="1602"/>
-                <member segment="1603"/>
-                <member segment="1604"/>
-                <member segment="1605"/>
-                <member segment="1606"/>
-                <member segment="1607"/>
-                <member segment="1608"/>
-                <member segment="1609"/>
-                <member segment="1610"/>
-                <member segment="1611"/>
-                <member segment="1612"/>
-                <member segment="1613"/>
-                <member segment="1614"/>
-                <member segment="1615"/>
-                <member segment="1616"/>
-            </segmentGroup>
-            <segmentGroup id="axon_23" neuroLexId="sao864921383">
-                <member segment="1617"/>
-                <member segment="1618"/>
-                <member segment="1619"/>
-                <member segment="1620"/>
-                <member segment="1621"/>
-                <member segment="1622"/>
-                <member segment="1623"/>
-                <member segment="1624"/>
-                <member segment="1625"/>
-                <member segment="1626"/>
-                <member segment="1627"/>
-                <member segment="1628"/>
-                <member segment="1629"/>
-                <member segment="1630"/>
-                <member segment="1631"/>
-                <member segment="1632"/>
-                <member segment="1633"/>
-                <member segment="1634"/>
-                <member segment="1635"/>
-                <member segment="1636"/>
-                <member segment="1637"/>
-                <member segment="1638"/>
-                <member segment="1639"/>
-                <member segment="1640"/>
-                <member segment="1641"/>
-                <member segment="1642"/>
-                <member segment="1643"/>
-                <member segment="1644"/>
-                <member segment="1645"/>
-                <member segment="1646"/>
-                <member segment="1647"/>
-                <member segment="1648"/>
-            </segmentGroup>
-            <segmentGroup id="axon_24" neuroLexId="sao864921383">
-                <member segment="1649"/>
-                <member segment="1650"/>
-                <member segment="1651"/>
-                <member segment="1652"/>
-                <member segment="1653"/>
-            </segmentGroup>
-            <segmentGroup id="axon_25" neuroLexId="sao864921383">
-                <member segment="1654"/>
-                <member segment="1655"/>
-                <member segment="1656"/>
-                <member segment="1657"/>
-                <member segment="1658"/>
-                <member segment="1659"/>
-                <member segment="1660"/>
-                <member segment="1661"/>
-                <member segment="1662"/>
-                <member segment="1663"/>
-                <member segment="1664"/>
-                <member segment="1665"/>
-                <member segment="1666"/>
-                <member segment="1667"/>
-                <member segment="1668"/>
-                <member segment="1669"/>
-            </segmentGroup>
-            <segmentGroup id="axon_26" neuroLexId="sao864921383">
-                <member segment="1670"/>
-                <member segment="1671"/>
-                <member segment="1672"/>
-                <member segment="1673"/>
-                <member segment="1674"/>
-                <member segment="1675"/>
-                <member segment="1676"/>
-                <member segment="1677"/>
-                <member segment="1678"/>
-                <member segment="1679"/>
-                <member segment="1680"/>
-                <member segment="1681"/>
-                <member segment="1682"/>
-                <member segment="1683"/>
-                <member segment="1684"/>
-                <member segment="1685"/>
-                <member segment="1686"/>
-                <member segment="1687"/>
-            </segmentGroup>
-            <segmentGroup id="axon_27" neuroLexId="sao864921383">
-                <member segment="1688"/>
-                <member segment="1689"/>
-                <member segment="1690"/>
-                <member segment="1691"/>
-                <member segment="1692"/>
-                <member segment="1693"/>
-                <member segment="1694"/>
-                <member segment="1695"/>
-                <member segment="1696"/>
-                <member segment="1697"/>
-                <member segment="1698"/>
-                <member segment="1699"/>
-                <member segment="1700"/>
-                <member segment="1701"/>
-                <member segment="1702"/>
-                <member segment="1703"/>
-                <member segment="1704"/>
-                <member segment="1705"/>
-                <member segment="1706"/>
-                <member segment="1707"/>
-                <member segment="1708"/>
-                <member segment="1709"/>
-                <member segment="1710"/>
-                <member segment="1711"/>
-                <member segment="1712"/>
-                <member segment="1713"/>
-                <member segment="1714"/>
-                <member segment="1715"/>
-                <member segment="1716"/>
-                <member segment="1717"/>
-                <member segment="1718"/>
-                <member segment="1719"/>
-                <member segment="1720"/>
-                <member segment="1721"/>
-                <member segment="1722"/>
-                <member segment="1723"/>
-                <member segment="1724"/>
-            </segmentGroup>
-            <segmentGroup id="axon_28" neuroLexId="sao864921383">
-                <member segment="1725"/>
-                <member segment="1726"/>
-                <member segment="1727"/>
-            </segmentGroup>
-            <segmentGroup id="axon_29" neuroLexId="sao864921383">
-                <member segment="1728"/>
-                <member segment="1729"/>
-                <member segment="1730"/>
-                <member segment="1731"/>
-                <member segment="1732"/>
-                <member segment="1733"/>
-                <member segment="1734"/>
-                <member segment="1735"/>
-                <member segment="1736"/>
-                <member segment="1737"/>
-            </segmentGroup>
-            <segmentGroup id="axon_30" neuroLexId="sao864921383">
-                <member segment="1738"/>
-                <member segment="1739"/>
-                <member segment="1740"/>
-                <member segment="1741"/>
-                <member segment="1742"/>
-                <member segment="1743"/>
-                <member segment="1744"/>
-                <member segment="1745"/>
-            </segmentGroup>
-            <segmentGroup id="axon_31" neuroLexId="sao864921383">
-                <member segment="1746"/>
-                <member segment="1747"/>
-                <member segment="1748"/>
-                <member segment="1749"/>
-                <member segment="1750"/>
-                <member segment="1751"/>
-                <member segment="1752"/>
-                <member segment="1753"/>
-                <member segment="1754"/>
-            </segmentGroup>
-            <segmentGroup id="axon_32" neuroLexId="sao864921383">
-                <member segment="1755"/>
-                <member segment="1756"/>
-                <member segment="1757"/>
-                <member segment="1758"/>
-                <member segment="1759"/>
-                <member segment="1760"/>
-                <member segment="1761"/>
-                <member segment="1762"/>
-                <member segment="1763"/>
-                <member segment="1764"/>
-                <member segment="1765"/>
-                <member segment="1766"/>
-                <member segment="1767"/>
-                <member segment="1768"/>
-                <member segment="1769"/>
-                <member segment="1770"/>
-                <member segment="1771"/>
-            </segmentGroup>
-            <segmentGroup id="axon_33" neuroLexId="sao864921383">
-                <member segment="1772"/>
-                <member segment="1773"/>
-                <member segment="1774"/>
-                <member segment="1775"/>
-                <member segment="1776"/>
-                <member segment="1777"/>
-                <member segment="1778"/>
-                <member segment="1779"/>
-                <member segment="1780"/>
-                <member segment="1781"/>
-                <member segment="1782"/>
-            </segmentGroup>
-            <segmentGroup id="axon_34" neuroLexId="sao864921383">
-                <member segment="1783"/>
-                <member segment="1784"/>
-            </segmentGroup>
-            <segmentGroup id="axon_35" neuroLexId="sao864921383">
-                <member segment="1785"/>
-                <member segment="1786"/>
-                <member segment="1787"/>
-                <member segment="1788"/>
-                <member segment="1789"/>
-                <member segment="1790"/>
-                <member segment="1791"/>
-                <member segment="1792"/>
-                <member segment="1793"/>
-                <member segment="1794"/>
-                <member segment="1795"/>
-            </segmentGroup>
-            <segmentGroup id="axon_36" neuroLexId="sao864921383">
-                <member segment="1796"/>
-                <member segment="1797"/>
-                <member segment="1798"/>
-                <member segment="1799"/>
-                <member segment="1800"/>
-                <member segment="1801"/>
-                <member segment="1802"/>
-                <member segment="1803"/>
-                <member segment="1804"/>
-                <member segment="1805"/>
-                <member segment="1806"/>
-                <member segment="1807"/>
-                <member segment="1808"/>
-                <member segment="1809"/>
-                <member segment="1810"/>
-                <member segment="1811"/>
-                <member segment="1812"/>
-                <member segment="1813"/>
-                <member segment="1814"/>
-                <member segment="1815"/>
-                <member segment="1816"/>
-                <member segment="1817"/>
-                <member segment="1818"/>
-                <member segment="1819"/>
-                <member segment="1820"/>
-                <member segment="1821"/>
-                <member segment="1822"/>
-                <member segment="1823"/>
-                <member segment="1824"/>
-                <member segment="1825"/>
-                <member segment="1826"/>
-                <member segment="1827"/>
-                <member segment="1828"/>
-                <member segment="1829"/>
-                <member segment="1830"/>
-                <member segment="1831"/>
-                <member segment="1832"/>
-                <member segment="1833"/>
-                <member segment="1834"/>
-                <member segment="1835"/>
-                <member segment="1836"/>
-                <member segment="1837"/>
-                <member segment="1838"/>
-                <member segment="1839"/>
-                <member segment="1840"/>
-            </segmentGroup>
-            <segmentGroup id="axon_37" neuroLexId="sao864921383">
-                <member segment="1841"/>
-                <member segment="1842"/>
-                <member segment="1843"/>
-                <member segment="1844"/>
-                <member segment="1845"/>
-                <member segment="1846"/>
-                <member segment="1847"/>
-                <member segment="1848"/>
-                <member segment="1849"/>
-                <member segment="1850"/>
-                <member segment="1851"/>
-                <member segment="1852"/>
-                <member segment="1853"/>
-                <member segment="1854"/>
-            </segmentGroup>
-            <segmentGroup id="axon_38" neuroLexId="sao864921383">
-                <member segment="1855"/>
-                <member segment="1856"/>
-                <member segment="1857"/>
-                <member segment="1858"/>
-                <member segment="1859"/>
-            </segmentGroup>
-            <segmentGroup id="axon_39" neuroLexId="sao864921383">
-                <member segment="1860"/>
-                <member segment="1861"/>
-                <member segment="1862"/>
-                <member segment="1863"/>
-                <member segment="1864"/>
-                <member segment="1865"/>
-                <member segment="1866"/>
-                <member segment="1867"/>
-                <member segment="1868"/>
-                <member segment="1869"/>
-                <member segment="1870"/>
-                <member segment="1871"/>
-                <member segment="1872"/>
-                <member segment="1873"/>
-                <member segment="1874"/>
-                <member segment="1875"/>
-                <member segment="1876"/>
-                <member segment="1877"/>
-                <member segment="1878"/>
-            </segmentGroup>
-            <segmentGroup id="axon_40" neuroLexId="sao864921383">
-                <member segment="1879"/>
-                <member segment="1880"/>
-                <member segment="1881"/>
-                <member segment="1882"/>
-                <member segment="1883"/>
-                <member segment="1884"/>
-                <member segment="1885"/>
-                <member segment="1886"/>
-            </segmentGroup>
-            <segmentGroup id="axon_41" neuroLexId="sao864921383">
-                <member segment="1887"/>
-                <member segment="1888"/>
-                <member segment="1889"/>
-                <member segment="1890"/>
-                <member segment="1891"/>
-                <member segment="1892"/>
-                <member segment="1893"/>
-                <member segment="1894"/>
-                <member segment="1895"/>
-                <member segment="1896"/>
-                <member segment="1897"/>
-                <member segment="1898"/>
-                <member segment="1899"/>
-                <member segment="1900"/>
-                <member segment="1901"/>
-                <member segment="1902"/>
-                <member segment="1903"/>
-                <member segment="1904"/>
-                <member segment="1905"/>
-                <member segment="1906"/>
-                <member segment="1907"/>
-                <member segment="1908"/>
-                <member segment="1909"/>
-                <member segment="1910"/>
-                <member segment="1911"/>
-                <member segment="1912"/>
-                <member segment="1913"/>
-                <member segment="1914"/>
-                <member segment="1915"/>
-                <member segment="1916"/>
-                <member segment="1917"/>
-                <member segment="1918"/>
-                <member segment="1919"/>
-                <member segment="1920"/>
-                <member segment="1921"/>
-            </segmentGroup>
-            <segmentGroup id="axon_42" neuroLexId="sao864921383">
-                <member segment="1922"/>
-                <member segment="1923"/>
-                <member segment="1924"/>
-                <member segment="1925"/>
-                <member segment="1926"/>
-                <member segment="1927"/>
-                <member segment="1928"/>
-                <member segment="1929"/>
-                <member segment="1930"/>
-                <member segment="1931"/>
-                <member segment="1932"/>
-                <member segment="1933"/>
-            </segmentGroup>
-            <segmentGroup id="axon_43" neuroLexId="sao864921383">
-                <member segment="1934"/>
-                <member segment="1935"/>
-                <member segment="1936"/>
-            </segmentGroup>
-            <segmentGroup id="axon_44" neuroLexId="sao864921383">
-                <member segment="1937"/>
-                <member segment="1938"/>
-                <member segment="1939"/>
-                <member segment="1940"/>
-                <member segment="1941"/>
-                <member segment="1942"/>
-                <member segment="1943"/>
-                <member segment="1944"/>
-                <member segment="1945"/>
-                <member segment="1946"/>
-                <member segment="1947"/>
-                <member segment="1948"/>
-            </segmentGroup>
-            <segmentGroup id="axon_45" neuroLexId="sao864921383">
-                <member segment="1949"/>
-                <member segment="1950"/>
-                <member segment="1951"/>
-                <member segment="1952"/>
-                <member segment="1953"/>
-                <member segment="1954"/>
-                <member segment="1955"/>
-                <member segment="1956"/>
-                <member segment="1957"/>
-                <member segment="1958"/>
-                <member segment="1959"/>
-                <member segment="1960"/>
-                <member segment="1961"/>
-                <member segment="1962"/>
-                <member segment="1963"/>
-                <member segment="1964"/>
-            </segmentGroup>
-            <segmentGroup id="axon_46" neuroLexId="sao864921383">
-                <member segment="1965"/>
-                <member segment="1966"/>
-                <member segment="1967"/>
-                <member segment="1968"/>
-                <member segment="1969"/>
-                <member segment="1970"/>
-                <member segment="1971"/>
-                <member segment="1972"/>
-                <member segment="1973"/>
-                <member segment="1974"/>
-                <member segment="1975"/>
-                <member segment="1976"/>
-                <member segment="1977"/>
-                <member segment="1978"/>
-                <member segment="1979"/>
-                <member segment="1980"/>
-                <member segment="1981"/>
-                <member segment="1982"/>
-                <member segment="1983"/>
-                <member segment="1984"/>
-                <member segment="1985"/>
-                <member segment="1986"/>
-                <member segment="1987"/>
-            </segmentGroup>
-            <segmentGroup id="axon_47" neuroLexId="sao864921383">
-                <member segment="1988"/>
-                <member segment="1989"/>
-                <member segment="1990"/>
-                <member segment="1991"/>
-                <member segment="1992"/>
-                <member segment="1993"/>
-                <member segment="1994"/>
-                <member segment="1995"/>
-                <member segment="1996"/>
-                <member segment="1997"/>
-            </segmentGroup>
-            <segmentGroup id="axon_48" neuroLexId="sao864921383">
-                <member segment="1998"/>
-                <member segment="1999"/>
-                <member segment="2000"/>
-                <member segment="2001"/>
-                <member segment="2002"/>
-                <member segment="2003"/>
-                <member segment="2004"/>
-                <member segment="2005"/>
-                <member segment="2006"/>
-                <member segment="2007"/>
-                <member segment="2008"/>
-                <member segment="2009"/>
-                <member segment="2010"/>
-                <member segment="2011"/>
-                <member segment="2012"/>
-                <member segment="2013"/>
-                <member segment="2014"/>
-                <member segment="2015"/>
-                <member segment="2016"/>
-                <member segment="2017"/>
-                <member segment="2018"/>
-                <member segment="2019"/>
-                <member segment="2020"/>
-                <member segment="2021"/>
-                <member segment="2022"/>
-            </segmentGroup>
-            <segmentGroup id="axon_49" neuroLexId="sao864921383">
-                <member segment="2023"/>
-                <member segment="2024"/>
-                <member segment="2025"/>
-                <member segment="2026"/>
-                <member segment="2027"/>
-                <member segment="2028"/>
-                <member segment="2029"/>
-                <member segment="2030"/>
-                <member segment="2031"/>
-                <member segment="2032"/>
-                <member segment="2033"/>
-                <member segment="2034"/>
-                <member segment="2035"/>
-                <member segment="2036"/>
-                <member segment="2037"/>
-                <member segment="2038"/>
-                <member segment="2039"/>
-                <member segment="2040"/>
-                <member segment="2041"/>
-                <member segment="2042"/>
-                <member segment="2043"/>
-                <member segment="2044"/>
-            </segmentGroup>
-            <segmentGroup id="axon_50" neuroLexId="sao864921383">
-                <member segment="2045"/>
-                <member segment="2046"/>
-                <member segment="2047"/>
-                <member segment="2048"/>
-                <member segment="2049"/>
-                <member segment="2050"/>
-                <member segment="2051"/>
-                <member segment="2052"/>
-                <member segment="2053"/>
-                <member segment="2054"/>
-                <member segment="2055"/>
-                <member segment="2056"/>
-                <member segment="2057"/>
-                <member segment="2058"/>
-                <member segment="2059"/>
-                <member segment="2060"/>
-                <member segment="2061"/>
-                <member segment="2062"/>
-                <member segment="2063"/>
-                <member segment="2064"/>
-                <member segment="2065"/>
-                <member segment="2066"/>
-                <member segment="2067"/>
-                <member segment="2068"/>
-                <member segment="2069"/>
-                <member segment="2070"/>
-                <member segment="2071"/>
-                <member segment="2072"/>
-                <member segment="2073"/>
-                <member segment="2074"/>
-                <member segment="2075"/>
-                <member segment="2076"/>
-                <member segment="2077"/>
-                <member segment="2078"/>
-                <member segment="2079"/>
-                <member segment="2080"/>
-                <member segment="2081"/>
-                <member segment="2082"/>
-                <member segment="2083"/>
-                <member segment="2084"/>
-                <member segment="2085"/>
-                <member segment="2086"/>
-                <member segment="2087"/>
-                <member segment="2088"/>
-                <member segment="2089"/>
-                <member segment="2090"/>
-                <member segment="2091"/>
-                <member segment="2092"/>
-                <member segment="2093"/>
-                <member segment="2094"/>
-                <member segment="2095"/>
-                <member segment="2096"/>
-                <member segment="2097"/>
-                <member segment="2098"/>
-                <member segment="2099"/>
-                <member segment="2100"/>
-                <member segment="2101"/>
-                <member segment="2102"/>
-                <member segment="2103"/>
-                <member segment="2104"/>
-                <member segment="2105"/>
-                <member segment="2106"/>
-                <member segment="2107"/>
-                <member segment="2108"/>
-                <member segment="2109"/>
-                <member segment="2110"/>
-                <member segment="2111"/>
-                <member segment="2112"/>
-                <member segment="2113"/>
-                <member segment="2114"/>
-                <member segment="2115"/>
-                <member segment="2116"/>
-                <member segment="2117"/>
-                <member segment="2118"/>
-                <member segment="2119"/>
-                <member segment="2120"/>
-                <member segment="2121"/>
-                <member segment="2122"/>
-                <member segment="2123"/>
-                <member segment="2124"/>
-                <member segment="2125"/>
-                <member segment="2126"/>
-                <member segment="2127"/>
-                <member segment="2128"/>
-                <member segment="2129"/>
-                <member segment="2130"/>
-                <member segment="2131"/>
-                <member segment="2132"/>
-                <member segment="2133"/>
-                <member segment="2134"/>
-                <member segment="2135"/>
-                <member segment="2136"/>
-                <member segment="2137"/>
-                <member segment="2138"/>
-                <member segment="2139"/>
-                <member segment="2140"/>
-                <member segment="2141"/>
-                <member segment="2142"/>
-                <member segment="2143"/>
-                <member segment="2144"/>
-                <member segment="2145"/>
-                <member segment="2146"/>
-                <member segment="2147"/>
-                <member segment="2148"/>
-                <member segment="2149"/>
-                <member segment="2150"/>
-                <member segment="2151"/>
-            </segmentGroup>
-            <segmentGroup id="axon_51" neuroLexId="sao864921383">
-                <member segment="2152"/>
-                <member segment="2153"/>
-                <member segment="2154"/>
-                <member segment="2155"/>
-                <member segment="2156"/>
-                <member segment="2157"/>
-                <member segment="2158"/>
-                <member segment="2159"/>
-                <member segment="2160"/>
-                <member segment="2161"/>
-                <member segment="2162"/>
-                <member segment="2163"/>
-                <member segment="2164"/>
-                <member segment="2165"/>
-                <member segment="2166"/>
-                <member segment="2167"/>
-                <member segment="2168"/>
-                <member segment="2169"/>
-                <member segment="2170"/>
-                <member segment="2171"/>
-                <member segment="2172"/>
-                <member segment="2173"/>
-                <member segment="2174"/>
-                <member segment="2175"/>
-                <member segment="2176"/>
-                <member segment="2177"/>
-                <member segment="2178"/>
-                <member segment="2179"/>
-                <member segment="2180"/>
-                <member segment="2181"/>
-                <member segment="2182"/>
-                <member segment="2183"/>
-                <member segment="2184"/>
-                <member segment="2185"/>
-                <member segment="2186"/>
-                <member segment="2187"/>
-                <member segment="2188"/>
-                <member segment="2189"/>
-                <member segment="2190"/>
-                <member segment="2191"/>
-                <member segment="2192"/>
-                <member segment="2193"/>
-                <member segment="2194"/>
-                <member segment="2195"/>
-                <member segment="2196"/>
-                <member segment="2197"/>
-                <member segment="2198"/>
-                <member segment="2199"/>
-                <member segment="2200"/>
-                <member segment="2201"/>
-                <member segment="2202"/>
-                <member segment="2203"/>
-                <member segment="2204"/>
-                <member segment="2205"/>
-                <member segment="2206"/>
-                <member segment="2207"/>
-                <member segment="2208"/>
-                <member segment="2209"/>
-                <member segment="2210"/>
-                <member segment="2211"/>
-                <member segment="2212"/>
-                <member segment="2213"/>
-                <member segment="2214"/>
-                <member segment="2215"/>
-                <member segment="2216"/>
-            </segmentGroup>
-            <segmentGroup id="axon_52" neuroLexId="sao864921383">
-                <member segment="2217"/>
-                <member segment="2218"/>
-                <member segment="2219"/>
-                <member segment="2220"/>
-                <member segment="2221"/>
-            </segmentGroup>
-            <segmentGroup id="axon_53" neuroLexId="sao864921383">
-                <member segment="2222"/>
-                <member segment="2223"/>
-                <member segment="2224"/>
-                <member segment="2225"/>
-                <member segment="2226"/>
-                <member segment="2227"/>
-                <member segment="2228"/>
-                <member segment="2229"/>
-                <member segment="2230"/>
-                <member segment="2231"/>
-                <member segment="2232"/>
-                <member segment="2233"/>
-                <member segment="2234"/>
-                <member segment="2235"/>
-                <member segment="2236"/>
-                <member segment="2237"/>
-                <member segment="2238"/>
-                <member segment="2239"/>
-                <member segment="2240"/>
-                <member segment="2241"/>
-                <member segment="2242"/>
-                <member segment="2243"/>
-                <member segment="2244"/>
-                <member segment="2245"/>
-                <member segment="2246"/>
-                <member segment="2247"/>
-                <member segment="2248"/>
-                <member segment="2249"/>
-                <member segment="2250"/>
-                <member segment="2251"/>
-                <member segment="2252"/>
-                <member segment="2253"/>
-                <member segment="2254"/>
-                <member segment="2255"/>
-            </segmentGroup>
-            <segmentGroup id="axon_54" neuroLexId="sao864921383">
-                <member segment="2256"/>
-                <member segment="2257"/>
-                <member segment="2258"/>
-                <member segment="2259"/>
-                <member segment="2260"/>
-                <member segment="2261"/>
-                <member segment="2262"/>
-                <member segment="2263"/>
-                <member segment="2264"/>
-                <member segment="2265"/>
-                <member segment="2266"/>
-                <member segment="2267"/>
-                <member segment="2268"/>
-                <member segment="2269"/>
-                <member segment="2270"/>
-                <member segment="2271"/>
-                <member segment="2272"/>
-                <member segment="2273"/>
-                <member segment="2274"/>
-            </segmentGroup>
-            <segmentGroup id="axon_55" neuroLexId="sao864921383">
-                <member segment="2275"/>
-                <member segment="2276"/>
-                <member segment="2277"/>
-                <member segment="2278"/>
-                <member segment="2279"/>
-                <member segment="2280"/>
-                <member segment="2281"/>
-                <member segment="2282"/>
-                <member segment="2283"/>
-                <member segment="2284"/>
-                <member segment="2285"/>
-                <member segment="2286"/>
-                <member segment="2287"/>
-                <member segment="2288"/>
-                <member segment="2289"/>
-                <member segment="2290"/>
-                <member segment="2291"/>
-                <member segment="2292"/>
-                <member segment="2293"/>
-                <member segment="2294"/>
-                <member segment="2295"/>
-                <member segment="2296"/>
-                <member segment="2297"/>
-                <member segment="2298"/>
-                <member segment="2299"/>
-                <member segment="2300"/>
-                <member segment="2301"/>
-                <member segment="2302"/>
-                <member segment="2303"/>
-                <member segment="2304"/>
-                <member segment="2305"/>
-                <member segment="2306"/>
-                <member segment="2307"/>
-                <member segment="2308"/>
-                <member segment="2309"/>
-                <member segment="2310"/>
-                <member segment="2311"/>
-            </segmentGroup>
-            <segmentGroup id="axon_56" neuroLexId="sao864921383">
-                <member segment="2312"/>
-                <member segment="2313"/>
-                <member segment="2314"/>
-                <member segment="2315"/>
-                <member segment="2316"/>
-                <member segment="2317"/>
-                <member segment="2318"/>
-            </segmentGroup>
-            <segmentGroup id="axon_57" neuroLexId="sao864921383">
-                <member segment="2319"/>
-                <member segment="2320"/>
-                <member segment="2321"/>
-                <member segment="2322"/>
-                <member segment="2323"/>
-                <member segment="2324"/>
-                <member segment="2325"/>
-                <member segment="2326"/>
-                <member segment="2327"/>
-                <member segment="2328"/>
-                <member segment="2329"/>
-                <member segment="2330"/>
-                <member segment="2331"/>
-                <member segment="2332"/>
-                <member segment="2333"/>
-                <member segment="2334"/>
-                <member segment="2335"/>
-                <member segment="2336"/>
-                <member segment="2337"/>
-                <member segment="2338"/>
-                <member segment="2339"/>
-                <member segment="2340"/>
-                <member segment="2341"/>
-                <member segment="2342"/>
-                <member segment="2343"/>
-                <member segment="2344"/>
-                <member segment="2345"/>
-                <member segment="2346"/>
-                <member segment="2347"/>
-                <member segment="2348"/>
-                <member segment="2349"/>
-                <member segment="2350"/>
-                <member segment="2351"/>
-                <member segment="2352"/>
-                <member segment="2353"/>
-                <member segment="2354"/>
-                <member segment="2355"/>
-                <member segment="2356"/>
-                <member segment="2357"/>
-                <member segment="2358"/>
-                <member segment="2359"/>
-                <member segment="2360"/>
-                <member segment="2361"/>
-            </segmentGroup>
-            <segmentGroup id="axon_58" neuroLexId="sao864921383">
-                <member segment="2362"/>
-                <member segment="2363"/>
-                <member segment="2364"/>
-                <member segment="2365"/>
-                <member segment="2366"/>
-                <member segment="2367"/>
-                <member segment="2368"/>
-                <member segment="2369"/>
-                <member segment="2370"/>
-                <member segment="2371"/>
-                <member segment="2372"/>
-                <member segment="2373"/>
-                <member segment="2374"/>
-                <member segment="2375"/>
-                <member segment="2376"/>
-                <member segment="2377"/>
-                <member segment="2378"/>
-                <member segment="2379"/>
-                <member segment="2380"/>
-                <member segment="2381"/>
-                <member segment="2382"/>
-                <member segment="2383"/>
-            </segmentGroup>
-            <segmentGroup id="axon_59" neuroLexId="sao864921383">
-                <member segment="2384"/>
-                <member segment="2385"/>
-                <member segment="2386"/>
-                <member segment="2387"/>
-                <member segment="2388"/>
-                <member segment="2389"/>
-                <member segment="2390"/>
-                <member segment="2391"/>
-                <member segment="2392"/>
-                <member segment="2393"/>
-            </segmentGroup>
-            <segmentGroup id="axon_60" neuroLexId="sao864921383">
-                <member segment="2394"/>
-                <member segment="2395"/>
-                <member segment="2396"/>
-                <member segment="2397"/>
-            </segmentGroup>
-            <segmentGroup id="axon_61" neuroLexId="sao864921383">
-                <member segment="2398"/>
-                <member segment="2399"/>
-                <member segment="2400"/>
-                <member segment="2401"/>
-                <member segment="2402"/>
-                <member segment="2403"/>
-                <member segment="2404"/>
-                <member segment="2405"/>
-                <member segment="2406"/>
-                <member segment="2407"/>
-                <member segment="2408"/>
-                <member segment="2409"/>
-                <member segment="2410"/>
-                <member segment="2411"/>
-                <member segment="2412"/>
-                <member segment="2413"/>
-                <member segment="2414"/>
-                <member segment="2415"/>
-                <member segment="2416"/>
-                <member segment="2417"/>
-                <member segment="2418"/>
-                <member segment="2419"/>
-                <member segment="2420"/>
-                <member segment="2421"/>
-                <member segment="2422"/>
-                <member segment="2423"/>
-                <member segment="2424"/>
-                <member segment="2425"/>
-                <member segment="2426"/>
-                <member segment="2427"/>
-                <member segment="2428"/>
-                <member segment="2429"/>
-                <member segment="2430"/>
-                <member segment="2431"/>
-                <member segment="2432"/>
-                <member segment="2433"/>
-                <member segment="2434"/>
-                <member segment="2435"/>
-                <member segment="2436"/>
-                <member segment="2437"/>
-                <member segment="2438"/>
-            </segmentGroup>
-            <segmentGroup id="axon_62" neuroLexId="sao864921383">
-                <member segment="2439"/>
-                <member segment="2440"/>
-                <member segment="2441"/>
-                <member segment="2442"/>
-                <member segment="2443"/>
-                <member segment="2444"/>
-                <member segment="2445"/>
-                <member segment="2446"/>
-            </segmentGroup>
-            <segmentGroup id="axon_63" neuroLexId="sao864921383">
-                <member segment="2447"/>
-                <member segment="2448"/>
-                <member segment="2449"/>
-                <member segment="2450"/>
-                <member segment="2451"/>
-                <member segment="2452"/>
-            </segmentGroup>
-            <segmentGroup id="axon_64" neuroLexId="sao864921383">
-                <member segment="2453"/>
-                <member segment="2454"/>
-                <member segment="2455"/>
-                <member segment="2456"/>
-                <member segment="2457"/>
-                <member segment="2458"/>
-                <member segment="2459"/>
-                <member segment="2460"/>
-                <member segment="2461"/>
-                <member segment="2462"/>
-                <member segment="2463"/>
-                <member segment="2464"/>
-                <member segment="2465"/>
-                <member segment="2466"/>
-                <member segment="2467"/>
-                <member segment="2468"/>
-                <member segment="2469"/>
-            </segmentGroup>
-            <segmentGroup id="axon_65" neuroLexId="sao864921383">
-                <member segment="2470"/>
-                <member segment="2471"/>
-                <member segment="2472"/>
-                <member segment="2473"/>
-                <member segment="2474"/>
-                <member segment="2475"/>
-                <member segment="2476"/>
-                <member segment="2477"/>
-                <member segment="2478"/>
-                <member segment="2479"/>
-            </segmentGroup>
-            <segmentGroup id="axon_66" neuroLexId="sao864921383">
-                <member segment="2480"/>
-                <member segment="2481"/>
-                <member segment="2482"/>
-                <member segment="2483"/>
-                <member segment="2484"/>
-                <member segment="2485"/>
-            </segmentGroup>
-            <segmentGroup id="axon_67" neuroLexId="sao864921383">
-                <member segment="2486"/>
-                <member segment="2487"/>
-                <member segment="2488"/>
-                <member segment="2489"/>
-                <member segment="2490"/>
-                <member segment="2491"/>
-                <member segment="2492"/>
-                <member segment="2493"/>
-                <member segment="2494"/>
-                <member segment="2495"/>
-                <member segment="2496"/>
-                <member segment="2497"/>
-            </segmentGroup>
-            <segmentGroup id="axon_68" neuroLexId="sao864921383">
-                <member segment="2498"/>
-                <member segment="2499"/>
-                <member segment="2500"/>
-                <member segment="2501"/>
-                <member segment="2502"/>
-                <member segment="2503"/>
-                <member segment="2504"/>
-                <member segment="2505"/>
-                <member segment="2506"/>
-                <member segment="2507"/>
-                <member segment="2508"/>
-                <member segment="2509"/>
-                <member segment="2510"/>
-                <member segment="2511"/>
-                <member segment="2512"/>
-                <member segment="2513"/>
-                <member segment="2514"/>
-                <member segment="2515"/>
-                <member segment="2516"/>
-                <member segment="2517"/>
-                <member segment="2518"/>
-                <member segment="2519"/>
-                <member segment="2520"/>
-                <member segment="2521"/>
-                <member segment="2522"/>
-                <member segment="2523"/>
-                <member segment="2524"/>
-                <member segment="2525"/>
-            </segmentGroup>
-            <segmentGroup id="axon_69" neuroLexId="sao864921383">
-                <member segment="2526"/>
-                <member segment="2527"/>
-                <member segment="2528"/>
-                <member segment="2529"/>
-                <member segment="2530"/>
-                <member segment="2531"/>
-                <member segment="2532"/>
-                <member segment="2533"/>
-                <member segment="2534"/>
-                <member segment="2535"/>
-                <member segment="2536"/>
-            </segmentGroup>
-            <segmentGroup id="axon_70" neuroLexId="sao864921383">
-                <member segment="2537"/>
-                <member segment="2538"/>
-                <member segment="2539"/>
-                <member segment="2540"/>
-                <member segment="2541"/>
-                <member segment="2542"/>
-                <member segment="2543"/>
-                <member segment="2544"/>
-                <member segment="2545"/>
-                <member segment="2546"/>
-                <member segment="2547"/>
-                <member segment="2548"/>
-                <member segment="2549"/>
-                <member segment="2550"/>
-                <member segment="2551"/>
-                <member segment="2552"/>
-                <member segment="2553"/>
-                <member segment="2554"/>
-                <member segment="2555"/>
-            </segmentGroup>
-            <segmentGroup id="axon_71" neuroLexId="sao864921383">
-                <member segment="2556"/>
-                <member segment="2557"/>
-                <member segment="2558"/>
-                <member segment="2559"/>
-                <member segment="2560"/>
-                <member segment="2561"/>
-                <member segment="2562"/>
-                <member segment="2563"/>
-                <member segment="2564"/>
-            </segmentGroup>
-            <segmentGroup id="axon_72" neuroLexId="sao864921383">
-                <member segment="2565"/>
-                <member segment="2566"/>
-                <member segment="2567"/>
-                <member segment="2568"/>
-                <member segment="2569"/>
-                <member segment="2570"/>
-                <member segment="2571"/>
-                <member segment="2572"/>
-                <member segment="2573"/>
-            </segmentGroup>
-            <segmentGroup id="axon_73" neuroLexId="sao864921383">
-                <member segment="2574"/>
-                <member segment="2575"/>
-                <member segment="2576"/>
-                <member segment="2577"/>
-                <member segment="2578"/>
-                <member segment="2579"/>
-                <member segment="2580"/>
-                <member segment="2581"/>
-                <member segment="2582"/>
-                <member segment="2583"/>
-                <member segment="2584"/>
-            </segmentGroup>
-            <segmentGroup id="axon_74" neuroLexId="sao864921383">
-                <member segment="2585"/>
-                <member segment="2586"/>
-                <member segment="2587"/>
-                <member segment="2588"/>
-                <member segment="2589"/>
-                <member segment="2590"/>
-                <member segment="2591"/>
-                <member segment="2592"/>
-                <member segment="2593"/>
-                <member segment="2594"/>
-                <member segment="2595"/>
-                <member segment="2596"/>
-                <member segment="2597"/>
-                <member segment="2598"/>
-                <member segment="2599"/>
-                <member segment="2600"/>
-                <member segment="2601"/>
-                <member segment="2602"/>
-                <member segment="2603"/>
-                <member segment="2604"/>
-                <member segment="2605"/>
-                <member segment="2606"/>
-                <member segment="2607"/>
-                <member segment="2608"/>
-            </segmentGroup>
-            <segmentGroup id="axon_75" neuroLexId="sao864921383">
-                <member segment="2609"/>
-                <member segment="2610"/>
-                <member segment="2611"/>
-                <member segment="2612"/>
-                <member segment="2613"/>
-                <member segment="2614"/>
-                <member segment="2615"/>
-                <member segment="2616"/>
-                <member segment="2617"/>
-                <member segment="2618"/>
-                <member segment="2619"/>
-                <member segment="2620"/>
-                <member segment="2621"/>
-                <member segment="2622"/>
-                <member segment="2623"/>
-                <member segment="2624"/>
-                <member segment="2625"/>
-                <member segment="2626"/>
-                <member segment="2627"/>
-                <member segment="2628"/>
-                <member segment="2629"/>
-                <member segment="2630"/>
-                <member segment="2631"/>
-                <member segment="2632"/>
-                <member segment="2633"/>
-                <member segment="2634"/>
-                <member segment="2635"/>
-                <member segment="2636"/>
-                <member segment="2637"/>
-                <member segment="2638"/>
-                <member segment="2639"/>
-                <member segment="2640"/>
-                <member segment="2641"/>
-                <member segment="2642"/>
-                <member segment="2643"/>
-                <member segment="2644"/>
-                <member segment="2645"/>
-                <member segment="2646"/>
-                <member segment="2647"/>
-                <member segment="2648"/>
-                <member segment="2649"/>
-            </segmentGroup>
-            <segmentGroup id="axon_76" neuroLexId="sao864921383">
-                <member segment="2650"/>
-                <member segment="2651"/>
-                <member segment="2652"/>
-                <member segment="2653"/>
-                <member segment="2654"/>
-                <member segment="2655"/>
-                <member segment="2656"/>
-                <member segment="2657"/>
-                <member segment="2658"/>
-                <member segment="2659"/>
-                <member segment="2660"/>
-                <member segment="2661"/>
-                <member segment="2662"/>
-            </segmentGroup>
-            <segmentGroup id="axon_77" neuroLexId="sao864921383">
-                <member segment="2663"/>
-                <member segment="2664"/>
-                <member segment="2665"/>
-                <member segment="2666"/>
-                <member segment="2667"/>
-                <member segment="2668"/>
-                <member segment="2669"/>
-                <member segment="2670"/>
-                <member segment="2671"/>
-                <member segment="2672"/>
-                <member segment="2673"/>
-                <member segment="2674"/>
-                <member segment="2675"/>
-                <member segment="2676"/>
-                <member segment="2677"/>
-                <member segment="2678"/>
-                <member segment="2679"/>
-                <member segment="2680"/>
-                <member segment="2681"/>
-                <member segment="2682"/>
-                <member segment="2683"/>
-                <member segment="2684"/>
-                <member segment="2685"/>
-                <member segment="2686"/>
-                <member segment="2687"/>
-                <member segment="2688"/>
-                <member segment="2689"/>
-                <member segment="2690"/>
-                <member segment="2691"/>
-                <member segment="2692"/>
-                <member segment="2693"/>
-                <member segment="2694"/>
-                <member segment="2695"/>
-                <member segment="2696"/>
-                <member segment="2697"/>
-            </segmentGroup>
-            <segmentGroup id="axon_78" neuroLexId="sao864921383">
-                <member segment="2698"/>
-                <member segment="2699"/>
-                <member segment="2700"/>
-                <member segment="2701"/>
-                <member segment="2702"/>
-                <member segment="2703"/>
-                <member segment="2704"/>
-                <member segment="2705"/>
-                <member segment="2706"/>
-                <member segment="2707"/>
-                <member segment="2708"/>
-                <member segment="2709"/>
-                <member segment="2710"/>
-                <member segment="2711"/>
-                <member segment="2712"/>
-                <member segment="2713"/>
-                <member segment="2714"/>
-                <member segment="2715"/>
-                <member segment="2716"/>
-                <member segment="2717"/>
-                <member segment="2718"/>
-                <member segment="2719"/>
-                <member segment="2720"/>
-                <member segment="2721"/>
-                <member segment="2722"/>
-            </segmentGroup>
-            <segmentGroup id="axon_79" neuroLexId="sao864921383">
-                <member segment="2723"/>
-                <member segment="2724"/>
-                <member segment="2725"/>
-                <member segment="2726"/>
-                <member segment="2727"/>
-                <member segment="2728"/>
-                <member segment="2729"/>
-                <member segment="2730"/>
-                <member segment="2731"/>
-                <member segment="2732"/>
-                <member segment="2733"/>
-                <member segment="2734"/>
-                <member segment="2735"/>
-                <member segment="2736"/>
-                <member segment="2737"/>
-                <member segment="2738"/>
-                <member segment="2739"/>
-                <member segment="2740"/>
-            </segmentGroup>
-            <segmentGroup id="axon_80" neuroLexId="sao864921383">
-                <member segment="2741"/>
-                <member segment="2742"/>
-                <member segment="2743"/>
-                <member segment="2744"/>
-                <member segment="2745"/>
-                <member segment="2746"/>
-                <member segment="2747"/>
-                <member segment="2748"/>
-                <member segment="2749"/>
-                <member segment="2750"/>
-                <member segment="2751"/>
-            </segmentGroup>
-            <segmentGroup id="axon_81" neuroLexId="sao864921383">
-                <member segment="2752"/>
-                <member segment="2753"/>
-                <member segment="2754"/>
-                <member segment="2755"/>
-                <member segment="2756"/>
-                <member segment="2757"/>
-                <member segment="2758"/>
-                <member segment="2759"/>
-                <member segment="2760"/>
-                <member segment="2761"/>
-                <member segment="2762"/>
-                <member segment="2763"/>
-                <member segment="2764"/>
-                <member segment="2765"/>
-                <member segment="2766"/>
-                <member segment="2767"/>
-                <member segment="2768"/>
-            </segmentGroup>
-            <segmentGroup id="axon_82" neuroLexId="sao864921383">
-                <member segment="2769"/>
-                <member segment="2770"/>
-                <member segment="2771"/>
-                <member segment="2772"/>
-                <member segment="2773"/>
-                <member segment="2774"/>
-                <member segment="2775"/>
-                <member segment="2776"/>
-                <member segment="2777"/>
-                <member segment="2778"/>
-                <member segment="2779"/>
-                <member segment="2780"/>
-            </segmentGroup>
-            <segmentGroup id="axon_83" neuroLexId="sao864921383">
-                <member segment="2781"/>
-                <member segment="2782"/>
-                <member segment="2783"/>
-                <member segment="2784"/>
-                <member segment="2785"/>
-                <member segment="2786"/>
-                <member segment="2787"/>
-                <member segment="2788"/>
-                <member segment="2789"/>
-                <member segment="2790"/>
-                <member segment="2791"/>
-                <member segment="2792"/>
-                <member segment="2793"/>
-                <member segment="2794"/>
-                <member segment="2795"/>
-                <member segment="2796"/>
-                <member segment="2797"/>
-                <member segment="2798"/>
-            </segmentGroup>
-            <segmentGroup id="axon_84" neuroLexId="sao864921383">
-                <member segment="2799"/>
-                <member segment="2800"/>
-                <member segment="2801"/>
-                <member segment="2802"/>
-                <member segment="2803"/>
-                <member segment="2804"/>
-                <member segment="2805"/>
-                <member segment="2806"/>
-                <member segment="2807"/>
-                <member segment="2808"/>
-                <member segment="2809"/>
-            </segmentGroup>
-            <segmentGroup id="axon_85" neuroLexId="sao864921383">
-                <member segment="2810"/>
-                <member segment="2811"/>
-                <member segment="2812"/>
-                <member segment="2813"/>
-                <member segment="2814"/>
-                <member segment="2815"/>
-                <member segment="2816"/>
-                <member segment="2817"/>
-                <member segment="2818"/>
-            </segmentGroup>
-            <segmentGroup id="axon_86" neuroLexId="sao864921383">
-                <member segment="2819"/>
-                <member segment="2820"/>
-                <member segment="2821"/>
-                <member segment="2822"/>
-                <member segment="2823"/>
-                <member segment="2824"/>
-                <member segment="2825"/>
-                <member segment="2826"/>
-                <member segment="2827"/>
-                <member segment="2828"/>
-                <member segment="2829"/>
-                <member segment="2830"/>
-                <member segment="2831"/>
-                <member segment="2832"/>
-            </segmentGroup>
-            <segmentGroup id="axon_87" neuroLexId="sao864921383">
-                <member segment="2833"/>
-                <member segment="2834"/>
-            </segmentGroup>
-            <segmentGroup id="axon_88" neuroLexId="sao864921383">
-                <member segment="2835"/>
-                <member segment="2836"/>
-                <member segment="2837"/>
-                <member segment="2838"/>
-                <member segment="2839"/>
-                <member segment="2840"/>
-                <member segment="2841"/>
-                <member segment="2842"/>
-                <member segment="2843"/>
-                <member segment="2844"/>
-                <member segment="2845"/>
-                <member segment="2846"/>
-                <member segment="2847"/>
-                <member segment="2848"/>
-                <member segment="2849"/>
-                <member segment="2850"/>
-                <member segment="2851"/>
-                <member segment="2852"/>
-                <member segment="2853"/>
-                <member segment="2854"/>
-                <member segment="2855"/>
-                <member segment="2856"/>
-                <member segment="2857"/>
-                <member segment="2858"/>
-                <member segment="2859"/>
-                <member segment="2860"/>
-                <member segment="2861"/>
-            </segmentGroup>
-            <segmentGroup id="axon_89" neuroLexId="sao864921383">
-                <member segment="2862"/>
-                <member segment="2863"/>
-                <member segment="2864"/>
-                <member segment="2865"/>
-                <member segment="2866"/>
-                <member segment="2867"/>
-                <member segment="2868"/>
-                <member segment="2869"/>
-                <member segment="2870"/>
-                <member segment="2871"/>
-                <member segment="2872"/>
-            </segmentGroup>
-            <segmentGroup id="axon_90" neuroLexId="sao864921383">
-                <member segment="2873"/>
-                <member segment="2874"/>
-                <member segment="2875"/>
-            </segmentGroup>
-            <segmentGroup id="dend_0" neuroLexId="sao864921383">
-                <member segment="1000001"/>
-                <member segment="1000002"/>
-                <member segment="1000003"/>
-                <member segment="1000004"/>
-                <member segment="1000005"/>
-                <member segment="1000006"/>
-                <member segment="1000007"/>
-                <member segment="1000008"/>
-                <member segment="1000009"/>
-                <member segment="1000010"/>
-            </segmentGroup>
-            <segmentGroup id="dend_1" neuroLexId="sao864921383">
-                <member segment="1000011"/>
-                <member segment="1000012"/>
-                <member segment="1000013"/>
-                <member segment="1000014"/>
-                <member segment="1000015"/>
-            </segmentGroup>
-            <segmentGroup id="dend_2" neuroLexId="sao864921383">
-                <member segment="1000016"/>
-                <member segment="1000017"/>
-                <member segment="1000018"/>
-                <member segment="1000019"/>
-                <member segment="1000020"/>
-            </segmentGroup>
-            <segmentGroup id="dend_3" neuroLexId="sao864921383">
-                <member segment="1000021"/>
-                <member segment="1000022"/>
-                <member segment="1000023"/>
-                <member segment="1000024"/>
-                <member segment="1000025"/>
-                <member segment="1000026"/>
-            </segmentGroup>
-            <segmentGroup id="dend_4" neuroLexId="sao864921383">
-                <member segment="1000027"/>
-                <member segment="1000028"/>
-                <member segment="1000029"/>
-                <member segment="1000030"/>
-                <member segment="1000031"/>
-                <member segment="1000032"/>
-                <member segment="1000033"/>
-                <member segment="1000034"/>
-                <member segment="1000035"/>
-                <member segment="1000036"/>
-            </segmentGroup>
-            <segmentGroup id="dend_5" neuroLexId="sao864921383">
-                <member segment="1000037"/>
-                <member segment="1000038"/>
-                <member segment="1000039"/>
-                <member segment="1000040"/>
-                <member segment="1000041"/>
-                <member segment="1000042"/>
-                <member segment="1000043"/>
-                <member segment="1000044"/>
-            </segmentGroup>
-            <segmentGroup id="dend_6" neuroLexId="sao864921383">
-                <member segment="1000045"/>
-            </segmentGroup>
-            <segmentGroup id="dend_7" neuroLexId="sao864921383">
-                <member segment="1000046"/>
-                <member segment="1000047"/>
-                <member segment="1000048"/>
-                <member segment="1000049"/>
-            </segmentGroup>
-            <segmentGroup id="dend_8" neuroLexId="sao864921383">
-                <member segment="1000050"/>
-                <member segment="1000051"/>
-                <member segment="1000052"/>
-                <member segment="1000053"/>
-                <member segment="1000054"/>
-                <member segment="1000055"/>
-            </segmentGroup>
-            <segmentGroup id="dend_9" neuroLexId="sao864921383">
-                <member segment="1000056"/>
-                <member segment="1000057"/>
-                <member segment="1000058"/>
-                <member segment="1000059"/>
-                <member segment="1000060"/>
-                <member segment="1000061"/>
-                <member segment="1000062"/>
-            </segmentGroup>
-            <segmentGroup id="dend_10" neuroLexId="sao864921383">
-                <member segment="1000063"/>
-                <member segment="1000064"/>
-                <member segment="1000065"/>
-                <member segment="1000066"/>
-            </segmentGroup>
-            <segmentGroup id="dend_11" neuroLexId="sao864921383">
-                <member segment="1000067"/>
-                <member segment="1000068"/>
-                <member segment="1000069"/>
-                <member segment="1000070"/>
-                <member segment="1000071"/>
-                <member segment="1000072"/>
-            </segmentGroup>
-            <segmentGroup id="dend_12" neuroLexId="sao864921383">
-                <member segment="1000073"/>
-                <member segment="1000074"/>
-                <member segment="1000075"/>
-                <member segment="1000076"/>
-                <member segment="1000077"/>
-                <member segment="1000078"/>
-            </segmentGroup>
-            <segmentGroup id="dend_13" neuroLexId="sao864921383">
-                <member segment="1000079"/>
-                <member segment="1000080"/>
-                <member segment="1000081"/>
-                <member segment="1000082"/>
-                <member segment="1000083"/>
-                <member segment="1000084"/>
-                <member segment="1000085"/>
-                <member segment="1000086"/>
-                <member segment="1000087"/>
-                <member segment="1000088"/>
-            </segmentGroup>
-            <segmentGroup id="dend_14" neuroLexId="sao864921383">
-                <member segment="1000089"/>
-                <member segment="1000090"/>
-                <member segment="1000091"/>
-                <member segment="1000092"/>
-                <member segment="1000093"/>
-            </segmentGroup>
-            <segmentGroup id="dend_15" neuroLexId="sao864921383">
-                <member segment="1000094"/>
-                <member segment="1000095"/>
-                <member segment="1000096"/>
-            </segmentGroup>
-            <segmentGroup id="dend_16" neuroLexId="sao864921383">
-                <member segment="1000097"/>
-                <member segment="1000098"/>
-            </segmentGroup>
-            <segmentGroup id="dend_17" neuroLexId="sao864921383">
-                <member segment="1000099"/>
-                <member segment="1000100"/>
-                <member segment="1000101"/>
-                <member segment="1000102"/>
-                <member segment="1000103"/>
-                <member segment="1000104"/>
-                <member segment="1000105"/>
-                <member segment="1000106"/>
-                <member segment="1000107"/>
-                <member segment="1000108"/>
-                <member segment="1000109"/>
-            </segmentGroup>
-            <segmentGroup id="dend_18" neuroLexId="sao864921383">
-                <member segment="1000110"/>
-                <member segment="1000111"/>
-                <member segment="1000112"/>
-                <member segment="1000113"/>
-                <member segment="1000114"/>
-                <member segment="1000115"/>
-                <member segment="1000116"/>
-            </segmentGroup>
-            <segmentGroup id="dend_19" neuroLexId="sao864921383">
-                <member segment="1000117"/>
-                <member segment="1000118"/>
-            </segmentGroup>
-            <segmentGroup id="dend_20" neuroLexId="sao864921383">
-                <member segment="1000119"/>
-                <member segment="1000120"/>
-                <member segment="1000121"/>
-                <member segment="1000122"/>
-                <member segment="1000123"/>
-                <member segment="1000124"/>
-                <member segment="1000125"/>
-                <member segment="1000126"/>
-            </segmentGroup>
-            <segmentGroup id="dend_21" neuroLexId="sao864921383">
-                <member segment="1000127"/>
-                <member segment="1000128"/>
-                <member segment="1000129"/>
-                <member segment="1000130"/>
-                <member segment="1000131"/>
-            </segmentGroup>
-            <segmentGroup id="dend_22" neuroLexId="sao864921383">
-                <member segment="1000132"/>
-                <member segment="1000133"/>
-            </segmentGroup>
-            <segmentGroup id="dend_23" neuroLexId="sao864921383">
-                <member segment="1000134"/>
-                <member segment="1000135"/>
-                <member segment="1000136"/>
-                <member segment="1000137"/>
-                <member segment="1000138"/>
-                <member segment="1000139"/>
-                <member segment="1000140"/>
-                <member segment="1000141"/>
-                <member segment="1000142"/>
-                <member segment="1000143"/>
-                <member segment="1000144"/>
-                <member segment="1000145"/>
-                <member segment="1000146"/>
-                <member segment="1000147"/>
-                <member segment="1000148"/>
-                <member segment="1000149"/>
-                <member segment="1000150"/>
-                <member segment="1000151"/>
-                <member segment="1000152"/>
-            </segmentGroup>
-            <segmentGroup id="dend_24" neuroLexId="sao864921383">
-                <member segment="1000153"/>
-                <member segment="1000154"/>
-                <member segment="1000155"/>
-                <member segment="1000156"/>
-                <member segment="1000157"/>
-            </segmentGroup>
-            <segmentGroup id="dend_25" neuroLexId="sao864921383">
-                <member segment="1000158"/>
-                <member segment="1000159"/>
-                <member segment="1000160"/>
-                <member segment="1000161"/>
-                <member segment="1000162"/>
-                <member segment="1000163"/>
-                <member segment="1000164"/>
-                <member segment="1000165"/>
-            </segmentGroup>
-            <segmentGroup id="dend_26" neuroLexId="sao864921383">
-                <member segment="1000166"/>
-                <member segment="1000167"/>
-                <member segment="1000168"/>
-                <member segment="1000169"/>
-                <member segment="1000170"/>
-            </segmentGroup>
-            <segmentGroup id="dend_27" neuroLexId="sao864921383">
-                <member segment="1000171"/>
-                <member segment="1000172"/>
-                <member segment="1000173"/>
-                <member segment="1000174"/>
-                <member segment="1000175"/>
-                <member segment="1000176"/>
-                <member segment="1000177"/>
-                <member segment="1000178"/>
-                <member segment="1000179"/>
-                <member segment="1000180"/>
-            </segmentGroup>
-            <segmentGroup id="dend_28" neuroLexId="sao864921383">
-                <member segment="1000181"/>
-                <member segment="1000182"/>
-                <member segment="1000183"/>
-                <member segment="1000184"/>
-                <member segment="1000185"/>
-                <member segment="1000186"/>
-                <member segment="1000187"/>
-            </segmentGroup>
-            <segmentGroup id="dend_29" neuroLexId="sao864921383">
-                <member segment="1000188"/>
-                <member segment="1000189"/>
-                <member segment="1000190"/>
-                <member segment="1000191"/>
-            </segmentGroup>
-            <segmentGroup id="dend_30" neuroLexId="sao864921383">
-                <member segment="1000192"/>
-                <member segment="1000193"/>
-                <member segment="1000194"/>
-                <member segment="1000195"/>
-                <member segment="1000196"/>
-                <member segment="1000197"/>
-                <member segment="1000198"/>
-            </segmentGroup>
-            <segmentGroup id="dend_31" neuroLexId="sao864921383">
-                <member segment="1000199"/>
-                <member segment="1000200"/>
-                <member segment="1000201"/>
-                <member segment="1000202"/>
-                <member segment="1000203"/>
-                <member segment="1000204"/>
-                <member segment="1000205"/>
-                <member segment="1000206"/>
-            </segmentGroup>
-            <segmentGroup id="dend_32" neuroLexId="sao864921383">
-                <member segment="1000207"/>
-                <member segment="1000208"/>
-                <member segment="1000209"/>
-                <member segment="1000210"/>
-                <member segment="1000211"/>
-                <member segment="1000212"/>
-                <member segment="1000213"/>
-                <member segment="1000214"/>
-            </segmentGroup>
-            <segmentGroup id="dend_33" neuroLexId="sao864921383">
-                <member segment="1000215"/>
-                <member segment="1000216"/>
-                <member segment="1000217"/>
-                <member segment="1000218"/>
-                <member segment="1000219"/>
-                <member segment="1000220"/>
-            </segmentGroup>
-            <segmentGroup id="dend_34" neuroLexId="sao864921383">
-                <member segment="1000221"/>
-                <member segment="1000222"/>
-                <member segment="1000223"/>
-                <member segment="1000224"/>
-                <member segment="1000225"/>
-                <member segment="1000226"/>
-                <member segment="1000227"/>
-            </segmentGroup>
-            <segmentGroup id="dend_35" neuroLexId="sao864921383">
-                <member segment="1000228"/>
-                <member segment="1000229"/>
-                <member segment="1000230"/>
-                <member segment="1000231"/>
-                <member segment="1000232"/>
-                <member segment="1000233"/>
-                <member segment="1000234"/>
-                <member segment="1000235"/>
-                <member segment="1000236"/>
-            </segmentGroup>
-            <segmentGroup id="dend_36" neuroLexId="sao864921383">
-                <member segment="1000237"/>
-                <member segment="1000238"/>
-                <member segment="1000239"/>
-                <member segment="1000240"/>
-                <member segment="1000241"/>
-                <member segment="1000242"/>
-            </segmentGroup>
+            <segmentGroup id="all"/>
             <segmentGroup id="soma_group" neuroLexId="GO:0043025">
                 <notes>Default soma segment group for the cell</notes>
-                <include segmentGroup="soma_0"/>
             </segmentGroup>
             <segmentGroup id="axon_group" neuroLexId="GO:0030424">
                 <notes>Default axon segment group for the cell</notes>
-                <include segmentGroup="axon_0"/>
-                <include segmentGroup="axon_1"/>
-                <include segmentGroup="axon_2"/>
-                <include segmentGroup="axon_3"/>
-                <include segmentGroup="axon_4"/>
-                <include segmentGroup="axon_5"/>
-                <include segmentGroup="axon_6"/>
-                <include segmentGroup="axon_7"/>
-                <include segmentGroup="axon_8"/>
-                <include segmentGroup="axon_9"/>
-                <include segmentGroup="axon_10"/>
-                <include segmentGroup="axon_11"/>
-                <include segmentGroup="axon_12"/>
-                <include segmentGroup="axon_13"/>
-                <include segmentGroup="axon_14"/>
-                <include segmentGroup="axon_15"/>
-                <include segmentGroup="axon_16"/>
-                <include segmentGroup="axon_17"/>
-                <include segmentGroup="axon_18"/>
-                <include segmentGroup="axon_19"/>
-                <include segmentGroup="axon_20"/>
-                <include segmentGroup="axon_21"/>
-                <include segmentGroup="axon_22"/>
-                <include segmentGroup="axon_23"/>
-                <include segmentGroup="axon_24"/>
-                <include segmentGroup="axon_25"/>
-                <include segmentGroup="axon_26"/>
-                <include segmentGroup="axon_27"/>
-                <include segmentGroup="axon_28"/>
-                <include segmentGroup="axon_29"/>
-                <include segmentGroup="axon_30"/>
-                <include segmentGroup="axon_31"/>
-                <include segmentGroup="axon_32"/>
-                <include segmentGroup="axon_33"/>
-                <include segmentGroup="axon_34"/>
-                <include segmentGroup="axon_35"/>
-                <include segmentGroup="axon_36"/>
-                <include segmentGroup="axon_37"/>
-                <include segmentGroup="axon_38"/>
-                <include segmentGroup="axon_39"/>
-                <include segmentGroup="axon_40"/>
-                <include segmentGroup="axon_41"/>
-                <include segmentGroup="axon_42"/>
-                <include segmentGroup="axon_43"/>
-                <include segmentGroup="axon_44"/>
-                <include segmentGroup="axon_45"/>
-                <include segmentGroup="axon_46"/>
-                <include segmentGroup="axon_47"/>
-                <include segmentGroup="axon_48"/>
-                <include segmentGroup="axon_49"/>
-                <include segmentGroup="axon_50"/>
-                <include segmentGroup="axon_51"/>
-                <include segmentGroup="axon_52"/>
-                <include segmentGroup="axon_53"/>
-                <include segmentGroup="axon_54"/>
-                <include segmentGroup="axon_55"/>
-                <include segmentGroup="axon_56"/>
-                <include segmentGroup="axon_57"/>
-                <include segmentGroup="axon_58"/>
-                <include segmentGroup="axon_59"/>
-                <include segmentGroup="axon_60"/>
-                <include segmentGroup="axon_61"/>
-                <include segmentGroup="axon_62"/>
-                <include segmentGroup="axon_63"/>
-                <include segmentGroup="axon_64"/>
-                <include segmentGroup="axon_65"/>
-                <include segmentGroup="axon_66"/>
-                <include segmentGroup="axon_67"/>
-                <include segmentGroup="axon_68"/>
-                <include segmentGroup="axon_69"/>
-                <include segmentGroup="axon_70"/>
-                <include segmentGroup="axon_71"/>
-                <include segmentGroup="axon_72"/>
-                <include segmentGroup="axon_73"/>
-                <include segmentGroup="axon_74"/>
-                <include segmentGroup="axon_75"/>
-                <include segmentGroup="axon_76"/>
-                <include segmentGroup="axon_77"/>
-                <include segmentGroup="axon_78"/>
-                <include segmentGroup="axon_79"/>
-                <include segmentGroup="axon_80"/>
-                <include segmentGroup="axon_81"/>
-                <include segmentGroup="axon_82"/>
-                <include segmentGroup="axon_83"/>
-                <include segmentGroup="axon_84"/>
-                <include segmentGroup="axon_85"/>
-                <include segmentGroup="axon_86"/>
-                <include segmentGroup="axon_87"/>
-                <include segmentGroup="axon_88"/>
-                <include segmentGroup="axon_89"/>
-                <include segmentGroup="axon_90"/>
             </segmentGroup>
             <segmentGroup id="dendrite_group" neuroLexId="GO:0030425">
                 <notes>Default dendrite segment group for the cell</notes>
-                <include segmentGroup="dend_0"/>
-                <include segmentGroup="dend_1"/>
-                <include segmentGroup="dend_2"/>
-                <include segmentGroup="dend_3"/>
-                <include segmentGroup="dend_4"/>
-                <include segmentGroup="dend_5"/>
-                <include segmentGroup="dend_6"/>
-                <include segmentGroup="dend_7"/>
-                <include segmentGroup="dend_8"/>
-                <include segmentGroup="dend_9"/>
-                <include segmentGroup="dend_10"/>
-                <include segmentGroup="dend_11"/>
-                <include segmentGroup="dend_12"/>
-                <include segmentGroup="dend_13"/>
-                <include segmentGroup="dend_14"/>
-                <include segmentGroup="dend_15"/>
-                <include segmentGroup="dend_16"/>
-                <include segmentGroup="dend_17"/>
-                <include segmentGroup="dend_18"/>
-                <include segmentGroup="dend_19"/>
-                <include segmentGroup="dend_20"/>
-                <include segmentGroup="dend_21"/>
-                <include segmentGroup="dend_22"/>
-                <include segmentGroup="dend_23"/>
-                <include segmentGroup="dend_24"/>
-                <include segmentGroup="dend_25"/>
-                <include segmentGroup="dend_26"/>
-                <include segmentGroup="dend_27"/>
-                <include segmentGroup="dend_28"/>
-                <include segmentGroup="dend_29"/>
-                <include segmentGroup="dend_30"/>
-                <include segmentGroup="dend_31"/>
-                <include segmentGroup="dend_32"/>
-                <include segmentGroup="dend_33"/>
-                <include segmentGroup="dend_34"/>
-                <include segmentGroup="dend_35"/>
-                <include segmentGroup="dend_36"/>
-            </segmentGroup>
-            <segmentGroup id="all">
-                <include segmentGroup="soma_0"/>
-                <include segmentGroup="axon_0"/>
-                <include segmentGroup="axon_1"/>
-                <include segmentGroup="axon_2"/>
-                <include segmentGroup="axon_3"/>
-                <include segmentGroup="axon_4"/>
-                <include segmentGroup="axon_5"/>
-                <include segmentGroup="axon_6"/>
-                <include segmentGroup="axon_7"/>
-                <include segmentGroup="axon_8"/>
-                <include segmentGroup="axon_9"/>
-                <include segmentGroup="axon_10"/>
-                <include segmentGroup="axon_11"/>
-                <include segmentGroup="axon_12"/>
-                <include segmentGroup="axon_13"/>
-                <include segmentGroup="axon_14"/>
-                <include segmentGroup="axon_15"/>
-                <include segmentGroup="axon_16"/>
-                <include segmentGroup="axon_17"/>
-                <include segmentGroup="axon_18"/>
-                <include segmentGroup="axon_19"/>
-                <include segmentGroup="axon_20"/>
-                <include segmentGroup="axon_21"/>
-                <include segmentGroup="axon_22"/>
-                <include segmentGroup="axon_23"/>
-                <include segmentGroup="axon_24"/>
-                <include segmentGroup="axon_25"/>
-                <include segmentGroup="axon_26"/>
-                <include segmentGroup="axon_27"/>
-                <include segmentGroup="axon_28"/>
-                <include segmentGroup="axon_29"/>
-                <include segmentGroup="axon_30"/>
-                <include segmentGroup="axon_31"/>
-                <include segmentGroup="axon_32"/>
-                <include segmentGroup="axon_33"/>
-                <include segmentGroup="axon_34"/>
-                <include segmentGroup="axon_35"/>
-                <include segmentGroup="axon_36"/>
-                <include segmentGroup="axon_37"/>
-                <include segmentGroup="axon_38"/>
-                <include segmentGroup="axon_39"/>
-                <include segmentGroup="axon_40"/>
-                <include segmentGroup="axon_41"/>
-                <include segmentGroup="axon_42"/>
-                <include segmentGroup="axon_43"/>
-                <include segmentGroup="axon_44"/>
-                <include segmentGroup="axon_45"/>
-                <include segmentGroup="axon_46"/>
-                <include segmentGroup="axon_47"/>
-                <include segmentGroup="axon_48"/>
-                <include segmentGroup="axon_49"/>
-                <include segmentGroup="axon_50"/>
-                <include segmentGroup="axon_51"/>
-                <include segmentGroup="axon_52"/>
-                <include segmentGroup="axon_53"/>
-                <include segmentGroup="axon_54"/>
-                <include segmentGroup="axon_55"/>
-                <include segmentGroup="axon_56"/>
-                <include segmentGroup="axon_57"/>
-                <include segmentGroup="axon_58"/>
-                <include segmentGroup="axon_59"/>
-                <include segmentGroup="axon_60"/>
-                <include segmentGroup="axon_61"/>
-                <include segmentGroup="axon_62"/>
-                <include segmentGroup="axon_63"/>
-                <include segmentGroup="axon_64"/>
-                <include segmentGroup="axon_65"/>
-                <include segmentGroup="axon_66"/>
-                <include segmentGroup="axon_67"/>
-                <include segmentGroup="axon_68"/>
-                <include segmentGroup="axon_69"/>
-                <include segmentGroup="axon_70"/>
-                <include segmentGroup="axon_71"/>
-                <include segmentGroup="axon_72"/>
-                <include segmentGroup="axon_73"/>
-                <include segmentGroup="axon_74"/>
-                <include segmentGroup="axon_75"/>
-                <include segmentGroup="axon_76"/>
-                <include segmentGroup="axon_77"/>
-                <include segmentGroup="axon_78"/>
-                <include segmentGroup="axon_79"/>
-                <include segmentGroup="axon_80"/>
-                <include segmentGroup="axon_81"/>
-                <include segmentGroup="axon_82"/>
-                <include segmentGroup="axon_83"/>
-                <include segmentGroup="axon_84"/>
-                <include segmentGroup="axon_85"/>
-                <include segmentGroup="axon_86"/>
-                <include segmentGroup="axon_87"/>
-                <include segmentGroup="axon_88"/>
-                <include segmentGroup="axon_89"/>
-                <include segmentGroup="axon_90"/>
-                <include segmentGroup="dend_0"/>
-                <include segmentGroup="dend_1"/>
-                <include segmentGroup="dend_2"/>
-                <include segmentGroup="dend_3"/>
-                <include segmentGroup="dend_4"/>
-                <include segmentGroup="dend_5"/>
-                <include segmentGroup="dend_6"/>
-                <include segmentGroup="dend_7"/>
-                <include segmentGroup="dend_8"/>
-                <include segmentGroup="dend_9"/>
-                <include segmentGroup="dend_10"/>
-                <include segmentGroup="dend_11"/>
-                <include segmentGroup="dend_12"/>
-                <include segmentGroup="dend_13"/>
-                <include segmentGroup="dend_14"/>
-                <include segmentGroup="dend_15"/>
-                <include segmentGroup="dend_16"/>
-                <include segmentGroup="dend_17"/>
-                <include segmentGroup="dend_18"/>
-                <include segmentGroup="dend_19"/>
-                <include segmentGroup="dend_20"/>
-                <include segmentGroup="dend_21"/>
-                <include segmentGroup="dend_22"/>
-                <include segmentGroup="dend_23"/>
-                <include segmentGroup="dend_24"/>
-                <include segmentGroup="dend_25"/>
-                <include segmentGroup="dend_26"/>
-                <include segmentGroup="dend_27"/>
-                <include segmentGroup="dend_28"/>
-                <include segmentGroup="dend_29"/>
-                <include segmentGroup="dend_30"/>
-                <include segmentGroup="dend_31"/>
-                <include segmentGroup="dend_32"/>
-                <include segmentGroup="dend_33"/>
-                <include segmentGroup="dend_34"/>
-                <include segmentGroup="dend_35"/>
-                <include segmentGroup="dend_36"/>
             </segmentGroup>
         </morphology>
         <biophysicalProperties id="biophys">
