@@ -11,6 +11,7 @@ import json
 import neuroml.writers as writers
 from neuroml.utils import component_factory
 from pyneuroml.plot.PlotMorphology import plot_2D
+import sectionise
 
 
 nml2_readme = "../NeuroML2/README.md"
@@ -194,6 +195,7 @@ def export_to_nml2(filename, ref, soma_diameter):
                 # add current segment to id vs segment map
                 id_vs_seg[sg_id] = seg
 
+        sectionise.sectionise(cell, 0)
         cell.validate(recursive=True)
         cell.summary()
         nml_file = "../NeuroML2/%s.cell.nml" % cell.id
