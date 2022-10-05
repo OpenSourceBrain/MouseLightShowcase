@@ -101,8 +101,6 @@ def export_to_nml2(filename, ref, soma_diameter):
         id_vs_seg = {}
 
         # soma
-        # will create a general (not unbranched) segment group if it does not
-        # exist.
         soma = cell.add_segment(
             prox=[
                 float(n["soma"]["x"]),
@@ -117,7 +115,7 @@ def export_to_nml2(filename, ref, soma_diameter):
                 soma_diameter,
             ],
             name="soma",
-            group_id="soma_0",
+            group_id=None,
         )
         # first segment, so its ID will be 0
         id_vs_seg[0] = soma
@@ -130,7 +128,6 @@ def export_to_nml2(filename, ref, soma_diameter):
             # add_segment checks for `dend_`
             group = "dend" if sg == "dendrite" else "axon"
             # initialise
-            branch_number = 0
 
             for a in n[sg]:
                 sg_id = int(a["sampleNumber"]) + offsets[sg]
@@ -153,17 +150,13 @@ def export_to_nml2(filename, ref, soma_diameter):
                 # set the parent
                 seg_parent = id_vs_seg[parent]
 
+                # skip proximal for now
+                # TODO: check if it is required by NEURON
+                """
                 # if the parent is not the previous segment a new branch is
                 # beginning:
-                # - create new branch group to add to
                 # - set proximal of this segment as the distal of parent
                 if parent != last_seg_id:
-                    # create new group
-                    branch_group = cell.add_unbranched_segment_group(
-                        f"{group}_{branch_number}"
-                    )
-                    # bump group counter
-                    branch_number += 1
                     proximal = [
                         seg_parent.distal.x,
                         seg_parent.distal.y,
@@ -181,13 +174,14 @@ def export_to_nml2(filename, ref, soma_diameter):
                         seg_parent.distal.z,
                         distal[3],
                     ]
+                """
 
                 seg = cell.add_segment(
                     prox=proximal,
                     dist=distal,
                     seg_id=f"{sg_id}",
                     name=f"{group}_{sg_id}",
-                    group_id=branch_group.id,
+                    group_id=None,
                     parent=seg_parent,
                     use_convention=True,
                     reorder_segment_groups=False,
@@ -200,7 +194,6 @@ def export_to_nml2(filename, ref, soma_diameter):
                 # add current segment to id vs segment map
                 id_vs_seg[sg_id] = seg
 
-        cell.reorder_segment_groups()
         cell.validate(recursive=True)
         cell.summary()
         nml_file = "../NeuroML2/%s.cell.nml" % cell.id
@@ -235,7 +228,7 @@ def export_to_nml2(filename, ref, soma_diameter):
         print(f"Generating morphology graphs for {cell.id}")
         for plane in planes:
             p2d_file = "../NeuroML2/images/%s.cell.%s.png" % (cell.id, plane)
-            gen_png = True
+            gen_png = False
             if gen_png:
                 plot_2D(
                     nml_file,
