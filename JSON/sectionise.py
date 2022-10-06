@@ -35,7 +35,7 @@ def sectionise(cell: neuroml.Cell, root_segment_id: int, use_convention=True):
 
     """
     # get morphology tree
-    morph_tree = get_segment_tree(cell)
+    morph_tree = get_segment_adjacency_list(cell)
 
     # initialise root segment and first segment group
     seg = cell.get_segment(root_segment_id)
@@ -57,7 +57,7 @@ def __sectionise(cell: neuroml.Cell, root_segment_id: int, seg_group:
     :returns: TODO
 
     """
-    print(f"Processing element: {root_segment_id}")
+    # print(f"Processing element: {root_segment_id}")
 
     try:
         children = morph_tree[root_segment_id]
@@ -81,6 +81,10 @@ def __sectionise(cell: neuroml.Cell, root_segment_id: int, seg_group:
             # each child will start a new segment group
             for child in children:
                 seg = cell.get_segment(child)
+                # Ensure that a proximal point is set.
+                # This is required for the first segment of unbranched segment
+                # groups
+                seg.proximal = cell.get_actual_proximal(seg.id)
                 group_name = f"seg_group_{len(cell.morphology.segment_groups) - 1}_seg_{seg.id}"
                 new_seg_group = cell.add_unbranched_segment_group(group_name)
 
@@ -91,12 +95,15 @@ def __sectionise(cell: neuroml.Cell, root_segment_id: int, seg_group:
         seg_group.add("Member", segments=root_segment_id)
 
 
-def get_segment_tree(cell: neuroml.Cell) -> dict[int, list[int]]:
-    """Get a tree of the segment list of the cell.
+def get_segment_adjacency_list(cell: neuroml.Cell) -> dict[int, list[int]]:
+    """Get the adjacency list of all segments in the cell morphology.
     Returns a dict where each key is a parent segment, and the value is the
-    list of its children segments
+    list of its children segments.
 
-    :param cell: cell to get tree of segments for
+    Segment without children (leaf segments) are not included as parents in the
+    adjacency list.
+
+    :param cell: cell to get adjacency list for
     :type cell: neuroml.Cell
     :returns: dict with parent segments as keys and their children as values
     :rtype: dict

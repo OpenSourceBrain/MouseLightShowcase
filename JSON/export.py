@@ -14,6 +14,8 @@ from pyneuroml.plot.PlotMorphology import plot_2D
 import sectionise
 
 
+
+
 nml2_readme = "../NeuroML2/README.md"
 
 
@@ -44,6 +46,7 @@ def export_to_nml2(filename, ref, soma_diameter):
         cell_doc = component_factory(
             neuroml.NeuroMLDocument, id=cell_id
         )  # type: neuroml.NeuroMLDocument
+        cell = None
         cell = cell_doc.add(Cell, id=cell_id)  # type: neuroml.Cell
         cell.morphology.id = f"morph_{cell_id}"
         # cell.morphology.info(show_contents=True)
@@ -117,6 +120,7 @@ def export_to_nml2(filename, ref, soma_diameter):
             ],
             name="soma",
             group_id=None,
+            seg_type="soma"
         )
         # first segment, so its ID will be 0
         id_vs_seg[0] = soma
@@ -151,19 +155,9 @@ def export_to_nml2(filename, ref, soma_diameter):
                 # set the parent
                 seg_parent = id_vs_seg[parent]
 
-                # skip proximal for now
-                # TODO: check if it is required by NEURON
-                """
-                # if the parent is not the previous segment a new branch is
-                # beginning:
-                # - set proximal of this segment as the distal of parent
-                if parent != last_seg_id:
-                    proximal = [
-                        seg_parent.distal.x,
-                        seg_parent.distal.y,
-                        seg_parent.distal.z,
-                        seg_parent.distal.diameter,
-                    ]
+                # proximal is required if the parent is not in the same segment
+                # group
+                # we set proximal for all segments
 
                 # if soma is the parent:
                 # - set proximal of this segment as distal of soma, but use
@@ -175,8 +169,15 @@ def export_to_nml2(filename, ref, soma_diameter):
                         seg_parent.distal.z,
                         distal[3],
                     ]
-                """
+                else:
+                    proximal = [
+                        seg_parent.distal.x,
+                        seg_parent.distal.y,
+                        seg_parent.distal.z,
+                        seg_parent.distal.diameter,
+                    ]
 
+                # also adds to the `all` group
                 seg = cell.add_segment(
                     prox=proximal,
                     dist=distal,
@@ -185,8 +186,10 @@ def export_to_nml2(filename, ref, soma_diameter):
                     group_id=None,
                     parent=seg_parent,
                     use_convention=True,
+                    seg_type=sg,
                     reorder_segment_groups=False,
                 )
+
                 # override ID to use offset based ID
                 seg.id = sg_id
 
@@ -196,6 +199,7 @@ def export_to_nml2(filename, ref, soma_diameter):
                 id_vs_seg[sg_id] = seg
 
         sectionise.sectionise(cell, 0)
+        cell.reorder_segment_groups()
         cell.validate(recursive=True)
         cell.summary()
         nml_file = "../NeuroML2/%s.cell.nml" % cell.id
@@ -262,7 +266,7 @@ if __name__ == "__main__":
         "AA1506": "AA1506.json",
         "AA1507": "AA1507.json",
     }
-    # files = {'AA0052':'AA0052.json'}
+    # files = {'AA0052': 'AA0052.json'}
     # files = {'MOp2':'MOp2.json'}
     # files = {'AA1506':'AA1506.json','AA1507':'AA1507.json'}
 
