@@ -61,11 +61,16 @@ def __sectionise(cell: neuroml.Cell, root_segment_id: int, seg_group:
 
     try:
         children = morph_tree[root_segment_id]
-        # if there's one child, pass the same seg_group and let it proceed
-        # recursively
-        if len(children) == 1:
+        # keep going while there's only one child
+        # no need to use recursion here---hits Python's recursion limits in
+        # long segment groups
+        # - if there are no children, it'll go to the except block
+        # - if there are more than one children, it'll go to the next
+        # conditional
+        while len(children) == 1:
             seg_group.add("Member", segments=root_segment_id)
-            __sectionise(cell, children[0], seg_group, morph_tree)
+            root_segment_id = children[0]
+            children = morph_tree[root_segment_id]
         # if there are more than one children, we've reached the end of this
         # segment group but not of the branch. New segment groups need to start
         # from here.
