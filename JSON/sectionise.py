@@ -17,11 +17,16 @@ import neuroml.writers as writers
 def sectionise(cell: neuroml.Cell, root_segment_id: int, use_convention=True):
     """Create sections of branches for the provided cell.
 
-    This function will create new section groups that consist of sections
-    between two branch points.
+    This function will create new unbranched, contiguous segment groups that
+    consist of sections between two branch points.
 
-    Note that it will not remove any existing segment groups. Please remove
-    these before running this function.
+    Note that the first segment (root segment) of a branch must have a proximal
+    point that connects it to the rest of the neuronal morphology. If, when
+    constructing these branches, a root segment is found that does not include
+    a proximal point, one will be added using the `get_actual_proximal` method.
+
+    No other changes will be made to any segments, or to any pre-existing
+    segment groups.
 
     :param cell: cell to sectionise
     :type cell: neuroml.Cell

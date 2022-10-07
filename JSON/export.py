@@ -5,6 +5,7 @@ This file will convert JSON files downloaded from the Janelia MouseLight project
 
 """
 
+import time
 import neuroml
 from neuroml import Cell
 import json
@@ -41,6 +42,7 @@ def export_to_nml2(filename, ref, soma_diameter):
 
     for n in json_info["neurons"]:
 
+        tstart0 = tstart = time.time()
         cell_id = str(n["idString"])
         print("============================\nLooking at neuron id: %s" % (cell_id))
         cell_doc = component_factory(
@@ -155,6 +157,7 @@ def export_to_nml2(filename, ref, soma_diameter):
                 # set the parent
                 seg_parent = id_vs_seg[parent]
 
+                """
                 # proximal is required if the parent is not in the same segment
                 # group
                 # we set proximal for all segments
@@ -176,6 +179,7 @@ def export_to_nml2(filename, ref, soma_diameter):
                         seg_parent.distal.z,
                         seg_parent.distal.diameter,
                     ]
+                """
 
                 # also adds to the `all` group
                 seg = cell.add_segment(
@@ -198,8 +202,30 @@ def export_to_nml2(filename, ref, soma_diameter):
                 # add current segment to id vs segment map
                 id_vs_seg[sg_id] = seg
 
+        tend = time.time()
+        print(f"Converted to NeuroML: {cell.id}: took {tend - tstart}")
+        tstart = tend
+
         sectionise.sectionise(cell, 0)
+        tend = time.time()
+        print(f"Sectionised {cell.id}: took {tend - tstart}")
+        tstart = tend
+
         cell.reorder_segment_groups()
+        tend = time.time()
+        print(f"Re-ordered {cell.id}: took {tend - tstart}")
+        tstart = tend
+        # no need to optimise all groups, only optimise the global groups to
+        # ensure no dups
+        """
+        cell.optimise_segment_groups()
+        """
+        for group in ["all", "soma_group", "dendrite_group", "axon_group"]:
+            cell.optimise_segment_group(group)
+        tend = time.time()
+        print(f"Optimised {cell.id}: took {tend - tstart}")
+        tstart = tend
+
         cell.validate(recursive=True)
         cell.summary()
         nml_file = "../NeuroML2/%s.cell.nml" % cell.id
@@ -245,6 +271,8 @@ def export_to_nml2(filename, ref, soma_diameter):
                     save_to_file=p2d_file,
                     square=True,
                 )
+        tend = time.time()
+        print(f"Processed {cell.id}: took {tend - tstart0}")
 
     nml_file = "../NeuroML2/%s.net.nml" % net.id
     writers.NeuroMLWriter.write(net_doc, nml_file)
