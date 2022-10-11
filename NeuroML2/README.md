@@ -154,3 +154,15 @@ No DOI - <a href="AA1506.cell.nml">NeuroML file</a>
 Cell with 1915 segments (soma: 0 dend: 0, axon 0)
 
 No DOI - <a href="AA1507.cell.nml">NeuroML file</a>
+
+## AA1506
+<p><img src="images/AA1506.cell.yz.png" alt="AA1506_yz" height="200"/> <img src="images/AA1506.cell.xz.png" alt="AA1506_xz" height="200"/> <img src="images/AA1506.cell.xy.png" alt="AA1506_xy" height="200"/> </p>
+Cell with 3275 segments (soma: 1 dend: 1296, axon 1978)
+
+No DOI - <a href="AA1506.cell.nml">NeuroML file</a>
+
+## AA1507
+<p><img src="images/AA1507.cell.yz.png" alt="AA1507_yz" height="200"/> <img src="images/AA1507.cell.xz.png" alt="AA1507_xz" height="200"/> <img src="images/AA1507.cell.xy.png" alt="AA1507_xy" height="200"/> </p>
+Cell with 1915 segments (soma: 1 dend: 298, axon 1616)
+
+No DOI - <a href="AA1507.cell.nml">NeuroML file</a>
