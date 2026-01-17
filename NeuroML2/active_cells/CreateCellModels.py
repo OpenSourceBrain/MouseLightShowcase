@@ -3,82 +3,77 @@ import neuroml
 import neuroml.loaders as loaders
 import neuroml.writers as writers
 
+
 def create_active_cell(cell_id):
 
-    fn = '../%s.cell.nml'%cell_id
+    fn = "../%s.cell.nml" % cell_id
     doc = loaders.NeuroMLLoader.load(fn)
-    print("Loaded morphology file from: "+fn)
+    print("Loaded morphology file from: " + fn)
 
-    cell = doc.cells[0]
+    cell = doc.cells[0]  # type: neuroml.Cell
+    # cell.summary()
+    # cell.info(show_contents=True)
 
-
-    channel_densities = []
-
-    cd_pas = neuroml.ChannelDensity(id="pas_chan", segment_groups="all", ion="non_specific", ion_channel="pas", erev="-70.0 mV", cond_density="0.000142857 S_per_cm2")
-    channel_densities.append(cd_pas)
-
-    cd_na = neuroml.ChannelDensity(id="na_chan", segment_groups="all", ion="na", ion_channel="na", erev="60.0 mV", cond_density="0.1 S_per_cm2")
-    channel_densities.append(cd_na)
-
-    cd_kv = neuroml.ChannelDensity(id="kv_chan", segment_groups="all", ion="k", ion_channel="kv", erev="-90.0 mV", cond_density="0.01 S_per_cm2")
-    channel_densities.append(cd_kv)
-
-
-
-    specific_capacitances = []
-
-    specific_capacitances.append(neuroml.SpecificCapacitance(value='1.0 uF_per_cm2',
-                                                segment_groups='all'))
-
-    init_memb_potentials = [neuroml.InitMembPotential(
-        value="-80 mV", segment_groups='all')]
-
-    membrane_properties = neuroml.MembraneProperties(
-        channel_densities=channel_densities,
-        specific_capacitances=specific_capacitances,
-        init_memb_potentials=init_memb_potentials)
-
-    # Intracellular Properties
-    #
-    resistivities = []
-    resistivities.append(neuroml.Resistivity(
-        value="100 ohm_cm", segment_groups='all'))
-
-    intracellular_properties = neuroml.IntracellularProperties(resistivities=resistivities)
-
-    bp = neuroml.BiophysicalProperties(id="biophys",
-                                       intracellular_properties=intracellular_properties,
-                                       membrane_properties=membrane_properties)
-
-    cell.biophysical_properties = bp
-
-    cell.id = '%s'%cell_id
+    # set up cell with default components
+    # note: will not overwrite any pre-existing components
+    cell.setup_nml_cell(use_convention=False)
+    # cell.info(show_contents=True)
 
     nml_doc2 = neuroml.NeuroMLDocument(id=cell.id)
+    nml_doc2.add(cell)
 
-    nml_doc2.includes.append(neuroml.IncludeType('pas.channel.nml'))
-    nml_doc2.includes.append(neuroml.IncludeType('na.channel.nml'))
-    nml_doc2.includes.append(neuroml.IncludeType('kv.channel.nml'))
-    #nml_doc2.includes.append(neuroml.IncludeType('channelConvert/Na_BC.channel.nml'))
-    #nml_doc2.includes.append(neuroml.IncludeType('channelConvert/K_BC.channel.nml'))
-    nml_doc2.cells.append(cell)
+    cell.add_channel_density(
+        nml_cell_doc=nml_doc2,
+        cd_id="pas_chan",
+        ion_channel="pas",
+        cond_density="0.000142857 S_per_cm2",
+        erev="-70.0 mV",
+        group_id="all",
+        ion="non_specific",
+        ion_chan_def_file="pas.channel.nml",
+    )
 
-    nml_file = cell.id+'_active.cell.nml'
+    cell.add_channel_density(
+        nml_cell_doc=nml_doc2,
+        cd_id="na_chan",
+        group_id="all",
+        ion="na",
+        ion_channel="na",
+        erev="60.0 mV",
+        cond_density="0.1 S_per_cm2",
+        ion_chan_def_file="na.channel.nml",
+    )
 
-    writers.NeuroMLWriter.write(nml_doc2,nml_file)
+    cell.add_channel_density(
+        nml_cell_doc=nml_doc2,
+        cd_id="kv_chan",
+        group_id="all",
+        ion="k",
+        ion_channel="kv",
+        erev="-90.0 mV",
+        cond_density="0.01 S_per_cm2",
+        ion_chan_def_file="kv.channel.nml",
+    )
 
-    print("Saved modified morphology file to: "+nml_file)
+    cell.set_specific_capacitance("1.0 uF_per_cm2", group_id="all")
+    cell.set_init_memb_potential("-80 mV", group_id="all")
 
+    # Intracellular Properties
+    cell.set_resistivity("100 ohm_cm", group_id="all")
 
-    ###### Validate the NeuroML ######
+    cell.id = "%s" % cell_id
 
-    from neuroml.utils import validate_neuroml2
+    # validate
+    cell.validate(recursive=True)
 
-    validate_neuroml2(nml_file)
+    nml_file = cell.id + "_active.cell.nml"
+    writers.NeuroMLWriter.write(nml_doc2, nml_file)
+
+    print("Saved modified morphology file to: " + nml_file)
 
 
 if __name__ == "__main__":
 
-    cells = {'AA0173','AA0289','AA1506','AA1507'}
+    cells = {"AA0173", "AA0289", "AA1506", "AA1507"}
     for cell_id in cells:
         create_active_cell(cell_id)
